@@ -1,0 +1,6725 @@
+{
+  "capturedAt": "2026-09-28T05:23:56.030Z",
+  "repositories": [
+    {
+      "id": 1379574728,
+      "fullName": "jev-chat/jev-chat-jarvis",
+      "stars": 6807,
+      "forks": 1171,
+      "openIssues": 29,
+      "pushedAt": "2026-09-28T02:52:28Z"
+    },
+    {
+      "id": 1380635125,
+      "fullName": "unreallabsai/unreal-agent",
+      "stars": 1996,
+      "forks": 108,
+      "openIssues": 8,
+      "pushedAt": "2026-09-23T19:08:26Z"
+    },
+    {
+      "id": 1384094559,
+      "fullName": "Contrastive-LM/CLM",
+      "stars": 1990,
+      "forks": 178,
+      "openIssues": 19,
+      "pushedAt": "2026-09-24T23:10:28Z"
+    },
+    {
+      "id": 1386355153,
+      "fullName": "tobi/disktree",
+      "stars": 1670,
+      "forks": 108,
+      "openIssues": 12,
+      "pushedAt": "2026-09-27T02:04:35Z"
+    },
+    {
+      "id": 1383809012,
+      "fullName": "yetone/magpie",
+      "stars": 1318,
+      "forks": 75,
+      "openIssues": 2,
+      "pushedAt": "2026-09-28T05:13:06Z"
+    },
+    {
+      "id": 1386391454,
+      "fullName": "mexicat/pdoom-video",
+      "stars": 1317,
+      "forks": 135,
+      "openIssues": 2,
+      "pushedAt": "2026-09-27T08:32:02Z"
+    },
+    {
+      "id": 1382467199,
+      "fullName": "JohnHeibel/PDoomVideo",
+      "stars": 1293,
+      "forks": 140,
+      "openIssues": 2,
+      "pushedAt": "2026-09-25T15:11:03Z"
+    },
+    {
+      "id": 1378971656,
+      "fullName": "deepopen-com/deepopen",
+      "stars": 1044,
+      "forks": 112,
+      "openIssues": 7,
+      "pushedAt": "2026-09-25T04:28:11Z"
+    },
+    {
+      "id": 1383518430,
+      "fullName": "mikehasa/golive-skill",
+      "stars": 1017,
+      "forks": 75,
+      "openIssues": 1,
+      "pushedAt": "2026-09-27T05:07:13Z"
+    },
+    {
+      "id": 1381900816,
+      "fullName": "kryvora-network/kryvora-node",
+      "stars": 982,
+      "forks": 26,
+      "openIssues": 0,
+      "pushedAt": "2026-09-22T19:02:39Z"
+    },
+    {
+      "id": 1388482474,
+      "fullName": "dzhng/jevgrep",
+      "stars": 864,
+      "forks": 52,
+      "openIssues": 6,
+      "pushedAt": "2026-09-28T04:34:05Z"
+    },
+    {
+      "id": 1379003933,
+      "fullName": "freestylefly/WeChatBridge",
+      "stars": 851,
+      "forks": 308,
+      "openIssues": 2,
+      "pushedAt": "2026-09-23T15:43:39Z"
+    },
+    {
+      "id": 1379166549,
+      "fullName": "nokia-applied-research/AnyJev",
+      "stars": 849,
+      "forks": 110,
+      "openIssues": 7,
+      "pushedAt": "2026-09-26T20:53:47Z"
+    },
+    {
+      "id": 1382888848,
+      "fullName": "riba2534/claude-opus-5-5-demo",
+      "stars": 846,
+      "forks": 124,
+      "openIssues": 6,
+      "pushedAt": "2026-09-23T07:54:16Z"
+    },
+    {
+      "id": 1382717255,
+      "fullName": "852wa/JIZURA",
+      "stars": 843,
+      "forks": 127,
+      "openIssues": 20,
+      "pushedAt": "2026-09-26T21:02:05Z"
+    },
+    {
+      "id": 1384232861,
+      "fullName": "dgreenheck/tidewater",
+      "stars": 841,
+      "forks": 202,
+      "openIssues": 12,
+      "pushedAt": "2026-09-25T04:02:40Z"
+    },
+    {
+      "id": 1383926459,
+      "fullName": "asokurasu/text-humanizer",
+      "stars": 742,
+      "forks": 83,
+      "openIssues": 0,
+      "pushedAt": "2026-09-26T15:59:20Z"
+    },
+    {
+      "id": 1383988294,
+      "fullName": "yukitorido/short-video-generator-AI",
+      "stars": 725,
+      "forks": 83,
+      "openIssues": 0,
+      "pushedAt": "2026-09-23T18:16:08Z"
+    },
+    {
+      "id": 1384260430,
+      "fullName": "ollaya-dev/ollaya",
+      "stars": 723,
+      "forks": 35,
+      "openIssues": 3,
+      "pushedAt": "2026-09-28T04:47:16Z"
+    },
+    {
+      "id": 1381152958,
+      "fullName": "anishfn/shapeshift",
+      "stars": 710,
+      "forks": 79,
+      "openIssues": 4,
+      "pushedAt": "2026-09-23T23:57:19Z"
+    },
+    {
+      "id": 1378880709,
+      "fullName": "Rizzo-AI-Academy/rizzo-flow",
+      "stars": 690,
+      "forks": 41,
+      "openIssues": 10,
+      "pushedAt": "2026-09-25T21:15:27Z"
+    },
+    {
+      "id": 1388261262,
+      "fullName": "supermemoryai/company-brain",
+      "stars": 685,
+      "forks": 99,
+      "openIssues": 8,
+      "pushedAt": "2026-09-28T00:55:52Z"
+    },
+    {
+      "id": 1379929433,
+      "fullName": "jev-chat/jev-chat-windows",
+      "stars": 620,
+      "forks": 140,
+      "openIssues": 24,
+      "pushedAt": "2026-09-24T16:30:54Z"
+    },
+    {
+      "id": 1381356320,
+      "fullName": "alexgreensh/anidoodle",
+      "stars": 586,
+      "forks": 49,
+      "openIssues": 5,
+      "pushedAt": "2026-09-27T21:41:56Z"
+    },
+    {
+      "id": 1380762959,
+      "fullName": "kydlikebtc/awesome-jev",
+      "stars": 580,
+      "forks": 13,
+      "openIssues": 7,
+      "pushedAt": "2026-09-25T04:20:32Z"
+    },
+    {
+      "id": 1388594776,
+      "fullName": "feitangyuan/onetake",
+      "stars": 578,
+      "forks": 40,
+      "openIssues": 2,
+      "pushedAt": "2026-09-26T07:56:58Z"
+    },
+    {
+      "id": 1379117882,
+      "fullName": "OnlistTeam/ai-manager",
+      "stars": 558,
+      "forks": 7,
+      "openIssues": 3,
+      "pushedAt": "2026-09-24T02:57:21Z"
+    },
+    {
+      "id": 1385946301,
+      "fullName": "Niko1221/Strata",
+      "stars": 548,
+      "forks": 56,
+      "openIssues": 13,
+      "pushedAt": "2026-09-28T05:09:04Z"
+    },
+    {
+      "id": 1380873237,
+      "fullName": "rgem227/knoweldge-base",
+      "stars": 497,
+      "forks": 6,
+      "openIssues": 0,
+      "pushedAt": "2026-09-22T05:28:17Z"
+    },
+    {
+      "id": 1383977800,
+      "fullName": "samyost1/3dicon",
+      "stars": 491,
+      "forks": 43,
+      "openIssues": 1,
+      "pushedAt": "2026-09-23T18:15:55Z"
+    },
+    {
+      "id": 1384159311,
+      "fullName": "JohnHeibel/ClaudeAnimationBase",
+      "stars": 488,
+      "forks": 56,
+      "openIssues": 1,
+      "pushedAt": "2026-09-24T07:41:21Z"
+    },
+    {
+      "id": 1383489293,
+      "fullName": "Aureliengmz/clearwater",
+      "stars": 474,
+      "forks": 90,
+      "openIssues": 1,
+      "pushedAt": "2026-09-23T13:20:28Z"
+    },
+    {
+      "id": 1386778170,
+      "fullName": "amitshekhariitbhu/ai-system-design",
+      "stars": 451,
+      "forks": 55,
+      "openIssues": 0,
+      "pushedAt": "2026-09-25T04:53:31Z"
+    },
+    {
+      "id": 1387374666,
+      "fullName": "SpecterLouse/CapCut-Pro-macOS-Windows",
+      "stars": 443,
+      "forks": 2,
+      "openIssues": 0,
+      "pushedAt": "2026-09-28T04:45:46Z"
+    },
+    {
+      "id": 1378958030,
+      "fullName": "Alex314618-create/JevRev",
+      "stars": 433,
+      "forks": 16,
+      "openIssues": 2,
+      "pushedAt": "2026-09-27T08:05:42Z"
+    },
+    {
+      "id": 1379617146,
+      "fullName": "jev-chat/jev-chat-jarvis-mac",
+      "stars": 423,
+      "forks": 122,
+      "openIssues": 24,
+      "pushedAt": "2026-09-26T13:37:19Z"
+    },
+    {
+      "id": 1390273274,
+      "fullName": "yihui-dev/awesome-opus5-5-videos",
+      "stars": 414,
+      "forks": 54,
+      "openIssues": 0,
+      "pushedAt": "2026-09-27T06:19:44Z"
+    },
+    {
+      "id": 1389011744,
+      "fullName": "lemomo-ai/lemo-opuscar",
+      "stars": 406,
+      "forks": 49,
+      "openIssues": 0,
+      "pushedAt": "2026-09-27T03:53:03Z"
+    },
+    {
+      "id": 1383023635,
+      "fullName": "amitshekhariitbhu/ai-engineering-course",
+      "stars": 405,
+      "forks": 73,
+      "openIssues": 0,
+      "pushedAt": "2026-09-27T09:00:04Z"
+    },
+    {
+      "id": 1383979298,
+      "fullName": "angusdevgo/Seep-Reverse-Lab",
+      "stars": 376,
+      "forks": 119,
+      "openIssues": 0,
+      "pushedAt": "2026-09-27T18:11:53Z"
+    },
+    {
+      "id": 1380797051,
+      "fullName": "lhlGitHub/threejs-architecture-effects",
+      "stars": 356,
+      "forks": 52,
+      "openIssues": 0,
+      "pushedAt": "2026-09-22T03:27:27Z"
+    },
+    {
+      "id": 1382625851,
+      "fullName": "Liuziyu77/Valen",
+      "stars": 349,
+      "forks": 40,
+      "openIssues": 0,
+      "pushedAt": "2026-09-25T03:52:43Z"
+    },
+    {
+      "id": 1389040382,
+      "fullName": "Rieranthony/product-film-skill",
+      "stars": 332,
+      "forks": 24,
+      "openIssues": 0,
+      "pushedAt": "2026-09-26T10:58:50Z"
+    },
+    {
+      "id": 1384228920,
+      "fullName": "saragordic/rooms",
+      "stars": 329,
+      "forks": 14,
+      "openIssues": 6,
+      "pushedAt": "2026-09-26T18:55:26Z"
+    },
+    {
+      "id": 1379401527,
+      "fullName": "TianyuCodings/JevHarness",
+      "stars": 323,
+      "forks": 17,
+      "openIssues": 2,
+      "pushedAt": "2026-09-21T10:39:01Z"
+    },
+    {
+      "id": 1385896447,
+      "fullName": "zouyuxuan122/dsh-our-free-model",
+      "stars": 320,
+      "forks": 19,
+      "openIssues": 2,
+      "pushedAt": "2026-09-27T09:32:50Z"
+    },
+    {
+      "id": 1380116460,
+      "fullName": "malevrigns/agent-jev",
+      "stars": 313,
+      "forks": 30,
+      "openIssues": 6,
+      "pushedAt": "2026-09-23T09:16:37Z"
+    },
+    {
+      "id": 1386061631,
+      "fullName": "leter/zh-tech-writing",
+      "stars": 299,
+      "forks": 13,
+      "openIssues": 0,
+      "pushedAt": "2026-09-24T17:49:53Z"
+    },
+    {
+      "id": 1385080793,
+      "fullName": "LuwuDynamics/xgoduck_hardware",
+      "stars": 299,
+      "forks": 42,
+      "openIssues": 1,
+      "pushedAt": "2026-09-27T11:25:41Z"
+    },
+    {
+      "id": 1385832170,
+      "fullName": "jankeesvw/omarchy-meeting-recorder",
+      "stars": 297,
+      "forks": 25,
+      "openIssues": 11,
+      "pushedAt": "2026-09-26T18:45:05Z"
+    },
+    {
+      "id": 1382409238,
+      "fullName": "codejunkie99/keel",
+      "stars": 295,
+      "forks": 40,
+      "openIssues": 2,
+      "pushedAt": "2026-09-25T18:00:43Z"
+    },
+    {
+      "id": 1386004688,
+      "fullName": "bridge-mind/bridgeclip",
+      "stars": 294,
+      "forks": 65,
+      "openIssues": 14,
+      "pushedAt": "2026-09-27T22:02:33Z"
+    },
+    {
+      "id": 1381675602,
+      "fullName": "miuuyy/Astra-Ares",
+      "stars": 289,
+      "forks": 20,
+      "openIssues": 5,
+      "pushedAt": "2026-09-23T11:49:05Z"
+    },
+    {
+      "id": 1388056636,
+      "fullName": "bjarneo/flux",
+      "stars": 285,
+      "forks": 15,
+      "openIssues": 8,
+      "pushedAt": "2026-09-27T21:53:29Z"
+    },
+    {
+      "id": 1387036429,
+      "fullName": "win4r/MuseAI-Skills",
+      "stars": 282,
+      "forks": 91,
+      "openIssues": 0,
+      "pushedAt": "2026-09-28T00:49:54Z"
+    },
+    {
+      "id": 1381412852,
+      "fullName": "qybaihe/mu",
+      "stars": 276,
+      "forks": 28,
+      "openIssues": 0,
+      "pushedAt": "2026-09-27T12:31:55Z"
+    },
+    {
+      "id": 1388101598,
+      "fullName": "jamespolyakov9829/captcha-api",
+      "stars": 264,
+      "forks": 37,
+      "openIssues": 0,
+      "pushedAt": "2026-09-25T19:28:10Z"
+    },
+    {
+      "id": 1390232691,
+      "fullName": "xikhar/spiderbench",
+      "stars": 263,
+      "forks": 50,
+      "openIssues": 0,
+      "pushedAt": "2026-09-27T21:27:17Z"
+    },
+    {
+      "id": 1389207230,
+      "fullName": "jaydendavisnc/inkwave",
+      "stars": 260,
+      "forks": 91,
+      "openIssues": 8,
+      "pushedAt": "2026-09-27T20:25:50Z"
+    },
+    {
+      "id": 1386522258,
+      "fullName": "athemeroy/awesome-opus-5-5-videos",
+      "stars": 260,
+      "forks": 20,
+      "openIssues": 0,
+      "pushedAt": "2026-09-27T15:53:45Z"
+    },
+    {
+      "id": 1385657279,
+      "fullName": "sopersone/cabbage-trading-machine",
+      "stars": 255,
+      "forks": 61,
+      "openIssues": 0,
+      "pushedAt": "2026-09-24T14:27:07Z"
+    },
+    {
+      "id": 1384734543,
+      "fullName": "glanderness/BeefTV",
+      "stars": 253,
+      "forks": 54,
+      "openIssues": 13,
+      "pushedAt": "2026-09-28T04:30:32Z"
+    },
+    {
+      "id": 1382450432,
+      "fullName": "timoncool/YuE2-Studio",
+      "stars": 248,
+      "forks": 23,
+      "openIssues": 8,
+      "pushedAt": "2026-09-28T04:45:04Z"
+    },
+    {
+      "id": 1382304020,
+      "fullName": "sevenevesai/riso-windowseat",
+      "stars": 239,
+      "forks": 27,
+      "openIssues": 0,
+      "pushedAt": "2026-09-25T00:01:29Z"
+    },
+    {
+      "id": 1379139682,
+      "fullName": "secwind7/polytech-tree",
+      "stars": 238,
+      "forks": 25,
+      "openIssues": 2,
+      "pushedAt": "2026-09-27T03:14:14Z"
+    },
+    {
+      "id": 1379298275,
+      "fullName": "mater1996/travel-planning",
+      "stars": 236,
+      "forks": 26,
+      "openIssues": 0,
+      "pushedAt": "2026-09-23T03:03:38Z"
+    },
+    {
+      "id": 1384018687,
+      "fullName": "yu1745/wetype-ime-linux",
+      "stars": 231,
+      "forks": 26,
+      "openIssues": 6,
+      "pushedAt": "2026-09-24T14:23:56Z"
+    },
+    {
+      "id": 1386872576,
+      "fullName": "HeyOkay/HaloBattery",
+      "stars": 229,
+      "forks": 20,
+      "openIssues": 38,
+      "pushedAt": "2026-09-27T19:26:28Z"
+    },
+    {
+      "id": 1381081743,
+      "fullName": "glaz-boga-poisk-bot/glaz-boga",
+      "stars": 228,
+      "forks": 12,
+      "openIssues": 0,
+      "pushedAt": "2026-09-24T14:24:44Z"
+    },
+    {
+      "id": 1386381759,
+      "fullName": "ilkerzg/storycast",
+      "stars": 225,
+      "forks": 74,
+      "openIssues": 0,
+      "pushedAt": "2026-09-25T15:10:02Z"
+    },
+    {
+      "id": 1384858191,
+      "fullName": "wangmingxuan666/Tiersense",
+      "stars": 221,
+      "forks": 31,
+      "openIssues": 0,
+      "pushedAt": "2026-09-24T07:19:15Z"
+    },
+    {
+      "id": 1381229689,
+      "fullName": "edison-land/paragravity",
+      "stars": 218,
+      "forks": 18,
+      "openIssues": 0,
+      "pushedAt": "2026-09-28T02:57:44Z"
+    },
+    {
+      "id": 1380600226,
+      "fullName": "ipenywis/laya-ultrafast",
+      "stars": 218,
+      "forks": 33,
+      "openIssues": 1,
+      "pushedAt": "2026-09-22T21:33:23Z"
+    },
+    {
+      "id": 1387418261,
+      "fullName": "Barty-Bart/motion-graphics",
+      "stars": 218,
+      "forks": 39,
+      "openIssues": 0,
+      "pushedAt": "2026-09-25T12:14:48Z"
+    },
+    {
+      "id": 1388076857,
+      "fullName": "markxplorer969/profile",
+      "stars": 216,
+      "forks": 0,
+      "openIssues": 0,
+      "pushedAt": "2026-09-25T19:04:36Z"
+    },
+    {
+      "id": 1382368064,
+      "fullName": "Shelpid/SETS",
+      "stars": 214,
+      "forks": 63,
+      "openIssues": 0,
+      "pushedAt": "2026-09-22T21:37:43Z"
+    },
+    {
+      "id": 1384864244,
+      "fullName": "amirmushichge/unreal-home-wizard",
+      "stars": 209,
+      "forks": 31,
+      "openIssues": 0,
+      "pushedAt": "2026-09-24T16:53:22Z"
+    },
+    {
+      "id": 1378909326,
+      "fullName": "FluidInference/FluidUse",
+      "stars": 206,
+      "forks": 16,
+      "openIssues": 4,
+      "pushedAt": "2026-09-27T04:38:06Z"
+    },
+    {
+      "id": 1388867993,
+      "fullName": "kaankiziltug/logo-design-skill",
+      "stars": 205,
+      "forks": 7,
+      "openIssues": 0,
+      "pushedAt": "2026-09-27T21:00:51Z"
+    },
+    {
+      "id": 1386231117,
+      "fullName": "diggerhq/shipvideo",
+      "stars": 203,
+      "forks": 27,
+      "openIssues": 1,
+      "pushedAt": "2026-09-24T23:17:03Z"
+    },
+    {
+      "id": 1391631703,
+      "fullName": "BagasRizkyHarySaputra/MLBB-waydroid-LinuxCloudMLBB",
+      "stars": 201,
+      "forks": 0,
+      "openIssues": 0,
+      "pushedAt": "2026-09-28T03:38:16Z"
+    },
+    {
+      "id": 1388332210,
+      "fullName": "gulelmatthews/Polymarket-Perpetual-Bot",
+      "stars": 194,
+      "forks": 35,
+      "openIssues": 0,
+      "pushedAt": "2026-09-28T05:09:03Z"
+    },
+    {
+      "id": 1380224948,
+      "fullName": "Re1nhard-1/deconv-preflight",
+      "stars": 194,
+      "forks": 7,
+      "openIssues": 0,
+      "pushedAt": "2026-09-21T17:33:38Z"
+    },
+    {
+      "id": 1380664579,
+      "fullName": "Goncafer47/Stablecoin-Payment-Gateway",
+      "stars": 194,
+      "forks": 45,
+      "openIssues": 0,
+      "pushedAt": "2026-09-28T05:07:40Z"
+    },
+    {
+      "id": 1380633782,
+      "fullName": "Michael-Jiahao-Zhang/game-the-llm-reviewer",
+      "stars": 193,
+      "forks": 5,
+      "openIssues": 0,
+      "pushedAt": "2026-09-22T18:55:19Z"
+    },
+    {
+      "id": 1380406377,
+      "fullName": "ashleydarosa/CC-Checker-Validator-Generator",
+      "stars": 193,
+      "forks": 41,
+      "openIssues": 0,
+      "pushedAt": "2026-09-28T05:04:14Z"
+    },
+    {
+      "id": 1380667339,
+      "fullName": "Soniavasseur/Wallet-Risk-Scanner",
+      "stars": 190,
+      "forks": 33,
+      "openIssues": 0,
+      "pushedAt": "2026-09-28T05:08:48Z"
+    },
+    {
+      "id": 1380950524,
+      "fullName": "angel291592/Intent-Router",
+      "stars": 189,
+      "forks": 20,
+      "openIssues": 2,
+      "pushedAt": "2026-09-27T10:05:00Z"
+    },
+    {
+      "id": 1385018726,
+      "fullName": "kaolti/phantomat",
+      "stars": 187,
+      "forks": 15,
+      "openIssues": 13,
+      "pushedAt": "2026-09-24T22:38:32Z"
+    },
+    {
+      "id": 1383404287,
+      "fullName": "pbs05/ponwrt",
+      "stars": 183,
+      "forks": 129,
+      "openIssues": 1,
+      "pushedAt": "2026-09-27T04:49:44Z"
+    },
+    {
+      "id": 1384213842,
+      "fullName": "lukeTheNeuromancer/system-design-notes-zh",
+      "stars": 180,
+      "forks": 14,
+      "openIssues": 0,
+      "pushedAt": "2026-09-23T21:29:11Z"
+    },
+    {
+      "id": 1388525805,
+      "fullName": "ZacharyZhang-NY/OmaPhoto",
+      "stars": 177,
+      "forks": 4,
+      "openIssues": 5,
+      "pushedAt": "2026-09-28T04:22:03Z"
+    },
+    {
+      "id": 1383533312,
+      "fullName": "michelle11032424-jpg/Interpark-",
+      "stars": 177,
+      "forks": 28,
+      "openIssues": 0,
+      "pushedAt": "2026-09-23T13:48:46Z"
+    },
+    {
+      "id": 1388323013,
+      "fullName": "AgentSystemLabs/agent-office",
+      "stars": 174,
+      "forks": 44,
+      "openIssues": 25,
+      "pushedAt": "2026-09-28T01:35:19Z"
+    },
+    {
+      "id": 1388097438,
+      "fullName": "MysticGSI/mysticgsi",
+      "stars": 173,
+      "forks": 52,
+      "openIssues": 0,
+      "pushedAt": "2026-09-27T15:04:23Z"
+    },
+    {
+      "id": 1383604528,
+      "fullName": "XiaoPuOuO/openchatx-mcp",
+      "stars": 171,
+      "forks": 10,
+      "openIssues": 0,
+      "pushedAt": "2026-09-27T20:18:01Z"
+    },
+    {
+      "id": 1387771467,
+      "fullName": "Badtheorylabs/interference-search",
+      "stars": 167,
+      "forks": 11,
+      "openIssues": 0,
+      "pushedAt": "2026-09-25T22:09:29Z"
+    },
+    {
+      "id": 1387461658,
+      "fullName": "avinash201199/System-Design-KIT",
+      "stars": 166,
+      "forks": 33,
+      "openIssues": 0,
+      "pushedAt": "2026-09-25T16:10:39Z"
+    },
+    {
+      "id": 1383937741,
+      "fullName": "togethercomputer/tev1",
+      "stars": 157,
+      "forks": 17,
+      "openIssues": 0,
+      "pushedAt": "2026-09-24T00:20:18Z"
+    },
+    {
+      "id": 1380683591,
+      "fullName": "AgriciDaniel/jev-seo",
+      "stars": 155,
+      "forks": 36,
+      "openIssues": 1,
+      "pushedAt": "2026-09-22T00:45:41Z"
+    },
+    {
+      "id": 1375382253,
+      "fullName": "NandhaKishorM/laya",
+      "stars": 26917,
+      "forks": 2350,
+      "openIssues": 132,
+      "pushedAt": "2026-09-27T19:38:50Z"
+    },
+    {
+      "id": 1359648985,
+      "fullName": "eternity4719/HowToLiveBetter",
+      "stars": 21679,
+      "forks": 1587,
+      "openIssues": 9,
+      "pushedAt": "2026-09-28T04:46:24Z"
+    },
+    {
+      "id": 1373655162,
+      "fullName": "browser-use/jev-ultrafast",
+      "stars": 20891,
+      "forks": 1436,
+      "openIssues": 156,
+      "pushedAt": "2026-09-25T04:06:12Z"
+    },
+    {
+      "id": 1354310030,
+      "fullName": "lnkiai/m3e-canvas",
+      "stars": 8374,
+      "forks": 884,
+      "openIssues": 4,
+      "pushedAt": "2026-09-27T14:21:13Z"
+    },
+    {
+      "id": 1375069862,
+      "fullName": "jaredpalmer/kev",
+      "stars": 7462,
+      "forks": 454,
+      "openIssues": 20,
+      "pushedAt": "2026-09-28T03:53:30Z"
+    },
+    {
+      "id": 1374005005,
+      "fullName": "tamaratran/fast-jev-compaction",
+      "stars": 7039,
+      "forks": 437,
+      "openIssues": 92,
+      "pushedAt": "2026-09-18T04:45:31Z"
+    },
+    {
+      "id": 1350984217,
+      "fullName": "rakanki911/DLSS5-Swapper",
+      "stars": 6976,
+      "forks": 363,
+      "openIssues": 68,
+      "pushedAt": "2026-09-13T02:02:21Z"
+    },
+    {
+      "id": 1378288598,
+      "fullName": "zai-org/ZCode",
+      "stars": 6931,
+      "forks": 2095,
+      "openIssues": 11,
+      "pushedAt": "2026-09-24T06:49:55Z"
+    },
+    {
+      "id": 1351879111,
+      "fullName": "Human-Agent-Society/reef",
+      "stars": 6587,
+      "forks": 598,
+      "openIssues": 101,
+      "pushedAt": "2026-09-28T04:47:59Z"
+    },
+    {
+      "id": 1377211520,
+      "fullName": "mizorewww/laya-mlx",
+      "stars": 6499,
+      "forks": 512,
+      "openIssues": 20,
+      "pushedAt": "2026-09-22T05:34:51Z"
+    },
+    {
+      "id": 1373614120,
+      "fullName": "robbietilton/Compositor",
+      "stars": 5893,
+      "forks": 633,
+      "openIssues": 15,
+      "pushedAt": "2026-09-27T23:14:03Z"
+    },
+    {
+      "id": 1356159928,
+      "fullName": "Albert-Weasker/niubigeo",
+      "stars": 4855,
+      "forks": 306,
+      "openIssues": 12,
+      "pushedAt": "2026-09-28T02:34:30Z"
+    },
+    {
+      "id": 1373687654,
+      "fullName": "Mak5er/AirCard",
+      "stars": 4592,
+      "forks": 212,
+      "openIssues": 54,
+      "pushedAt": "2026-09-22T21:44:37Z"
+    },
+    {
+      "id": 1372482979,
+      "fullName": "TheoLeeCJ/SemIf-OpenJev",
+      "stars": 4464,
+      "forks": 309,
+      "openIssues": 42,
+      "pushedAt": "2026-09-23T18:48:22Z"
+    },
+    {
+      "id": 1360432710,
+      "fullName": "sdli1995/dlssg_for_sm86",
+      "stars": 4041,
+      "forks": 221,
+      "openIssues": 160,
+      "pushedAt": "2026-09-19T20:03:40Z"
+    },
+    {
+      "id": 1357699236,
+      "fullName": "ashemag/human-atlas",
+      "stars": 3940,
+      "forks": 987,
+      "openIssues": 42,
+      "pushedAt": "2026-09-06T23:35:06Z"
+    },
+    {
+      "id": 1358588929,
+      "fullName": "yang0/handraw-style",
+      "stars": 3449,
+      "forks": 442,
+      "openIssues": 4,
+      "pushedAt": "2026-09-28T01:49:23Z"
+    },
+    {
+      "id": 1354887280,
+      "fullName": "NVlabs/SoL-Pi",
+      "stars": 3147,
+      "forks": 251,
+      "openIssues": 67,
+      "pushedAt": "2026-09-28T04:36:19Z"
+    },
+    {
+      "id": 1363417187,
+      "fullName": "yi1108/printfilm",
+      "stars": 3076,
+      "forks": 336,
+      "openIssues": 1,
+      "pushedAt": "2026-09-24T11:10:32Z"
+    },
+    {
+      "id": 1353548665,
+      "fullName": "anthropics/commerce-agents",
+      "stars": 3074,
+      "forks": 595,
+      "openIssues": 30,
+      "pushedAt": "2026-09-11T07:03:32Z"
+    },
+    {
+      "id": 1354701193,
+      "fullName": "shadcn-ui/lint",
+      "stars": 2880,
+      "forks": 54,
+      "openIssues": 16,
+      "pushedAt": "2026-09-22T11:30:38Z"
+    },
+    {
+      "id": 1371378654,
+      "fullName": "mcncarl/jianying-headless",
+      "stars": 2859,
+      "forks": 1939,
+      "openIssues": 16,
+      "pushedAt": "2026-09-27T01:50:33Z"
+    },
+    {
+      "id": 1377172300,
+      "fullName": "newliver666/apk-reverse",
+      "stars": 2814,
+      "forks": 569,
+      "openIssues": 0,
+      "pushedAt": "2026-09-24T09:22:21Z"
+    },
+    {
+      "id": 1375997079,
+      "fullName": "cdyforever/how-to-live-better",
+      "stars": 2717,
+      "forks": 174,
+      "openIssues": 3,
+      "pushedAt": "2026-09-28T00:05:43Z"
+    },
+    {
+      "id": 1354267344,
+      "fullName": "SonicloudTech/sonicloud_opensdk",
+      "stars": 2710,
+      "forks": 62,
+      "openIssues": 1,
+      "pushedAt": "2026-09-18T07:59:00Z"
+    },
+    {
+      "id": 1371757322,
+      "fullName": "CopilotKit/openmuse",
+      "stars": 2648,
+      "forks": 337,
+      "openIssues": 32,
+      "pushedAt": "2026-09-26T19:45:41Z"
+    },
+    {
+      "id": 1373659194,
+      "fullName": "jarrodwatts/jev-trader",
+      "stars": 2617,
+      "forks": 491,
+      "openIssues": 9,
+      "pushedAt": "2026-09-17T02:48:22Z"
+    },
+    {
+      "id": 1357272370,
+      "fullName": "Rion-Wu-tech/wechat-intelligence-hub",
+      "stars": 2558,
+      "forks": 2732,
+      "openIssues": 8,
+      "pushedAt": "2026-09-21T18:24:42Z"
+    },
+    {
+      "id": 1358295353,
+      "fullName": "vinzdg/codenotch",
+      "stars": 2545,
+      "forks": 400,
+      "openIssues": 43,
+      "pushedAt": "2026-09-26T13:21:51Z"
+    },
+    {
+      "id": 1350978527,
+      "fullName": "Ryze-AI-Adgent/open-seo-mcp-skills",
+      "stars": 2456,
+      "forks": 356,
+      "openIssues": 1,
+      "pushedAt": "2026-09-24T01:53:55Z"
+    },
+    {
+      "id": 1356772546,
+      "fullName": "Mantitup-Org/vista",
+      "stars": 2398,
+      "forks": 48,
+      "openIssues": 80,
+      "pushedAt": "2026-09-21T15:56:55Z"
+    },
+    {
+      "id": 1374702542,
+      "fullName": "TianyuCodings/NanoJev",
+      "stars": 2364,
+      "forks": 246,
+      "openIssues": 8,
+      "pushedAt": "2026-09-21T09:58:28Z"
+    },
+    {
+      "id": 1378216647,
+      "fullName": "driceroland/Search",
+      "stars": 2202,
+      "forks": 190,
+      "openIssues": 32,
+      "pushedAt": "2026-09-28T03:10:43Z"
+    },
+    {
+      "id": 1359963149,
+      "fullName": "qingjian-team/qingjian",
+      "stars": 2130,
+      "forks": 176,
+      "openIssues": 90,
+      "pushedAt": "2026-09-24T03:57:49Z"
+    },
+    {
+      "id": 1361693766,
+      "fullName": "Vincentwei1021/anything2explainer",
+      "stars": 2114,
+      "forks": 297,
+      "openIssues": 4,
+      "pushedAt": "2026-09-18T11:52:13Z"
+    },
+    {
+      "id": 1361439328,
+      "fullName": "Edge0-AI/Edge0",
+      "stars": 2108,
+      "forks": 191,
+      "openIssues": 24,
+      "pushedAt": "2026-09-20T08:04:43Z"
+    },
+    {
+      "id": 1361260630,
+      "fullName": "openai/NavierStokesAndEuler",
+      "stars": 2012,
+      "forks": 207,
+      "openIssues": 0,
+      "pushedAt": "2026-09-10T15:14:13Z"
+    },
+    {
+      "id": 1356644576,
+      "fullName": "Taichu-AI/ZDTaichu5.0-9B",
+      "stars": 1875,
+      "forks": 337,
+      "openIssues": 3,
+      "pushedAt": "2026-09-17T06:47:25Z"
+    },
+    {
+      "id": 1375631360,
+      "fullName": "bespokelabsai/nimble",
+      "stars": 1875,
+      "forks": 148,
+      "openIssues": 4,
+      "pushedAt": "2026-09-24T06:05:31Z"
+    },
+    {
+      "id": 1374561793,
+      "fullName": "yibie/awesome-jev",
+      "stars": 1857,
+      "forks": 275,
+      "openIssues": 13,
+      "pushedAt": "2026-09-27T14:53:05Z"
+    },
+    {
+      "id": 1355366032,
+      "fullName": "danielblnc/DLSS-NR-on-AMD",
+      "stars": 1830,
+      "forks": 68,
+      "openIssues": 161,
+      "pushedAt": "2026-09-26T19:50:19Z"
+    },
+    {
+      "id": 1359610661,
+      "fullName": "EverettFish/holo-card-studio",
+      "stars": 1820,
+      "forks": 243,
+      "openIssues": 4,
+      "pushedAt": "2026-09-22T06:51:32Z"
+    },
+    {
+      "id": 1350323171,
+      "fullName": "LAMDA-NeSy/Research-Starter-Kit",
+      "stars": 1782,
+      "forks": 82,
+      "openIssues": 1,
+      "pushedAt": "2026-09-01T14:32:22Z"
+    },
+    {
+      "id": 1358346534,
+      "fullName": "donvito/codex-astra-luna-orchestrator",
+      "stars": 1645,
+      "forks": 131,
+      "openIssues": 6,
+      "pushedAt": "2026-09-23T05:16:27Z"
+    },
+    {
+      "id": 1352104394,
+      "fullName": "shadcn-ui/cn",
+      "stars": 1600,
+      "forks": 17,
+      "openIssues": 5,
+      "pushedAt": "2026-09-22T11:03:35Z"
+    },
+    {
+      "id": 1360317501,
+      "fullName": "achimala/dream-loop",
+      "stars": 1579,
+      "forks": 167,
+      "openIssues": 4,
+      "pushedAt": "2026-09-09T22:43:38Z"
+    },
+    {
+      "id": 1369262910,
+      "fullName": "QwenLM/Qwen-Image-2.1",
+      "stars": 1574,
+      "forks": 84,
+      "openIssues": 17,
+      "pushedAt": "2026-09-20T12:25:51Z"
+    },
+    {
+      "id": 1373976608,
+      "fullName": "hydra-db/open-glean",
+      "stars": 1532,
+      "forks": 518,
+      "openIssues": 2,
+      "pushedAt": "2026-09-17T05:46:34Z"
+    },
+    {
+      "id": 1352493419,
+      "fullName": "sebbbi/NoGraphicsAPI",
+      "stars": 1526,
+      "forks": 48,
+      "openIssues": 6,
+      "pushedAt": "2026-09-27T20:51:02Z"
+    },
+    {
+      "id": 1367251447,
+      "fullName": "Chuloo/mural",
+      "stars": 1526,
+      "forks": 304,
+      "openIssues": 28,
+      "pushedAt": "2026-09-26T18:34:30Z"
+    },
+    {
+      "id": 1377694077,
+      "fullName": "mizorewww/laya-coreml",
+      "stars": 1511,
+      "forks": 126,
+      "openIssues": 4,
+      "pushedAt": "2026-09-22T06:33:09Z"
+    },
+    {
+      "id": 1376713674,
+      "fullName": "pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+      "stars": 1499,
+      "forks": 144,
+      "openIssues": 0,
+      "pushedAt": "2026-09-19T10:40:41Z"
+    },
+    {
+      "id": 1359120685,
+      "fullName": "jtydhr88/screenwriting-skills",
+      "stars": 1435,
+      "forks": 159,
+      "openIssues": 0,
+      "pushedAt": "2026-09-22T14:54:52Z"
+    },
+    {
+      "id": 1356077516,
+      "fullName": "kajisho5/ffmpeg-skill",
+      "stars": 1424,
+      "forks": 113,
+      "openIssues": 1,
+      "pushedAt": "2026-09-25T08:20:31Z"
+    },
+    {
+      "id": 1356579487,
+      "fullName": "KJGX66F/usque-custom-pro",
+      "stars": 1413,
+      "forks": 2291,
+      "openIssues": 4,
+      "pushedAt": "2026-09-09T02:06:21Z"
+    },
+    {
+      "id": 1354059245,
+      "fullName": "tigerless-labs/agent-memory",
+      "stars": 1377,
+      "forks": 90,
+      "openIssues": 10,
+      "pushedAt": "2026-09-25T21:13:46Z"
+    },
+    {
+      "id": 1372867305,
+      "fullName": "vinnylarouge/jevlike",
+      "stars": 1321,
+      "forks": 117,
+      "openIssues": 7,
+      "pushedAt": "2026-09-16T18:12:53Z"
+    },
+    {
+      "id": 1354611198,
+      "fullName": "adtexterry-lgtm/unigit-ecosystem",
+      "stars": 1318,
+      "forks": 45,
+      "openIssues": 0,
+      "pushedAt": "2026-09-02T12:51:17Z"
+    },
+    {
+      "id": 1351859098,
+      "fullName": "2akouwu/reverify",
+      "stars": 1250,
+      "forks": 238,
+      "openIssues": 8,
+      "pushedAt": "2026-09-07T10:12:07Z"
+    },
+    {
+      "id": 1368866379,
+      "fullName": "zhengkid/Dream-RSI",
+      "stars": 1249,
+      "forks": 109,
+      "openIssues": 5,
+      "pushedAt": "2026-09-16T10:32:18Z"
+    },
+    {
+      "id": 1376970259,
+      "fullName": "Mak5er/AirCard-iOS",
+      "stars": 1248,
+      "forks": 117,
+      "openIssues": 26,
+      "pushedAt": "2026-09-20T21:01:12Z"
+    },
+    {
+      "id": 1357228959,
+      "fullName": "anthropics/fermats-last-theorem",
+      "stars": 1232,
+      "forks": 106,
+      "openIssues": 6,
+      "pushedAt": "2026-09-24T14:06:42Z"
+    },
+    {
+      "id": 1351835285,
+      "fullName": "GangTailorUpgrade/undress-service",
+      "stars": 1222,
+      "forks": 7,
+      "openIssues": 1,
+      "pushedAt": "2026-09-26T08:14:50Z"
+    },
+    {
+      "id": 1363950922,
+      "fullName": "unstablebuild/rune",
+      "stars": 1192,
+      "forks": 88,
+      "openIssues": 104,
+      "pushedAt": "2026-09-27T21:44:03Z"
+    },
+    {
+      "id": 1354909737,
+      "fullName": "larashero3-dotcom/lieflat-gongwen",
+      "stars": 1191,
+      "forks": 179,
+      "openIssues": 0,
+      "pushedAt": "2026-09-05T02:50:50Z"
+    },
+    {
+      "id": 1366969284,
+      "fullName": "linguo2625469/workbuddy2api-panel",
+      "stars": 1190,
+      "forks": 334,
+      "openIssues": 29,
+      "pushedAt": "2026-09-28T02:49:23Z"
+    },
+    {
+      "id": 1355349898,
+      "fullName": "flectar/mail",
+      "stars": 1157,
+      "forks": 80,
+      "openIssues": 12,
+      "pushedAt": "2026-09-26T22:22:23Z"
+    },
+    {
+      "id": 1356900025,
+      "fullName": "TokenRhythm/NeoHorse",
+      "stars": 1153,
+      "forks": 16,
+      "openIssues": 0,
+      "pushedAt": "2026-09-26T04:42:21Z"
+    },
+    {
+      "id": 1351691201,
+      "fullName": "Observal/Axl",
+      "stars": 1152,
+      "forks": 698,
+      "openIssues": 368,
+      "pushedAt": "2026-09-28T05:12:15Z"
+    },
+    {
+      "id": 1371220575,
+      "fullName": "anmolkapil/plexo",
+      "stars": 1146,
+      "forks": 104,
+      "openIssues": 9,
+      "pushedAt": "2026-09-27T19:54:46Z"
+    },
+    {
+      "id": 1364767317,
+      "fullName": "sumimakito/Mac-Duo",
+      "stars": 1130,
+      "forks": 80,
+      "openIssues": 29,
+      "pushedAt": "2026-09-18T17:51:10Z"
+    },
+    {
+      "id": 1361158582,
+      "fullName": "To3akaRin/mac-computer-use",
+      "stars": 1127,
+      "forks": 16,
+      "openIssues": 4,
+      "pushedAt": "2026-09-24T02:43:40Z"
+    },
+    {
+      "id": 1357411595,
+      "fullName": "AI-FanGe/Microduck-build-tutorial",
+      "stars": 1118,
+      "forks": 275,
+      "openIssues": 10,
+      "pushedAt": "2026-09-11T07:51:37Z"
+    },
+    {
+      "id": 1371217350,
+      "fullName": "theoephraim/awesome-cloudflare-selfhosted",
+      "stars": 1111,
+      "forks": 62,
+      "openIssues": 13,
+      "pushedAt": "2026-09-26T18:30:25Z"
+    },
+    {
+      "id": 1351701238,
+      "fullName": "Merserk/dlss5-visual-enhancer",
+      "stars": 1086,
+      "forks": 90,
+      "openIssues": 29,
+      "pushedAt": "2026-09-25T18:43:04Z"
+    },
+    {
+      "id": 1364080668,
+      "fullName": "NxcoreAI/NxMem",
+      "stars": 1083,
+      "forks": 107,
+      "openIssues": 0,
+      "pushedAt": "2026-09-22T13:20:01Z"
+    },
+    {
+      "id": 1350762381,
+      "fullName": "dashdogy/RTX40MFG-Unlock",
+      "stars": 1081,
+      "forks": 37,
+      "openIssues": 23,
+      "pushedAt": "2026-09-18T10:27:50Z"
+    },
+    {
+      "id": 1351903372,
+      "fullName": "siknet/FreePEP",
+      "stars": 1054,
+      "forks": 177,
+      "openIssues": 4,
+      "pushedAt": "2026-09-19T14:27:31Z"
+    },
+    {
+      "id": 1373440611,
+      "fullName": "awlevin/typesafe-computer-use",
+      "stars": 1037,
+      "forks": 94,
+      "openIssues": 15,
+      "pushedAt": "2026-09-28T04:33:13Z"
+    },
+    {
+      "id": 1367271141,
+      "fullName": "zjwzcx/Awesome-Astra-Embodied-AI",
+      "stars": 1033,
+      "forks": 23,
+      "openIssues": 1,
+      "pushedAt": "2026-09-26T08:05:16Z"
+    },
+    {
+      "id": 1350871465,
+      "fullName": "jlrouzies-fr/DLSS5-Feeder",
+      "stars": 1018,
+      "forks": 59,
+      "openIssues": 16,
+      "pushedAt": "2026-09-27T04:32:03Z"
+    },
+    {
+      "id": 1360942455,
+      "fullName": "gazijarin/itsgiving",
+      "stars": 1000,
+      "forks": 124,
+      "openIssues": 8,
+      "pushedAt": "2026-09-08T05:45:44Z"
+    },
+    {
+      "id": 1367577373,
+      "fullName": "agentverse-os/AgentVerse-OS",
+      "stars": 984,
+      "forks": 26,
+      "openIssues": 1,
+      "pushedAt": "2026-09-12T19:17:57Z"
+    },
+    {
+      "id": 1367068508,
+      "fullName": "youngyangyang04/llm-master",
+      "stars": 983,
+      "forks": 94,
+      "openIssues": 4,
+      "pushedAt": "2026-09-19T08:45:46Z"
+    },
+    {
+      "id": 1357414008,
+      "fullName": "byJoey/warp-masque-actions",
+      "stars": 982,
+      "forks": 3281,
+      "openIssues": 5,
+      "pushedAt": "2026-09-07T12:35:23Z"
+    },
+    {
+      "id": 1357282163,
+      "fullName": "seanhowarthdev/Roam-Control",
+      "stars": 979,
+      "forks": 170,
+      "openIssues": 1,
+      "pushedAt": "2026-09-27T09:24:04Z"
+    },
+    {
+      "id": 1359216200,
+      "fullName": "perseval-BLR/NeuralScreen",
+      "stars": 976,
+      "forks": 53,
+      "openIssues": 3,
+      "pushedAt": "2026-09-27T19:29:29Z"
+    },
+    {
+      "id": 1375987946,
+      "fullName": "Lumid-Off/AirCard-Windows",
+      "stars": 968,
+      "forks": 70,
+      "openIssues": 11,
+      "pushedAt": "2026-09-24T08:39:30Z"
+    },
+    {
+      "id": 1366915122,
+      "fullName": "shilapi/xcertplay",
+      "stars": 961,
+      "forks": 156,
+      "openIssues": 5,
+      "pushedAt": "2026-09-28T04:43:06Z"
+    },
+    {
+      "id": 1351898444,
+      "fullName": "faisalkindi/DLSS5oneclick",
+      "stars": 961,
+      "forks": 66,
+      "openIssues": 36,
+      "pushedAt": "2026-09-28T03:28:02Z"
+    },
+    {
+      "id": 54346799,
+      "fullName": "public-apis/public-apis",
+      "stars": 483879,
+      "forks": 53453,
+      "openIssues": 1953,
+      "pushedAt": "2026-09-27T19:29:21Z"
+    },
+    {
+      "id": 28457823,
+      "fullName": "freeCodeCamp/freeCodeCamp",
+      "stars": 456386,
+      "forks": 47644,
+      "openIssues": 211,
+      "pushedAt": "2026-09-28T03:10:31Z"
+    },
+    {
+      "id": 1103012935,
+      "fullName": "openclaw/openclaw",
+      "stars": 390671,
+      "forks": 82161,
+      "openIssues": 8822,
+      "pushedAt": "2026-09-28T05:23:45Z"
+    },
+    {
+      "id": 21289110,
+      "fullName": "vinta/awesome-python",
+      "stars": 323620,
+      "forks": 28816,
+      "openIssues": 22,
+      "pushedAt": "2026-09-27T13:05:53Z"
+    },
+    {
+      "id": 36633370,
+      "fullName": "awesome-selfhosted/awesome-selfhosted",
+      "stars": 322301,
+      "forks": 15115,
+      "openIssues": 0,
+      "pushedAt": "2026-09-26T10:20:27Z"
+    },
+    {
+      "id": 1073224795,
+      "fullName": "obra/superpowers",
+      "stars": 292229,
+      "forks": 26155,
+      "openIssues": 270,
+      "pushedAt": "2026-09-27T02:37:47Z"
+    },
+    {
+      "id": 1136590548,
+      "fullName": "affaan-m/ECC",
+      "stars": 268517,
+      "forks": 40116,
+      "openIssues": 229,
+      "pushedAt": "2026-09-28T05:12:53Z"
+    },
+    {
+      "id": 10270250,
+      "fullName": "react/react",
+      "stars": 250792,
+      "forks": 51413,
+      "openIssues": 1386,
+      "pushedAt": "2026-09-27T11:10:32Z"
+    },
+    {
+      "id": 2325298,
+      "fullName": "torvalds/linux",
+      "stars": 250394,
+      "forks": 66100,
+      "openIssues": 3,
+      "pushedAt": "2026-09-27T20:56:06Z"
+    },
+    {
+      "id": 1024554267,
+      "fullName": "NousResearch/hermes-agent",
+      "stars": 249554,
+      "forks": 53084,
+      "openIssues": 44629,
+      "pushedAt": "2026-09-28T05:23:07Z"
+    },
+    {
+      "id": 1333065091,
+      "fullName": "deepseek-ai/deepseek-harness",
+      "stars": 237983,
+      "forks": 28608,
+      "openIssues": 0,
+      "pushedAt": "2026-09-27T15:55:19Z"
+    },
+    {
+      "id": 63476337,
+      "fullName": "TheAlgorithms/Python",
+      "stars": 225082,
+      "forks": 51131,
+      "openIssues": 96,
+      "pushedAt": "2026-09-27T13:10:21Z"
+    },
+    {
+      "id": 975734319,
+      "fullName": "anomalyco/opencode",
+      "stars": 210468,
+      "forks": 27843,
+      "openIssues": 6220,
+      "pushedAt": "2026-09-28T05:12:03Z"
+    },
+    {
+      "id": 193215554,
+      "fullName": "n8n-io/n8n",
+      "stars": 206151,
+      "forks": 60908,
+      "openIssues": 1116,
+      "pushedAt": "2026-09-28T05:23:21Z"
+    },
+    {
+      "id": 45717250,
+      "fullName": "tensorflow/tensorflow",
+      "stars": 200572,
+      "forks": 77790,
+      "openIssues": 3386,
+      "pushedAt": "2026-09-28T03:48:56Z"
+    },
+    {
+      "id": 307260205,
+      "fullName": "yt-dlp/yt-dlp",
+      "stars": 194008,
+      "forks": 16836,
+      "openIssues": 2675,
+      "pushedAt": "2026-09-27T22:09:13Z"
+    },
+    {
+      "id": 41881900,
+      "fullName": "microsoft/vscode",
+      "stars": 193193,
+      "forks": 43739,
+      "openIssues": 21170,
+      "pushedAt": "2026-09-28T05:08:32Z"
+    },
+    {
+      "id": 291137,
+      "fullName": "ohmyzsh/ohmyzsh",
+      "stars": 189962,
+      "forks": 27924,
+      "openIssues": 304,
+      "pushedAt": "2026-09-27T21:26:18Z"
+    },
+    {
+      "id": 614765452,
+      "fullName": "Significant-Gravitas/AutoGPT",
+      "stars": 187596,
+      "forks": 45981,
+      "openIssues": 537,
+      "pushedAt": "2026-09-28T05:08:09Z"
+    },
+    {
+      "id": 21540759,
+      "fullName": "avelino/awesome-go",
+      "stars": 185920,
+      "forks": 13589,
+      "openIssues": 230,
+      "pushedAt": "2026-09-27T04:44:34Z"
+    },
+    {
+      "id": 787076358,
+      "fullName": "firecrawl/firecrawl",
+      "stars": 185633,
+      "forks": 9953,
+      "openIssues": 680,
+      "pushedAt": "2026-09-28T03:16:07Z"
+    },
+    {
+      "id": 658928958,
+      "fullName": "ollama/ollama",
+      "stars": 181831,
+      "forks": 18030,
+      "openIssues": 4121,
+      "pushedAt": "2026-09-27T23:43:06Z"
+    },
+    {
+      "id": 31792824,
+      "fullName": "flutter/flutter",
+      "stars": 179131,
+      "forks": 32508,
+      "openIssues": 13294,
+      "pushedAt": "2026-09-26T23:18:14Z"
+    },
+    {
+      "id": 58028038,
+      "fullName": "521xueweihan/HelloGitHub",
+      "stars": 178902,
+      "forks": 12868,
+      "openIssues": 835,
+      "pushedAt": "2026-09-28T00:11:38Z"
+    },
+    {
+      "id": 2126244,
+      "fullName": "twbs/bootstrap",
+      "stars": 174933,
+      "forks": 78577,
+      "openIssues": 229,
+      "pushedAt": "2026-09-27T12:45:02Z"
+    },
+    {
+      "id": 155220641,
+      "fullName": "huggingface/transformers",
+      "stars": 166738,
+      "forks": 34697,
+      "openIssues": 2402,
+      "pushedAt": "2026-09-28T00:24:47Z"
+    },
+    {
+      "id": 626805178,
+      "fullName": "langgenius/dify",
+      "stars": 157370,
+      "forks": 24795,
+      "openIssues": 803,
+      "pushedAt": "2026-09-28T05:23:35Z"
+    },
+    {
+      "id": 599320067,
+      "fullName": "langflow-ai/langflow",
+      "stars": 155320,
+      "forks": 10147,
+      "openIssues": 1191,
+      "pushedAt": "2026-09-28T00:45:18Z"
+    },
+    {
+      "id": 1075372545,
+      "fullName": "msitarzewski/agency-agents",
+      "stars": 154949,
+      "forks": 24992,
+      "openIssues": 167,
+      "pushedAt": "2026-09-27T23:45:36Z"
+    },
+    {
+      "id": 701547123,
+      "fullName": "open-webui/open-webui",
+      "stars": 153397,
+      "forks": 22441,
+      "openIssues": 287,
+      "pushedAt": "2026-09-28T03:59:54Z"
+    },
+    {
+      "id": 111583593,
+      "fullName": "Genymobile/scrcpy",
+      "stars": 150534,
+      "forks": 13823,
+      "openIssues": 2912,
+      "pushedAt": "2026-09-27T17:00:36Z"
+    },
+    {
+      "id": 937253475,
+      "fullName": "anthropics/claude-code",
+      "stars": 148381,
+      "forks": 24883,
+      "openIssues": 13379,
+      "pushedAt": "2026-09-27T22:20:45Z"
+    },
+    {
+      "id": 721767116,
+      "fullName": "clash-verge-rev/clash-verge-rev",
+      "stars": 147876,
+      "forks": 10615,
+      "openIssues": 483,
+      "pushedAt": "2026-09-28T05:11:25Z"
+    },
+    {
+      "id": 552661142,
+      "fullName": "langchain-ai/langchain",
+      "stars": 147178,
+      "forks": 24634,
+      "openIssues": 570,
+      "pushedAt": "2026-09-27T19:48:40Z"
+    },
+    {
+      "id": 70107786,
+      "fullName": "vercel/next.js",
+      "stars": 142812,
+      "forks": 33318,
+      "openIssues": 3520,
+      "pushedAt": "2026-09-28T04:10:59Z"
+    },
+    {
+      "id": 793375104,
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "stars": 140014,
+      "forks": 20569,
+      "openIssues": 16,
+      "pushedAt": "2026-09-26T08:27:01Z"
+    },
+    {
+      "id": 157616880,
+      "fullName": "iptv-org/iptv",
+      "stars": 139711,
+      "forks": 8143,
+      "openIssues": 80,
+      "pushedAt": "2026-09-28T00:21:23Z"
+    },
+    {
+      "id": 184456251,
+      "fullName": "microsoft/PowerToys",
+      "stars": 139068,
+      "forks": 8612,
+      "openIssues": 7695,
+      "pushedAt": "2026-09-28T03:05:20Z"
+    },
+    {
+      "id": 23096959,
+      "fullName": "golang/go",
+      "stars": 139059,
+      "forks": 20751,
+      "openIssues": 10258,
+      "pushedAt": "2026-09-28T01:43:36Z"
+    },
+    {
+      "id": 32484381,
+      "fullName": "ripienaar/free-for-dev",
+      "stars": 138726,
+      "forks": 14645,
+      "openIssues": 14,
+      "pushedAt": "2026-09-27T08:29:08Z"
+    },
+    {
+      "id": 1031912724,
+      "fullName": "farion1231/cc-switch",
+      "stars": 137763,
+      "forks": 9345,
+      "openIssues": 2910,
+      "pushedAt": "2026-09-28T05:01:08Z"
+    },
+    {
+      "id": 589831718,
+      "fullName": "Comfy-Org/ComfyUI",
+      "stars": 135252,
+      "forks": 16027,
+      "openIssues": 4983,
+      "pushedAt": "2026-09-27T22:45:21Z"
+    },
+    {
+      "id": 1179264259,
+      "fullName": "garrytan/gstack",
+      "stars": 134357,
+      "forks": 20014,
+      "openIssues": 940,
+      "pushedAt": "2026-09-28T02:10:21Z"
+    },
+    {
+      "id": 231283452,
+      "fullName": "excalidraw/excalidraw",
+      "stars": 133120,
+      "forks": 15500,
+      "openIssues": 3269,
+      "pushedAt": "2026-09-27T20:53:18Z"
+    },
+    {
+      "id": 1106996539,
+      "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "stars": 131066,
+      "forks": 13938,
+      "openIssues": 82,
+      "pushedAt": "2026-09-27T11:30:41Z"
+    },
+    {
+      "id": 612354784,
+      "fullName": "ggml-org/llama.cpp",
+      "stars": 129733,
+      "forks": 23829,
+      "openIssues": 2550,
+      "pushedAt": "2026-09-27T22:03:22Z"
+    },
+    {
+      "id": 20580498,
+      "fullName": "kubernetes/kubernetes",
+      "stars": 128060,
+      "forks": 45499,
+      "openIssues": 3130,
+      "pushedAt": "2026-09-28T01:32:30Z"
+    },
+    {
+      "id": 965415649,
+      "fullName": "openai/codex",
+      "stars": 126829,
+      "forks": 19803,
+      "openIssues": 19269,
+      "pushedAt": "2026-09-28T04:07:04Z"
+    },
+    {
+      "id": 29028775,
+      "fullName": "react/react-native",
+      "stars": 126751,
+      "forks": 25287,
+      "openIssues": 1141,
+      "pushedAt": "2026-09-27T17:37:50Z"
+    },
+    {
+      "id": 770153867,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "stars": 126374,
+      "forks": 19735,
+      "openIssues": 51,
+      "pushedAt": "2026-09-28T04:50:52Z"
+    },
+    {
+      "id": 299354207,
+      "fullName": "rustdesk/rustdesk",
+      "stars": 124657,
+      "forks": 19294,
+      "openIssues": 167,
+      "pushedAt": "2026-09-28T03:46:35Z"
+    },
+    {
+      "id": 9384267,
+      "fullName": "electron/electron",
+      "stars": 123292,
+      "forks": 17559,
+      "openIssues": 693,
+      "pushedAt": "2026-09-28T00:59:51Z"
+    },
+    {
+      "id": 27193779,
+      "fullName": "nodejs/node",
+      "stars": 122143,
+      "forks": 38218,
+      "openIssues": 1184,
+      "pushedAt": "2026-09-28T04:22:58Z"
+    },
+    {
+      "id": 1200597263,
+      "fullName": "Graphify-Labs/graphify",
+      "stars": 121925,
+      "forks": 11744,
+      "openIssues": 1483,
+      "pushedAt": "2026-09-27T20:42:29Z"
+    },
+    {
+      "id": 724712,
+      "fullName": "rust-lang/rust",
+      "stars": 119252,
+      "forks": 17028,
+      "openIssues": 12607,
+      "pushedAt": "2026-09-28T04:11:10Z"
+    },
+    {
+      "id": 15634981,
+      "fullName": "godotengine/godot",
+      "stars": 117879,
+      "forks": 26869,
+      "openIssues": 18895,
+      "pushedAt": "2026-09-27T16:30:16Z"
+    },
+    {
+      "id": 199570071,
+      "fullName": "2dust/v2rayN",
+      "stars": 117163,
+      "forks": 15992,
+      "openIssues": 18,
+      "pushedAt": "2026-09-28T02:28:43Z"
+    },
+    {
+      "id": 881458615,
+      "fullName": "browser-use/browser-use",
+      "stars": 116536,
+      "forks": 12840,
+      "openIssues": 515,
+      "pushedAt": "2026-09-26T07:29:35Z"
+    },
+    {
+      "id": 576201,
+      "fullName": "mrdoob/three.js",
+      "stars": 116000,
+      "forks": 36579,
+      "openIssues": 383,
+      "pushedAt": "2026-09-28T02:21:34Z"
+    },
+    {
+      "id": 455229168,
+      "fullName": "immich-app/immich",
+      "stars": 115172,
+      "forks": 7080,
+      "openIssues": 721,
+      "pushedAt": "2026-09-28T00:51:28Z"
+    },
+    {
+      "id": 63539055,
+      "fullName": "jaywcjlove/awesome-mac",
+      "stars": 115034,
+      "forks": 9023,
+      "openIssues": 1019,
+      "pushedAt": "2026-09-28T04:01:19Z"
+    },
+    {
+      "id": 196701619,
+      "fullName": "tauri-apps/tauri",
+      "stars": 111439,
+      "forks": 4027,
+      "openIssues": 1454,
+      "pushedAt": "2026-09-27T13:53:34Z"
+    },
+    {
+      "id": 20929025,
+      "fullName": "microsoft/TypeScript",
+      "stars": 111248,
+      "forks": 15184,
+      "openIssues": 5050,
+      "pushedAt": "2026-09-28T00:58:18Z"
+    },
+    {
+      "id": 214587193,
+      "fullName": "supabase/supabase",
+      "stars": 110831,
+      "forks": 15239,
+      "openIssues": 1083,
+      "pushedAt": "2026-09-28T04:32:42Z"
+    },
+    {
+      "id": 1035029907,
+      "fullName": "earendil-works/pi",
+      "stars": 109844,
+      "forks": 13970,
+      "openIssues": 227,
+      "pushedAt": "2026-09-27T22:23:57Z"
+    },
+    {
+      "id": 23088740,
+      "fullName": "axios/axios",
+      "stars": 109238,
+      "forks": 11877,
+      "openIssues": 95,
+      "pushedAt": "2026-09-27T12:45:13Z"
+    },
+    {
+      "id": 1201173969,
+      "fullName": "JuliusBrussee/caveman",
+      "stars": 108095,
+      "forks": 6266,
+      "openIssues": 140,
+      "pushedAt": "2026-09-27T07:27:27Z"
+    },
+    {
+      "id": 968197216,
+      "fullName": "google-gemini/gemini-cli",
+      "stars": 107165,
+      "forks": 14643,
+      "openIssues": 809,
+      "pushedAt": "2026-09-28T01:42:37Z"
+    },
+    {
+      "id": 100060912,
+      "fullName": "microsoft/terminal",
+      "stars": 105014,
+      "forks": 9624,
+      "openIssues": 1776,
+      "pushedAt": "2026-09-27T00:18:49Z"
+    },
+    {
+      "id": 65600975,
+      "fullName": "pytorch/pytorch",
+      "stars": 103430,
+      "forks": 30793,
+      "openIssues": 17606,
+      "pushedAt": "2026-09-28T05:07:39Z"
+    },
+    {
+      "id": 160919119,
+      "fullName": "fastapi/fastapi",
+      "stars": 102682,
+      "forks": 9963,
+      "openIssues": 82,
+      "pushedAt": "2026-09-26T13:35:50Z"
+    },
+    {
+      "id": 16408992,
+      "fullName": "neovim/neovim",
+      "stars": 102631,
+      "forks": 7140,
+      "openIssues": 1925,
+      "pushedAt": "2026-09-28T03:31:00Z"
+    },
+    {
+      "id": 34526884,
+      "fullName": "ant-design/ant-design",
+      "stars": 99627,
+      "forks": 54706,
+      "openIssues": 1085,
+      "pushedAt": "2026-09-28T04:00:59Z"
+    },
+    {
+      "id": 1158722119,
+      "fullName": "addyosmani/agent-skills",
+      "stars": 99539,
+      "forks": 10454,
+      "openIssues": 118,
+      "pushedAt": "2026-09-26T04:19:38Z"
+    },
+    {
+      "id": 23083156,
+      "fullName": "mui/material-ui",
+      "stars": 99102,
+      "forks": 32514,
+      "openIssues": 1466,
+      "pushedAt": "2026-09-27T07:25:47Z"
+    },
+    {
+      "id": 1223170290,
+      "fullName": "nexu-io/open-design",
+      "stars": 98372,
+      "forks": 11407,
+      "openIssues": 1138,
+      "pushedAt": "2026-09-28T05:23:39Z"
+    },
+    {
+      "id": 695864515,
+      "fullName": "hacksider/Deep-Live-Cam",
+      "stars": 96849,
+      "forks": 14120,
+      "openIssues": 48,
+      "pushedAt": "2026-09-26T10:05:54Z"
+    },
+    {
+      "id": 221981891,
+      "fullName": "microsoft/playwright",
+      "stars": 96782,
+      "forks": 6510,
+      "openIssues": 192,
+      "pushedAt": "2026-09-28T01:43:01Z"
+    },
+    {
+      "id": 357728969,
+      "fullName": "oven-sh/bun",
+      "stars": 96069,
+      "forks": 5069,
+      "openIssues": 9430,
+      "pushedAt": "2026-09-27T21:06:17Z"
+    },
+    {
+      "id": 90796663,
+      "fullName": "puppeteer/puppeteer",
+      "stars": 95625,
+      "forks": 9584,
+      "openIssues": 274,
+      "pushedAt": "2026-09-27T03:03:01Z"
+    },
+    {
+      "id": 896335270,
+      "fullName": "punkpeye/awesome-mcp-servers",
+      "stars": 95608,
+      "forks": 16730,
+      "openIssues": 2485,
+      "pushedAt": "2026-09-27T02:12:17Z"
+    },
+    {
+      "id": 997737944,
+      "fullName": "ruvnet/RuView",
+      "stars": 95228,
+      "forks": 12587,
+      "openIssues": 317,
+      "pushedAt": "2026-09-28T00:46:29Z"
+    },
+    {
+      "id": 1048065319,
+      "fullName": "thedotmack/claude-mem",
+      "stars": 94813,
+      "forks": 8384,
+      "openIssues": 321,
+      "pushedAt": "2026-09-27T21:46:34Z"
+    },
+    {
+      "id": 594155488,
+      "fullName": "Stirling-Tools/Stirling-PDF",
+      "stars": 93151,
+      "forks": 9842,
+      "openIssues": 592,
+      "pushedAt": "2026-09-28T04:35:53Z"
+    },
+    {
+      "id": 162998479,
+      "fullName": "sherlock-project/sherlock",
+      "stars": 92938,
+      "forks": 10974,
+      "openIssues": 352,
+      "pushedAt": "2026-09-28T05:19:06Z"
+    },
+    {
+      "id": 578822531,
+      "fullName": "localsend/localsend",
+      "stars": 92857,
+      "forks": 5190,
+      "openIssues": 1140,
+      "pushedAt": "2026-09-27T19:25:54Z"
+    },
+    {
+      "id": 599547518,
+      "fullName": "vllm-project/vllm",
+      "stars": 92826,
+      "forks": 22729,
+      "openIssues": 8310,
+      "pushedAt": "2026-09-28T05:23:46Z"
+    },
+    {
+      "id": 382496361,
+      "fullName": "louislam/uptime-kuma",
+      "stars": 91888,
+      "forks": 8472,
+      "openIssues": 823,
+      "pushedAt": "2026-09-28T00:07:16Z"
+    },
+    {
+      "id": 730534580,
+      "fullName": "infiniflow/ragflow",
+      "stars": 91393,
+      "forks": 10838,
+      "openIssues": 1529,
+      "pushedAt": "2026-09-28T05:08:43Z"
+    },
+    {
+      "id": 4164482,
+      "fullName": "django/django",
+      "stars": 91220,
+      "forks": 35726,
+      "openIssues": 525,
+      "pushedAt": "2026-09-27T14:39:15Z"
+    },
+    {
+      "id": 12888993,
+      "fullName": "home-assistant/core",
+      "stars": 91183,
+      "forks": 38754,
+      "openIssues": 3717,
+      "pushedAt": "2026-09-28T05:04:25Z"
+    },
+    {
+      "id": 54173593,
+      "fullName": "storybookjs/storybook",
+      "stars": 91163,
+      "forks": 10469,
+      "openIssues": 1875,
+      "pushedAt": "2026-09-27T02:32:36Z"
+    },
+    {
+      "id": 340547520,
+      "fullName": "zed-industries/zed",
+      "stars": 90980,
+      "forks": 10797,
+      "openIssues": 3159,
+      "pushedAt": "2026-09-28T03:10:03Z"
+    },
+    {
+      "id": 1162099055,
+      "fullName": "Leonxlnx/taste-skill",
+      "stars": 90690,
+      "forks": 6175,
+      "openIssues": 71,
+      "pushedAt": "2026-09-26T09:01:50Z"
+    },
+    {
+      "id": 890668799,
+      "fullName": "modelcontextprotocol/servers",
+      "stars": 90637,
+      "forks": 11699,
+      "openIssues": 585,
+      "pushedAt": "2026-09-28T04:06:36Z"
+    },
+    {
+      "id": 1170821064,
+      "fullName": "paperclipai/paperclip",
+      "stars": 90542,
+      "forks": 15715,
+      "openIssues": 5874,
+      "pushedAt": "2026-09-28T04:25:09Z"
+    },
+    {
+      "id": 699532645,
+      "fullName": "astral-sh/uv",
+      "stars": 90229,
+      "forks": 3618,
+      "openIssues": 2940,
+      "pushedAt": "2026-09-28T01:28:29Z"
+    },
+    {
+      "id": 11180687,
+      "fullName": "gohugoio/hugo",
+      "stars": 89971,
+      "forks": 8390,
+      "openIssues": 198,
+      "pushedAt": "2026-09-27T15:58:25Z"
+    },
+    {
+      "id": 771302083,
+      "fullName": "OpenHands/OpenHands",
+      "stars": 89329,
+      "forks": 11774,
+      "openIssues": 857,
+      "pushedAt": "2026-09-28T04:33:03Z"
+    },
+    {
+      "id": 14712850,
+      "fullName": "syncthing/syncthing",
+      "stars": 88987,
+      "forks": 5496,
+      "openIssues": 384,
+      "pushedAt": "2026-09-28T03:57:47Z"
+    },
+    {
+      "id": 669879380,
+      "fullName": "rasbt/LLMs-from-scratch",
+      "stars": 105679,
+      "forks": 16212,
+      "openIssues": 3,
+      "pushedAt": "2026-09-22T13:58:26Z"
+    },
+    {
+      "id": 1032808806,
+      "fullName": "usestrix/strix",
+      "stars": 65254,
+      "forks": 7165,
+      "openIssues": 414,
+      "pushedAt": "2026-09-28T01:54:49Z"
+    },
+    {
+      "id": 834369920,
+      "fullName": "jingyaogong/minimind",
+      "stars": 62785,
+      "forks": 8162,
+      "openIssues": 60,
+      "pushedAt": "2026-09-22T16:07:34Z"
+    },
+    {
+      "id": 26783295,
+      "fullName": "Kong/kong",
+      "stars": 44204,
+      "forks": 5219,
+      "openIssues": 213,
+      "pushedAt": "2026-09-28T04:53:21Z"
+    },
+    {
+      "id": 326174741,
+      "fullName": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "stars": 37030,
+      "forks": 7487,
+      "openIssues": 69,
+      "pushedAt": "2026-09-26T00:44:47Z"
+    },
+    {
+      "id": 178626720,
+      "fullName": "Lightning-AI/pytorch-lightning",
+      "stars": 31365,
+      "forks": 3803,
+      "openIssues": 1093,
+      "pushedAt": "2026-09-21T11:44:30Z"
+    },
+    {
+      "id": 912559512,
+      "fullName": "simstudioai/sim",
+      "stars": 29742,
+      "forks": 3844,
+      "openIssues": 368,
+      "pushedAt": "2026-09-28T04:04:15Z"
+    },
+    {
+      "id": 94801380,
+      "fullName": "The-Art-of-Hacking/h4cker",
+      "stars": 29556,
+      "forks": 5387,
+      "openIssues": 2,
+      "pushedAt": "2026-09-23T04:48:29Z"
+    },
+    {
+      "id": 138552196,
+      "fullName": "nautechsystems/nautilus_trader",
+      "stars": 29458,
+      "forks": 3902,
+      "openIssues": 150,
+      "pushedAt": "2026-09-28T04:45:14Z"
+    },
+    {
+      "id": 688164459,
+      "fullName": "harvard-edge/cs249r_book",
+      "stars": 28617,
+      "forks": 3620,
+      "openIssues": 6,
+      "pushedAt": "2026-09-28T01:14:18Z"
+    },
+    {
+      "id": 828119367,
+      "fullName": "yamadashy/repomix",
+      "stars": 28510,
+      "forks": 1541,
+      "openIssues": 149,
+      "pushedAt": "2026-09-27T10:35:26Z"
+    },
+    {
+      "id": 525592995,
+      "fullName": "invoke-ai/InvokeAI",
+      "stars": 28306,
+      "forks": 2980,
+      "openIssues": 355,
+      "pushedAt": "2026-09-27T17:00:58Z"
+    },
+    {
+      "id": 644461337,
+      "fullName": "vercel/ai",
+      "stars": 27001,
+      "forks": 5208,
+      "openIssues": 1451,
+      "pushedAt": "2026-09-28T04:06:57Z"
+    },
+    {
+      "id": 95879426,
+      "fullName": "Tencent/ncnn",
+      "stars": 23881,
+      "forks": 4507,
+      "openIssues": 1211,
+      "pushedAt": "2026-09-24T13:58:45Z"
+    },
+    {
+      "id": 678526156,
+      "fullName": "marimo-team/marimo",
+      "stars": 22918,
+      "forks": 1297,
+      "openIssues": 601,
+      "pushedAt": "2026-09-28T05:11:44Z"
+    },
+    {
+      "id": 250213286,
+      "fullName": "huggingface/datasets",
+      "stars": 22013,
+      "forks": 3472,
+      "openIssues": 1439,
+      "pushedAt": "2026-09-24T14:52:43Z"
+    },
+    {
+      "id": 149430917,
+      "fullName": "recommenders-team/recommenders",
+      "stars": 21923,
+      "forks": 3318,
+      "openIssues": 174,
+      "pushedAt": "2026-09-25T12:39:30Z"
+    },
+    {
+      "id": 964395174,
+      "fullName": "dyad-sh/dyad",
+      "stars": 21616,
+      "forks": 2649,
+      "openIssues": 330,
+      "pushedAt": "2026-09-27T14:48:12Z"
+    },
+    {
+      "id": 102692863,
+      "fullName": "onnx/onnx",
+      "stars": 21535,
+      "forks": 4040,
+      "openIssues": 239,
+      "pushedAt": "2026-09-27T23:46:00Z"
+    },
+    {
+      "id": 132754148,
+      "fullName": "stefan-jansen/machine-learning-for-trading",
+      "stars": 21089,
+      "forks": 5649,
+      "openIssues": 2,
+      "pushedAt": "2026-09-24T19:33:06Z"
+    },
+    {
+      "id": 931950959,
+      "fullName": "liyupi/ai-guide",
+      "stars": 20533,
+      "forks": 2284,
+      "openIssues": 5,
+      "pushedAt": "2026-09-28T03:09:27Z"
+    },
+    {
+      "id": 22475123,
+      "fullName": "amark/gun",
+      "stars": 19140,
+      "forks": 1239,
+      "openIssues": 318,
+      "pushedAt": "2026-09-26T00:58:29Z"
+    },
+    {
+      "id": 522133400,
+      "fullName": "MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning",
+      "stars": 17904,
+      "forks": 1695,
+      "openIssues": 1,
+      "pushedAt": "2026-09-21T07:24:45Z"
+    },
+    {
+      "id": 169975410,
+      "fullName": "leon-ai/leon",
+      "stars": 17551,
+      "forks": 1473,
+      "openIssues": 113,
+      "pushedAt": "2026-09-26T01:19:16Z"
+    },
+    {
+      "id": 108102826,
+      "fullName": "carla-simulator/carla",
+      "stars": 14439,
+      "forks": 4709,
+      "openIssues": 1205,
+      "pushedAt": "2026-09-27T19:59:55Z"
+    },
+    {
+      "id": 14734876,
+      "fullName": "deeplearning4j/deeplearning4j",
+      "stars": 14265,
+      "forks": 3821,
+      "openIssues": 59,
+      "pushedAt": "2026-09-26T20:25:28Z"
+    },
+    {
+      "id": 1008304614,
+      "fullName": "semantica-agi/semantica",
+      "stars": 13507,
+      "forks": 1529,
+      "openIssues": 95,
+      "pushedAt": "2026-09-28T03:44:04Z"
+    },
+    {
+      "id": 145693916,
+      "fullName": "kornia/kornia",
+      "stars": 11386,
+      "forks": 1331,
+      "openIssues": 212,
+      "pushedAt": "2026-09-27T20:57:01Z"
+    },
+    {
+      "id": 257913595,
+      "fullName": "voxel51/fiftyone",
+      "stars": 11124,
+      "forks": 828,
+      "openIssues": 710,
+      "pushedAt": "2026-09-28T04:04:52Z"
+    },
+    {
+      "id": 224908244,
+      "fullName": "WasmEdge/WasmEdge",
+      "stars": 10806,
+      "forks": 1176,
+      "openIssues": 148,
+      "pushedAt": "2026-09-26T04:07:02Z"
+    },
+    {
+      "id": 653496050,
+      "fullName": "xorbitsai/inference",
+      "stars": 9594,
+      "forks": 868,
+      "openIssues": 33,
+      "pushedAt": "2026-09-28T04:36:29Z"
+    },
+    {
+      "id": 659402878,
+      "fullName": "spring-projects/spring-ai",
+      "stars": 9487,
+      "forks": 2929,
+      "openIssues": 1496,
+      "pushedAt": "2026-09-25T16:05:31Z"
+    },
+    {
+      "id": 334848347,
+      "fullName": "ccfddl/ccf-deadlines",
+      "stars": 9366,
+      "forks": 625,
+      "openIssues": 247,
+      "pushedAt": "2026-09-28T04:54:08Z"
+    },
+    {
+      "id": 584639396,
+      "fullName": "ai-collection/ai-collection",
+      "stars": 9175,
+      "forks": 1024,
+      "openIssues": 24,
+      "pushedAt": "2026-09-22T09:05:49Z"
+    },
+    {
+      "id": 810861466,
+      "fullName": "0xPlaygrounds/rig",
+      "stars": 8749,
+      "forks": 977,
+      "openIssues": 113,
+      "pushedAt": "2026-09-27T20:03:57Z"
+    },
+    {
+      "id": 855588588,
+      "fullName": "jingyaogong/minimind-v",
+      "stars": 8692,
+      "forks": 968,
+      "openIssues": 21,
+      "pushedAt": "2026-09-22T16:07:32Z"
+    },
+    {
+      "id": 104854615,
+      "fullName": "stanfordnlp/stanza",
+      "stars": 7884,
+      "forks": 960,
+      "openIssues": 96,
+      "pushedAt": "2026-09-28T04:26:33Z"
+    },
+    {
+      "id": 639195966,
+      "fullName": "kyegomez/swarms",
+      "stars": 7214,
+      "forks": 1027,
+      "openIssues": 239,
+      "pushedAt": "2026-09-26T21:28:09Z"
+    },
+    {
+      "id": 241095326,
+      "fullName": "flwrlabs/flower",
+      "stars": 7150,
+      "forks": 1230,
+      "openIssues": 392,
+      "pushedAt": "2026-09-28T04:11:24Z"
+    },
+    {
+      "id": 184704903,
+      "fullName": "interpretml/interpret",
+      "stars": 6950,
+      "forks": 788,
+      "openIssues": 43,
+      "pushedAt": "2026-09-21T16:52:27Z"
+    },
+    {
+      "id": 855492641,
+      "fullName": "speedyapply/2027-AI-College-Jobs",
+      "stars": 6465,
+      "forks": 242,
+      "openIssues": 3,
+      "pushedAt": "2026-09-27T16:44:51Z"
+    },
+    {
+      "id": 649224670,
+      "fullName": "jeinlee1991/chinese-llm-benchmark",
+      "stars": 6451,
+      "forks": 264,
+      "openIssues": 19,
+      "pushedAt": "2026-09-26T03:27:11Z"
+    },
+    {
+      "id": 809673506,
+      "fullName": "Eigenwise/atomic-agents",
+      "stars": 6261,
+      "forks": 543,
+      "openIssues": 6,
+      "pushedAt": "2026-09-27T20:24:57Z"
+    },
+    {
+      "id": 622424201,
+      "fullName": "ikaijua/Awesome-AITools",
+      "stars": 6200,
+      "forks": 806,
+      "openIssues": 44,
+      "pushedAt": "2026-09-28T05:06:03Z"
+    },
+    {
+      "id": 1006104934,
+      "fullName": "CodeWithCJ/SparkyFitness",
+      "stars": 6138,
+      "forks": 383,
+      "openIssues": 148,
+      "pushedAt": "2026-09-28T02:01:27Z"
+    },
+    {
+      "id": 178075572,
+      "fullName": "kserve/kserve",
+      "stars": 6024,
+      "forks": 1706,
+      "openIssues": 214,
+      "pushedAt": "2026-09-28T01:25:40Z"
+    },
+    {
+      "id": 306980630,
+      "fullName": "lucidrains/x-transformers",
+      "stars": 5949,
+      "forks": 520,
+      "openIssues": 74,
+      "pushedAt": "2026-09-26T16:57:41Z"
+    },
+    {
+      "id": 485548415,
+      "fullName": "Eventual-Inc/Daft",
+      "stars": 5786,
+      "forks": 562,
+      "openIssues": 390,
+      "pushedAt": "2026-09-26T02:03:49Z"
+    },
+    {
+      "id": 841370602,
+      "fullName": "potpie-ai/potpie",
+      "stars": 5738,
+      "forks": 682,
+      "openIssues": 115,
+      "pushedAt": "2026-09-24T08:45:01Z"
+    },
+    {
+      "id": 1143295695,
+      "fullName": "unicity-sphere/sphere-sdk",
+      "stars": 5387,
+      "forks": 107,
+      "openIssues": 119,
+      "pushedAt": "2026-09-24T15:38:07Z"
+    },
+    {
+      "id": 942696497,
+      "fullName": "rasbt/reasoning-from-scratch",
+      "stars": 5305,
+      "forks": 833,
+      "openIssues": 2,
+      "pushedAt": "2026-09-23T15:55:10Z"
+    },
+    {
+      "id": 276901861,
+      "fullName": "sktime/pytorch-forecasting",
+      "stars": 4998,
+      "forks": 913,
+      "openIssues": 822,
+      "pushedAt": "2026-09-21T20:13:25Z"
+    },
+    {
+      "id": 1190778303,
+      "fullName": "alvinreal/awesome-opensource-ai",
+      "stars": 4795,
+      "forks": 663,
+      "openIssues": 22,
+      "pushedAt": "2026-09-27T08:33:46Z"
+    },
+    {
+      "id": 115744122,
+      "fullName": "google-deepmind/dm_control",
+      "stars": 4703,
+      "forks": 767,
+      "openIssues": 131,
+      "pushedAt": "2026-09-22T22:01:53Z"
+    },
+    {
+      "id": 744164276,
+      "fullName": "oracle-devrel/oracle-ai-developer-hub",
+      "stars": 4399,
+      "forks": 840,
+      "openIssues": 21,
+      "pushedAt": "2026-09-25T23:06:55Z"
+    },
+    {
+      "id": 629789089,
+      "fullName": "opengeos/segment-geospatial",
+      "stars": 4150,
+      "forks": 445,
+      "openIssues": 8,
+      "pushedAt": "2026-09-21T20:32:58Z"
+    },
+    {
+      "id": 409653223,
+      "fullName": "Nixtla/nixtla",
+      "stars": 4015,
+      "forks": 338,
+      "openIssues": 64,
+      "pushedAt": "2026-09-25T00:51:53Z"
+    },
+    {
+      "id": 271090649,
+      "fullName": "lucidrains/vector-quantize-pytorch",
+      "stars": 4009,
+      "forks": 340,
+      "openIssues": 54,
+      "pushedAt": "2026-09-24T04:04:21Z"
+    },
+    {
+      "id": 97159209,
+      "fullName": "TarrySingh/Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials",
+      "stars": 4006,
+      "forks": 1625,
+      "openIssues": 15,
+      "pushedAt": "2026-09-24T14:23:36Z"
+    },
+    {
+      "id": 50202460,
+      "fullName": "gopherdata/gophernotes",
+      "stars": 3966,
+      "forks": 264,
+      "openIssues": 54,
+      "pushedAt": "2026-09-23T13:53:49Z"
+    },
+    {
+      "id": 730728120,
+      "fullName": "Lightning-AI/LitServe",
+      "stars": 3943,
+      "forks": 309,
+      "openIssues": 57,
+      "pushedAt": "2026-09-22T07:34:21Z"
+    },
+    {
+      "id": 1346499044,
+      "fullName": "jub0t/Concat",
+      "stars": 3803,
+      "forks": 346,
+      "openIssues": 49,
+      "pushedAt": "2026-09-27T22:52:14Z"
+    },
+    {
+      "id": 77383688,
+      "fullName": "polyaxon/polyaxon",
+      "stars": 3737,
+      "forks": 330,
+      "openIssues": 125,
+      "pushedAt": "2026-09-24T10:20:58Z"
+    },
+    {
+      "id": 886966165,
+      "fullName": "morphik-org/morphik-core",
+      "stars": 3716,
+      "forks": 328,
+      "openIssues": 64,
+      "pushedAt": "2026-09-25T18:04:12Z"
+    },
+    {
+      "id": 290152313,
+      "fullName": "e-m-b-a/emba",
+      "stars": 3680,
+      "forks": 328,
+      "openIssues": 18,
+      "pushedAt": "2026-09-28T04:33:52Z"
+    },
+    {
+      "id": 681211986,
+      "fullName": "twinnydotdev/twinny",
+      "stars": 3655,
+      "forks": 229,
+      "openIssues": 51,
+      "pushedAt": "2026-09-28T03:05:01Z"
+    },
+    {
+      "id": 589385734,
+      "fullName": "edtechre/pybroker",
+      "stars": 3545,
+      "forks": 451,
+      "openIssues": 9,
+      "pushedAt": "2026-09-21T16:16:26Z"
+    },
+    {
+      "id": 734174248,
+      "fullName": "lakehq/sail",
+      "stars": 3400,
+      "forks": 220,
+      "openIssues": 278,
+      "pushedAt": "2026-09-28T04:52:09Z"
+    },
+    {
+      "id": 741100585,
+      "fullName": "langchain-ai/langgraphjs",
+      "stars": 3322,
+      "forks": 591,
+      "openIssues": 174,
+      "pushedAt": "2026-09-28T04:16:42Z"
+    },
+    {
+      "id": 619143361,
+      "fullName": "elevenlabs/elevenlabs-python",
+      "stars": 3116,
+      "forks": 450,
+      "openIssues": 42,
+      "pushedAt": "2026-09-24T15:02:43Z"
+    },
+    {
+      "id": 394089041,
+      "fullName": "spiceai/spiceai",
+      "stars": 3094,
+      "forks": 230,
+      "openIssues": 897,
+      "pushedAt": "2026-09-28T05:04:50Z"
+    },
+    {
+      "id": 99561213,
+      "fullName": "sonos/tract",
+      "stars": 3075,
+      "forks": 290,
+      "openIssues": 117,
+      "pushedAt": "2026-09-28T04:59:32Z"
+    },
+    {
+      "id": 159916548,
+      "fullName": "awesome-mlss/awesome-mlss",
+      "stars": 3031,
+      "forks": 319,
+      "openIssues": 8,
+      "pushedAt": "2026-09-26T10:36:31Z"
+    },
+    {
+      "id": 1066509034,
+      "fullName": "deepnote/deepnote",
+      "stars": 3009,
+      "forks": 197,
+      "openIssues": 41,
+      "pushedAt": "2026-09-26T22:02:50Z"
+    },
+    {
+      "id": 638156745,
+      "fullName": "zjunlp/EasyEdit",
+      "stars": 2927,
+      "forks": 377,
+      "openIssues": 1,
+      "pushedAt": "2026-09-24T08:01:21Z"
+    },
+    {
+      "id": 307222796,
+      "fullName": "MaximeVandegar/Papers-in-100-Lines-of-Code",
+      "stars": 2894,
+      "forks": 255,
+      "openIssues": 0,
+      "pushedAt": "2026-09-28T02:02:04Z"
+    },
+    {
+      "id": 1158138383,
+      "fullName": "CyberStrikeus/CyberStrike",
+      "stars": 2885,
+      "forks": 453,
+      "openIssues": 38,
+      "pushedAt": "2026-09-27T16:04:59Z"
+    },
+    {
+      "id": 688186076,
+      "fullName": "leptonai/leptonai",
+      "stars": 2824,
+      "forks": 198,
+      "openIssues": 23,
+      "pushedAt": "2026-09-28T01:31:45Z"
+    },
+    {
+      "id": 1226182842,
+      "fullName": "jingyaogong/minimind-o",
+      "stars": 2591,
+      "forks": 322,
+      "openIssues": 7,
+      "pushedAt": "2026-09-22T16:07:33Z"
+    },
+    {
+      "id": 133444044,
+      "fullName": "fairlearn/fairlearn",
+      "stars": 2287,
+      "forks": 517,
+      "openIssues": 126,
+      "pushedAt": "2026-09-21T20:56:33Z"
+    },
+    {
+      "id": 57377821,
+      "fullName": "TuringLang/Turing.jl",
+      "stars": 2257,
+      "forks": 245,
+      "openIssues": 14,
+      "pushedAt": "2026-09-27T03:38:52Z"
+    },
+    {
+      "id": 707764474,
+      "fullName": "tphakala/birdnet-go",
+      "stars": 2203,
+      "forks": 184,
+      "openIssues": 182,
+      "pushedAt": "2026-09-27T14:20:37Z"
+    },
+    {
+      "id": 885743839,
+      "fullName": "leofan90/Awesome-World-Models",
+      "stars": 2026,
+      "forks": 78,
+      "openIssues": 1,
+      "pushedAt": "2026-09-24T06:25:18Z"
+    },
+    {
+      "id": 625710399,
+      "fullName": "szczyglis-dev/py-gpt",
+      "stars": 1953,
+      "forks": 349,
+      "openIssues": 66,
+      "pushedAt": "2026-09-27T23:55:56Z"
+    },
+    {
+      "id": 706794274,
+      "fullName": "kyegomez/BitNet",
+      "stars": 1946,
+      "forks": 174,
+      "openIssues": 6,
+      "pushedAt": "2026-09-28T00:24:00Z"
+    },
+    {
+      "id": 652604373,
+      "fullName": "helallao/perplexity-ai",
+      "stars": 1909,
+      "forks": 339,
+      "openIssues": 11,
+      "pushedAt": "2026-09-27T07:01:50Z"
+    },
+    {
+      "id": 832482665,
+      "fullName": "zi-yue-1129/DATAGEN",
+      "stars": 1807,
+      "forks": 251,
+      "openIssues": 6,
+      "pushedAt": "2026-09-21T20:37:16Z"
+    },
+    {
+      "id": 620363420,
+      "fullName": "TimefoldAI/timefold-solver",
+      "stars": 1796,
+      "forks": 230,
+      "openIssues": 117,
+      "pushedAt": "2026-09-28T05:23:56Z"
+    },
+    {
+      "id": 1085525076,
+      "fullName": "steven-jianhao-li/zotero-AI-Butler",
+      "stars": 1764,
+      "forks": 98,
+      "openIssues": 20,
+      "pushedAt": "2026-09-21T19:05:14Z"
+    },
+    {
+      "id": 1200802466,
+      "fullName": "activeloopai/hivemind",
+      "stars": 1624,
+      "forks": 110,
+      "openIssues": 124,
+      "pushedAt": "2026-09-28T05:13:21Z"
+    },
+    {
+      "id": 195266931,
+      "fullName": "csinva/imodels",
+      "stars": 1621,
+      "forks": 143,
+      "openIssues": 9,
+      "pushedAt": "2026-09-28T04:51:16Z"
+    },
+    {
+      "id": 727495773,
+      "fullName": "Mirascope/mirascope",
+      "stars": 1528,
+      "forks": 127,
+      "openIssues": 20,
+      "pushedAt": "2026-09-24T06:23:13Z"
+    },
+    {
+      "id": 1023024788,
+      "fullName": "VersusControl/devops-ai-guidelines",
+      "stars": 1527,
+      "forks": 388,
+      "openIssues": 1,
+      "pushedAt": "2026-09-24T10:20:54Z"
+    },
+    {
+      "id": 580387696,
+      "fullName": "aeon-toolkit/aeon",
+      "stars": 1454,
+      "forks": 352,
+      "openIssues": 255,
+      "pushedAt": "2026-09-28T01:15:23Z"
+    },
+    {
+      "id": 1103066894,
+      "fullName": "Ramakm/ai-hands-on",
+      "stars": 1448,
+      "forks": 307,
+      "openIssues": 1,
+      "pushedAt": "2026-09-26T06:50:15Z"
+    },
+    {
+      "id": 151034518,
+      "fullName": "codota/tabnine-vscode",
+      "stars": 1431,
+      "forks": 200,
+      "openIssues": 7,
+      "pushedAt": "2026-09-26T12:47:50Z"
+    },
+    {
+      "id": 1139971460,
+      "fullName": "rtk-ai/rtk",
+      "stars": 81838,
+      "forks": 5190,
+      "openIssues": 1551,
+      "pushedAt": "2026-09-28T03:23:25Z"
+    },
+    {
+      "id": 203587744,
+      "fullName": "hoppscotch/hoppscotch",
+      "stars": 80530,
+      "forks": 6133,
+      "openIssues": 838,
+      "pushedAt": "2026-09-28T04:58:33Z"
+    },
+    {
+      "id": 1211139949,
+      "fullName": "tt-a1i/archify",
+      "stars": 72960,
+      "forks": 4930,
+      "openIssues": 176,
+      "pushedAt": "2026-09-28T05:08:59Z"
+    },
+    {
+      "id": 542284380,
+      "fullName": "usebruno/bruno",
+      "stars": 47231,
+      "forks": 2925,
+      "openIssues": 1848,
+      "pushedAt": "2026-09-28T04:16:05Z"
+    },
+    {
+      "id": 1134426800,
+      "fullName": "sickn33/agentic-awesome-skills",
+      "stars": 47003,
+      "forks": 6845,
+      "openIssues": 4,
+      "pushedAt": "2026-09-27T20:52:07Z"
+    },
+    {
+      "id": 204086862,
+      "fullName": "streamlit/streamlit",
+      "stars": 45845,
+      "forks": 4397,
+      "openIssues": 1183,
+      "pushedAt": "2026-09-28T04:44:19Z"
+    },
+    {
+      "id": 164140756,
+      "fullName": "files-community/Files",
+      "stars": 45707,
+      "forks": 2942,
+      "openIssues": 461,
+      "pushedAt": "2026-09-24T21:26:01Z"
+    },
+    {
+      "id": 1166102148,
+      "fullName": "DeusData/codebase-memory-mcp",
+      "stars": 45102,
+      "forks": 3702,
+      "openIssues": 638,
+      "pushedAt": "2026-09-28T01:02:56Z"
+    },
+    {
+      "id": 663900193,
+      "fullName": "sxyazi/yazi",
+      "stars": 42463,
+      "forks": 1029,
+      "openIssues": 67,
+      "pushedAt": "2026-09-21T23:25:15Z"
+    },
+    {
+      "id": 488641606,
+      "fullName": "agno-agi/agno",
+      "stars": 42358,
+      "forks": 6024,
+      "openIssues": 1691,
+      "pushedAt": "2026-09-28T04:08:48Z"
+    },
+    {
+      "id": 1193909050,
+      "fullName": "herdrdev/herdr",
+      "stars": 41061,
+      "forks": 3154,
+      "openIssues": 372,
+      "pushedAt": "2026-09-27T22:31:19Z"
+    },
+    {
+      "id": 275993885,
+      "fullName": "appsmithorg/appsmith",
+      "stars": 40959,
+      "forks": 4774,
+      "openIssues": 4491,
+      "pushedAt": "2026-09-26T16:39:17Z"
+    },
+    {
+      "id": 253222599,
+      "fullName": "CorentinTh/it-tools",
+      "stars": 40702,
+      "forks": 5447,
+      "openIssues": 825,
+      "pushedAt": "2026-09-27T13:46:40Z"
+    },
+    {
+      "id": 6731432,
+      "fullName": "koalaman/shellcheck",
+      "stars": 40089,
+      "forks": 1951,
+      "openIssues": 1134,
+      "pushedAt": "2026-09-26T23:34:46Z"
+    },
+    {
+      "id": 13840241,
+      "fullName": "freeCodeCamp/devdocs",
+      "stars": 39495,
+      "forks": 2646,
+      "openIssues": 197,
+      "pushedAt": "2026-09-25T02:02:22Z"
+    },
+    {
+      "id": 120425779,
+      "fullName": "lapce/lapce",
+      "stars": 38870,
+      "forks": 1336,
+      "openIssues": 908,
+      "pushedAt": "2026-09-28T00:54:59Z"
+    },
+    {
+      "id": 644686905,
+      "fullName": "continuedev/continue",
+      "stars": 36050,
+      "forks": 5430,
+      "openIssues": 843,
+      "pushedAt": "2026-09-27T10:04:04Z"
+    },
+    {
+      "id": 1216785679,
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "stars": 35705,
+      "forks": 2422,
+      "openIssues": 131,
+      "pushedAt": "2026-09-28T05:19:54Z"
+    },
+    {
+      "id": 1180745961,
+      "fullName": "JCodesMore/ai-website-cloner-template",
+      "stars": 35376,
+      "forks": 5173,
+      "openIssues": 1,
+      "pushedAt": "2026-09-27T04:51:46Z"
+    },
+    {
+      "id": 762304524,
+      "fullName": "ComposioHQ/composio",
+      "stars": 30342,
+      "forks": 4831,
+      "openIssues": 108,
+      "pushedAt": "2026-09-28T01:08:50Z"
+    },
+    {
+      "id": 557075997,
+      "fullName": "reflex-dev/reflex",
+      "stars": 28918,
+      "forks": 1787,
+      "openIssues": 387,
+      "pushedAt": "2026-09-27T18:46:16Z"
+    },
+    {
+      "id": 1008713177,
+      "fullName": "QwenLM/qwen-code",
+      "stars": 28176,
+      "forks": 3119,
+      "openIssues": 1506,
+      "pushedAt": "2026-09-28T05:17:10Z"
+    },
+    {
+      "id": 929121414,
+      "fullName": "coleam00/Archon",
+      "stars": 23570,
+      "forks": 3487,
+      "openIssues": 318,
+      "pushedAt": "2026-09-27T21:29:11Z"
+    },
+    {
+      "id": 501045649,
+      "fullName": "wavetermdev/waveterm",
+      "stars": 22375,
+      "forks": 1142,
+      "openIssues": 564,
+      "pushedAt": "2026-09-25T18:46:26Z"
+    },
+    {
+      "id": 66150122,
+      "fullName": "jarun/nnn",
+      "stars": 22017,
+      "forks": 822,
+      "openIssues": 1,
+      "pushedAt": "2026-09-28T00:42:46Z"
+    },
+    {
+      "id": 1202599845,
+      "fullName": "KKKKhazix/khazix-skills",
+      "stars": 20962,
+      "forks": 2216,
+      "openIssues": 49,
+      "pushedAt": "2026-09-25T20:14:48Z"
+    },
+    {
+      "id": 780737106,
+      "fullName": "SWE-agent/SWE-agent",
+      "stars": 20433,
+      "forks": 2237,
+      "openIssues": 126,
+      "pushedAt": "2026-09-21T22:02:50Z"
+    },
+    {
+      "id": 911303109,
+      "fullName": "iii-hq/iii",
+      "stars": 18814,
+      "forks": 1269,
+      "openIssues": 97,
+      "pushedAt": "2026-09-27T15:16:55Z"
+    },
+    {
+      "id": 1075381375,
+      "fullName": "getpaseo/paseo",
+      "stars": 18734,
+      "forks": 2153,
+      "openIssues": 948,
+      "pushedAt": "2026-09-27T12:01:39Z"
+    },
+    {
+      "id": 1102195393,
+      "fullName": "tradecatlabs/vibe-coding-cn",
+      "stars": 16745,
+      "forks": 1694,
+      "openIssues": 9,
+      "pushedAt": "2026-09-27T20:23:31Z"
+    },
+    {
+      "id": 1273824907,
+      "fullName": "lidge-jun/opencodex",
+      "stars": 16503,
+      "forks": 1238,
+      "openIssues": 111,
+      "pushedAt": "2026-09-28T04:35:12Z"
+    },
+    {
+      "id": 708266011,
+      "fullName": "Automattic/harper",
+      "stars": 15987,
+      "forks": 687,
+      "openIssues": 945,
+      "pushedAt": "2026-09-28T01:14:25Z"
+    },
+    {
+      "id": 118654121,
+      "fullName": "GoogleContainerTools/skaffold",
+      "stars": 15896,
+      "forks": 1703,
+      "openIssues": 912,
+      "pushedAt": "2026-09-25T20:13:04Z"
+    },
+    {
+      "id": 83878269,
+      "fullName": "treeverse/dvc",
+      "stars": 15889,
+      "forks": 1330,
+      "openIssues": 214,
+      "pushedAt": "2026-09-28T02:04:04Z"
+    },
+    {
+      "id": 1080370450,
+      "fullName": "superset-sh/superset",
+      "stars": 14691,
+      "forks": 1306,
+      "openIssues": 792,
+      "pushedAt": "2026-09-28T00:57:26Z"
+    },
+    {
+      "id": 1034425196,
+      "fullName": "sirmalloc/ccstatusline",
+      "stars": 13068,
+      "forks": 583,
+      "openIssues": 127,
+      "pushedAt": "2026-09-21T08:44:49Z"
+    },
+    {
+      "id": 7711472,
+      "fullName": "zealdocs/zeal",
+      "stars": 12808,
+      "forks": 844,
+      "openIssues": 107,
+      "pushedAt": "2026-09-27T17:57:00Z"
+    },
+    {
+      "id": 1076362809,
+      "fullName": "corsairdev/corsair",
+      "stars": 12543,
+      "forks": 666,
+      "openIssues": 306,
+      "pushedAt": "2026-09-24T21:30:24Z"
+    },
+    {
+      "id": 806285077,
+      "fullName": "darrenburns/posting",
+      "stars": 12460,
+      "forks": 276,
+      "openIssues": 76,
+      "pushedAt": "2026-09-26T22:13:33Z"
+    },
+    {
+      "id": 325724738,
+      "fullName": "grafana/pyroscope",
+      "stars": 11678,
+      "forks": 812,
+      "openIssues": 417,
+      "pushedAt": "2026-09-28T05:03:10Z"
+    },
+    {
+      "id": 1209889782,
+      "fullName": "getagentseal/codeburn",
+      "stars": 11263,
+      "forks": 864,
+      "openIssues": 28,
+      "pushedAt": "2026-09-27T15:18:05Z"
+    },
+    {
+      "id": 1266212515,
+      "fullName": "omnigent-ai/omnigent",
+      "stars": 10309,
+      "forks": 1636,
+      "openIssues": 1535,
+      "pushedAt": "2026-09-28T05:04:47Z"
+    },
+    {
+      "id": 814882742,
+      "fullName": "iib0011/omni-tools",
+      "stars": 10252,
+      "forks": 717,
+      "openIssues": 96,
+      "pushedAt": "2026-09-25T10:07:34Z"
+    },
+    {
+      "id": 1105657641,
+      "fullName": "ykdojo/claude-code-tips",
+      "stars": 10151,
+      "forks": 820,
+      "openIssues": 4,
+      "pushedAt": "2026-09-25T03:50:54Z"
+    },
+    {
+      "id": 59522149,
+      "fullName": "gruntwork-io/terragrunt",
+      "stars": 9859,
+      "forks": 1227,
+      "openIssues": 219,
+      "pushedAt": "2026-09-26T18:12:56Z"
+    },
+    {
+      "id": 1288325627,
+      "fullName": "trailhq/Graft",
+      "stars": 9319,
+      "forks": 855,
+      "openIssues": 228,
+      "pushedAt": "2026-09-28T00:12:44Z"
+    },
+    {
+      "id": 81226206,
+      "fullName": "karatelabs/karate",
+      "stars": 8970,
+      "forks": 2045,
+      "openIssues": 0,
+      "pushedAt": "2026-09-27T05:27:29Z"
+    },
+    {
+      "id": 1078528927,
+      "fullName": "max-sixty/worktrunk",
+      "stars": 8440,
+      "forks": 302,
+      "openIssues": 51,
+      "pushedAt": "2026-09-28T05:23:48Z"
+    },
+    {
+      "id": 555988330,
+      "fullName": "cachix/devenv",
+      "stars": 7683,
+      "forks": 572,
+      "openIssues": 370,
+      "pushedAt": "2026-09-27T21:44:43Z"
+    },
+    {
+      "id": 1138200460,
+      "fullName": "rorkai/App-Store-Connect-CLI",
+      "stars": 7439,
+      "forks": 628,
+      "openIssues": 23,
+      "pushedAt": "2026-09-28T05:03:11Z"
+    },
+    {
+      "id": 1168900408,
+      "fullName": "Gentleman-Programming/gentle-ai",
+      "stars": 7352,
+      "forks": 804,
+      "openIssues": 917,
+      "pushedAt": "2026-09-27T19:55:55Z"
+    },
+    {
+      "id": 578839,
+      "fullName": "universal-ctags/ctags",
+      "stars": 7289,
+      "forks": 672,
+      "openIssues": 263,
+      "pushedAt": "2026-09-27T00:18:03Z"
+    },
+    {
+      "id": 1147838400,
+      "fullName": "anbeime/skill",
+      "stars": 7285,
+      "forks": 670,
+      "openIssues": 19,
+      "pushedAt": "2026-09-27T07:41:59Z"
+    },
+    {
+      "id": 68546136,
+      "fullName": "watchexec/watchexec",
+      "stars": 7204,
+      "forks": 203,
+      "openIssues": 36,
+      "pushedAt": "2026-09-23T05:33:57Z"
+    },
+    {
+      "id": 1189384516,
+      "fullName": "repowise-dev/repowise",
+      "stars": 7070,
+      "forks": 747,
+      "openIssues": 216,
+      "pushedAt": "2026-09-27T14:22:02Z"
+    },
+    {
+      "id": 475337801,
+      "fullName": "massCodeIO/massCode",
+      "stars": 7003,
+      "forks": 270,
+      "openIssues": 2,
+      "pushedAt": "2026-09-27T09:53:42Z"
+    },
+    {
+      "id": 75255555,
+      "fullName": "requestly/requestly",
+      "stars": 6760,
+      "forks": 692,
+      "openIssues": 272,
+      "pushedAt": "2026-09-25T10:30:31Z"
+    },
+    {
+      "id": 668673665,
+      "fullName": "FalkorDB/FalkorDB",
+      "stars": 6324,
+      "forks": 471,
+      "openIssues": 944,
+      "pushedAt": "2026-09-28T00:27:59Z"
+    },
+    {
+      "id": 1156797572,
+      "fullName": "builderz-labs/mission-control",
+      "stars": 6279,
+      "forks": 95,
+      "openIssues": 41,
+      "pushedAt": "2026-09-28T00:26:57Z"
+    },
+    {
+      "id": 10353211,
+      "fullName": "kucherenko/jscpd",
+      "stars": 6277,
+      "forks": 265,
+      "openIssues": 41,
+      "pushedAt": "2026-09-27T20:05:48Z"
+    },
+    {
+      "id": 1133901637,
+      "fullName": "Q00/ouroboros",
+      "stars": 6120,
+      "forks": 614,
+      "openIssues": 101,
+      "pushedAt": "2026-09-28T02:30:48Z"
+    },
+    {
+      "id": 9135204,
+      "fullName": "maildev/maildev",
+      "stars": 6113,
+      "forks": 563,
+      "openIssues": 36,
+      "pushedAt": "2026-09-24T13:59:51Z"
+    },
+    {
+      "id": 1130004860,
+      "fullName": "Dicklesworthstone/destructive_command_guard",
+      "stars": 6064,
+      "forks": 251,
+      "openIssues": 5,
+      "pushedAt": "2026-09-28T03:22:33Z"
+    },
+    {
+      "id": 1131107802,
+      "fullName": "FlorianBruniaux/claude-code-ultimate-guide",
+      "stars": 6048,
+      "forks": 795,
+      "openIssues": 2,
+      "pushedAt": "2026-09-27T15:15:39Z"
+    },
+    {
+      "id": 1143237475,
+      "fullName": "Galaxy-Dawn/claude-scholar",
+      "stars": 5647,
+      "forks": 443,
+      "openIssues": 3,
+      "pushedAt": "2026-09-23T07:23:56Z"
+    },
+    {
+      "id": 1208642537,
+      "fullName": "KnockOutEZ/wigolo",
+      "stars": 5417,
+      "forks": 440,
+      "openIssues": 68,
+      "pushedAt": "2026-09-28T04:19:20Z"
+    },
+    {
+      "id": 1117250245,
+      "fullName": "braedonsaunders/codeflow",
+      "stars": 5346,
+      "forks": 808,
+      "openIssues": 1,
+      "pushedAt": "2026-09-22T15:49:35Z"
+    },
+    {
+      "id": 454467716,
+      "fullName": "metalbear-co/mirrord",
+      "stars": 5340,
+      "forks": 218,
+      "openIssues": 69,
+      "pushedAt": "2026-09-28T04:10:03Z"
+    },
+    {
+      "id": 222507066,
+      "fullName": "AnswerDotAI/nbdev",
+      "stars": 5316,
+      "forks": 516,
+      "openIssues": 186,
+      "pushedAt": "2026-09-25T00:13:45Z"
+    },
+    {
+      "id": 145153231,
+      "fullName": "devspace-sh/devspace",
+      "stars": 5192,
+      "forks": 425,
+      "openIssues": 95,
+      "pushedAt": "2026-09-21T09:23:40Z"
+    },
+    {
+      "id": 1003043071,
+      "fullName": "vitali87/code-graph-rag",
+      "stars": 5183,
+      "forks": 685,
+      "openIssues": 115,
+      "pushedAt": "2026-09-28T05:16:37Z"
+    },
+    {
+      "id": 362500938,
+      "fullName": "argilla-io/argilla",
+      "stars": 5125,
+      "forks": 507,
+      "openIssues": 36,
+      "pushedAt": "2026-09-21T22:14:04Z"
+    },
+    {
+      "id": 1092562478,
+      "fullName": "unhappychoice/gitlogue",
+      "stars": 5008,
+      "forks": 116,
+      "openIssues": 12,
+      "pushedAt": "2026-09-25T00:05:07Z"
+    },
+    {
+      "id": 1184090452,
+      "fullName": "fallow-rs/fallow",
+      "stars": 4931,
+      "forks": 166,
+      "openIssues": 7,
+      "pushedAt": "2026-09-27T23:07:58Z"
+    },
+    {
+      "id": 1122347787,
+      "fullName": "nguyenphutrong/quotio",
+      "stars": 4876,
+      "forks": 324,
+      "openIssues": 137,
+      "pushedAt": "2026-09-27T10:54:31Z"
+    },
+    {
+      "id": 342030057,
+      "fullName": "sayanarijit/xplr",
+      "stars": 4833,
+      "forks": 96,
+      "openIssues": 13,
+      "pushedAt": "2026-09-23T09:17:39Z"
+    },
+    {
+      "id": 1189732822,
+      "fullName": "mvanhorn/cli-printing-press",
+      "stars": 4751,
+      "forks": 516,
+      "openIssues": 48,
+      "pushedAt": "2026-09-27T23:35:00Z"
+    },
+    {
+      "id": 1282680810,
+      "fullName": "Jia-Ethan/codex-keysmith",
+      "stars": 4624,
+      "forks": 719,
+      "openIssues": 2,
+      "pushedAt": "2026-09-27T15:12:31Z"
+    },
+    {
+      "id": 187916430,
+      "fullName": "muety/wakapi",
+      "stars": 4435,
+      "forks": 302,
+      "openIssues": 37,
+      "pushedAt": "2026-09-25T13:42:40Z"
+    },
+    {
+      "id": 1227102698,
+      "fullName": "crafter-station/petdex",
+      "stars": 4164,
+      "forks": 208,
+      "openIssues": 11,
+      "pushedAt": "2026-09-27T20:31:42Z"
+    },
+    {
+      "id": 581225647,
+      "fullName": "flox/flox",
+      "stars": 4147,
+      "forks": 131,
+      "openIssues": 447,
+      "pushedAt": "2026-09-25T21:35:13Z"
+    },
+    {
+      "id": 1134819911,
+      "fullName": "nyldn/claude-octopus",
+      "stars": 4106,
+      "forks": 385,
+      "openIssues": 9,
+      "pushedAt": "2026-09-28T05:10:19Z"
+    },
+    {
+      "id": 1051789550,
+      "fullName": "Gaurav-Gosain/tuios",
+      "stars": 3972,
+      "forks": 156,
+      "openIssues": 21,
+      "pushedAt": "2026-09-28T05:13:53Z"
+    },
+    {
+      "id": 1152166697,
+      "fullName": "matt1398/claude-devtools",
+      "stars": 3951,
+      "forks": 302,
+      "openIssues": 51,
+      "pushedAt": "2026-09-26T07:43:48Z"
+    },
+    {
+      "id": 1158449837,
+      "fullName": "golutra/golutra",
+      "stars": 3848,
+      "forks": 442,
+      "openIssues": 57,
+      "pushedAt": "2026-09-24T04:17:25Z"
+    },
+    {
+      "id": 1189918673,
+      "fullName": "yvgude/lean-ctx",
+      "stars": 3842,
+      "forks": 351,
+      "openIssues": 7,
+      "pushedAt": "2026-09-27T18:00:42Z"
+    },
+    {
+      "id": 1248955957,
+      "fullName": "code-yeongyu/lazycodex",
+      "stars": 3687,
+      "forks": 232,
+      "openIssues": 17,
+      "pushedAt": "2026-09-27T06:08:51Z"
+    },
+    {
+      "id": 786187721,
+      "fullName": "rio-labs/rio",
+      "stars": 3646,
+      "forks": 158,
+      "openIssues": 75,
+      "pushedAt": "2026-09-22T19:18:04Z"
+    },
+    {
+      "id": 1301657572,
+      "fullName": "superdesigndev/treg",
+      "stars": 3605,
+      "forks": 294,
+      "openIssues": 84,
+      "pushedAt": "2026-09-28T05:19:29Z"
+    },
+    {
+      "id": 24195339,
+      "fullName": "angular/angular",
+      "stars": 101032,
+      "forks": 28845,
+      "openIssues": 1195,
+      "pushedAt": "2026-09-25T23:56:17Z"
+    },
+    {
+      "id": 3678731,
+      "fullName": "webpack/webpack",
+      "stars": 65965,
+      "forks": 9545,
+      "openIssues": 124,
+      "pushedAt": "2026-09-28T03:46:33Z"
+    },
+    {
+      "id": 572984571,
+      "fullName": "twentyhq/twenty",
+      "stars": 57589,
+      "forks": 9330,
+      "openIssues": 137,
+      "pushedAt": "2026-09-28T03:31:09Z"
+    },
+    {
+      "id": 180190854,
+      "fullName": "appwrite/appwrite",
+      "stars": 57496,
+      "forks": 5751,
+      "openIssues": 687,
+      "pushedAt": "2026-09-27T13:23:26Z"
+    },
+    {
+      "id": 24953448,
+      "fullName": "google/material-design-icons",
+      "stars": 54033,
+      "forks": 9751,
+      "openIssues": 426,
+      "pushedAt": "2026-09-25T02:19:04Z"
+    },
+    {
+      "id": 12256376,
+      "fullName": "ionic-team/ionic-framework",
+      "stars": 52686,
+      "forks": 13304,
+      "openIssues": 588,
+      "pushedAt": "2026-09-28T05:12:16Z"
+    },
+    {
+      "id": 65750241,
+      "fullName": "expo/expo",
+      "stars": 52467,
+      "forks": 14237,
+      "openIssues": 925,
+      "pushedAt": "2026-09-28T02:29:24Z"
+    },
+    {
+      "id": 838695230,
+      "fullName": "DavidHDev/react-bits",
+      "stars": 48182,
+      "forks": 2352,
+      "openIssues": 2,
+      "pushedAt": "2026-09-27T20:48:21Z"
+    },
+    {
+      "id": 99598595,
+      "fullName": "parcel-bundler/parcel",
+      "stars": 44024,
+      "forks": 2287,
+      "openIssues": 610,
+      "pushedAt": "2026-09-27T22:06:28Z"
+    },
+    {
+      "id": 4710920,
+      "fullName": "apache/dubbo",
+      "stars": 41582,
+      "forks": 26357,
+      "openIssues": 1048,
+      "pushedAt": "2026-09-23T11:15:29Z"
+    },
+    {
+      "id": 234231371,
+      "fullName": "gofiber/fiber",
+      "stars": 40185,
+      "forks": 2040,
+      "openIssues": 28,
+      "pushedAt": "2026-09-28T04:01:42Z"
+    },
+    {
+      "id": 329782568,
+      "fullName": "DioxusLabs/dioxus",
+      "stars": 39275,
+      "forks": 1903,
+      "openIssues": 801,
+      "pushedAt": "2026-09-26T23:47:15Z"
+    },
+    {
+      "id": 3390243,
+      "fullName": "servo/servo",
+      "stars": 38046,
+      "forks": 3806,
+      "openIssues": 3238,
+      "pushedAt": "2026-09-28T05:00:44Z"
+    },
+    {
+      "id": 2909429,
+      "fullName": "nicolargo/glances",
+      "stars": 33698,
+      "forks": 1821,
+      "openIssues": 124,
+      "pushedAt": "2026-09-27T22:35:21Z"
+    },
+    {
+      "id": 307489284,
+      "fullName": "remix-run/remix",
+      "stars": 33377,
+      "forks": 2790,
+      "openIssues": 29,
+      "pushedAt": "2026-09-25T20:13:33Z"
+    },
+    {
+      "id": 114466145,
+      "fullName": "yewstack/yew",
+      "stars": 32819,
+      "forks": 1452,
+      "openIssues": 122,
+      "pushedAt": "2026-09-24T19:54:52Z"
+    },
+    {
+      "id": 31504491,
+      "fullName": "labstack/echo",
+      "stars": 32734,
+      "forks": 3526,
+      "openIssues": 49,
+      "pushedAt": "2026-09-27T23:46:48Z"
+    },
+    {
+      "id": 1062458369,
+      "fullName": "alibaba/page-agent",
+      "stars": 29245,
+      "forks": 2635,
+      "openIssues": 97,
+      "pushedAt": "2026-09-21T19:07:30Z"
+    },
+    {
+      "id": 671654508,
+      "fullName": "biomejs/biome",
+      "stars": 25865,
+      "forks": 1253,
+      "openIssues": 405,
+      "pushedAt": "2026-09-28T05:05:17Z"
+    },
+    {
+      "id": 105379569,
+      "fullName": "actix/actix-web",
+      "stars": 24846,
+      "forks": 1887,
+      "openIssues": 196,
+      "pushedAt": "2026-09-27T18:27:56Z"
+    },
+    {
+      "id": 368917877,
+      "fullName": "QwikDev/qwik",
+      "stars": 22067,
+      "forks": 1402,
+      "openIssues": 111,
+      "pushedAt": "2026-09-28T02:47:33Z"
+    },
+    {
+      "id": 519882617,
+      "fullName": "leptos-rs/leptos",
+      "stars": 21333,
+      "forks": 901,
+      "openIssues": 116,
+      "pushedAt": "2026-09-26T19:37:43Z"
+    },
+    {
+      "id": 293498508,
+      "fullName": "JetBrains/compose-multiplatform",
+      "stars": 19389,
+      "forks": 1430,
+      "openIssues": 25,
+      "pushedAt": "2026-09-26T03:22:02Z"
+    },
+    {
+      "id": 574104779,
+      "fullName": "elysiajs/elysia",
+      "stars": 19196,
+      "forks": 602,
+      "openIssues": 388,
+      "pushedAt": "2026-09-24T17:13:53Z"
+    },
+    {
+      "id": 16986405,
+      "fullName": "liabru/matter-js",
+      "stars": 18435,
+      "forks": 1993,
+      "openIssues": 278,
+      "pushedAt": "2026-09-24T20:19:28Z"
+    },
+    {
+      "id": 758623687,
+      "fullName": "eythaann/Seelen-UI",
+      "stars": 17893,
+      "forks": 612,
+      "openIssues": 66,
+      "pushedAt": "2026-09-27T19:59:02Z"
+    },
+    {
+      "id": 473670467,
+      "fullName": "flet-dev/flet",
+      "stars": 17130,
+      "forks": 712,
+      "openIssues": 310,
+      "pushedAt": "2026-09-28T01:47:35Z"
+    },
+    {
+      "id": 156681830,
+      "fullName": "ffuf/ffuf",
+      "stars": 16751,
+      "forks": 1605,
+      "openIssues": 234,
+      "pushedAt": "2026-09-26T08:58:08Z"
+    },
+    {
+      "id": 48117679,
+      "fullName": "rjsf-team/react-jsonschema-form",
+      "stars": 15905,
+      "forks": 2339,
+      "openIssues": 124,
+      "pushedAt": "2026-09-28T03:30:09Z"
+    },
+    {
+      "id": 32131850,
+      "fullName": "avwo/whistle",
+      "stars": 15709,
+      "forks": 1179,
+      "openIssues": 82,
+      "pushedAt": "2026-09-21T02:43:12Z"
+    },
+    {
+      "id": 19117456,
+      "fullName": "formatjs/formatjs",
+      "stars": 14744,
+      "forks": 1386,
+      "openIssues": 6,
+      "pushedAt": "2026-09-27T06:22:36Z"
+    },
+    {
+      "id": 40136600,
+      "fullName": "ktorio/ktor",
+      "stars": 14532,
+      "forks": 1311,
+      "openIssues": 198,
+      "pushedAt": "2026-09-25T14:36:13Z"
+    },
+    {
+      "id": 36606437,
+      "fullName": "Tencent/omi",
+      "stars": 13272,
+      "forks": 1254,
+      "openIssues": 68,
+      "pushedAt": "2026-09-24T07:37:08Z"
+    },
+    {
+      "id": 476642602,
+      "fullName": "web-infra-dev/rspack",
+      "stars": 12930,
+      "forks": 861,
+      "openIssues": 239,
+      "pushedAt": "2026-09-28T04:34:54Z"
+    },
+    {
+      "id": 21244505,
+      "fullName": "qutebrowser/qutebrowser",
+      "stars": 11705,
+      "forks": 1133,
+      "openIssues": 1336,
+      "pushedAt": "2026-09-28T04:38:41Z"
+    },
+    {
+      "id": 127049550,
+      "fullName": "material-components/material-web",
+      "stars": 11282,
+      "forks": 1144,
+      "openIssues": 185,
+      "pushedAt": "2026-09-25T05:02:41Z"
+    },
+    {
+      "id": 867337374,
+      "fullName": "modelcontextprotocol/inspector",
+      "stars": 10966,
+      "forks": 1529,
+      "openIssues": 43,
+      "pushedAt": "2026-09-27T05:42:05Z"
+    },
+    {
+      "id": 143580,
+      "fullName": "django-cms/django-cms",
+      "stars": 10672,
+      "forks": 3194,
+      "openIssues": 7,
+      "pushedAt": "2026-09-26T20:45:42Z"
+    },
+    {
+      "id": 1023959202,
+      "fullName": "RunanywhereAI/runanywhere-sdks",
+      "stars": 10315,
+      "forks": 382,
+      "openIssues": 154,
+      "pushedAt": "2026-09-24T16:06:50Z"
+    },
+    {
+      "id": 320636477,
+      "fullName": "WebKit/WebKit",
+      "stars": 10187,
+      "forks": 2196,
+      "openIssues": 2766,
+      "pushedAt": "2026-09-28T04:58:18Z"
+    },
+    {
+      "id": 7040500,
+      "fullName": "falconry/falcon",
+      "stars": 9804,
+      "forks": 1037,
+      "openIssues": 159,
+      "pushedAt": "2026-09-25T08:40:09Z"
+    },
+    {
+      "id": 357671824,
+      "fullName": "ghostfolio/ghostfolio",
+      "stars": 9367,
+      "forks": 1337,
+      "openIssues": 331,
+      "pushedAt": "2026-09-27T15:51:51Z"
+    },
+    {
+      "id": 238514517,
+      "fullName": "tsparticles/tsparticles",
+      "stars": 8982,
+      "forks": 945,
+      "openIssues": 19,
+      "pushedAt": "2026-09-25T22:06:56Z"
+    },
+    {
+      "id": 656494,
+      "fullName": "cakephp/cakephp",
+      "stars": 8791,
+      "forks": 3363,
+      "openIssues": 19,
+      "pushedAt": "2026-09-28T03:29:15Z"
+    },
+    {
+      "id": 140669486,
+      "fullName": "midwayjs/midway",
+      "stars": 7745,
+      "forks": 584,
+      "openIssues": 116,
+      "pushedAt": "2026-09-27T17:17:16Z"
+    },
+    {
+      "id": 458663914,
+      "fullName": "ekzhang/sshx",
+      "stars": 7670,
+      "forks": 304,
+      "openIssues": 27,
+      "pushedAt": "2026-09-21T04:48:52Z"
+    },
+    {
+      "id": 378100758,
+      "fullName": "sparckles/Robyn",
+      "stars": 7408,
+      "forks": 342,
+      "openIssues": 102,
+      "pushedAt": "2026-09-21T18:18:23Z"
+    },
+    {
+      "id": 86350964,
+      "fullName": "the-benchmarker/web-frameworks",
+      "stars": 7089,
+      "forks": 734,
+      "openIssues": 226,
+      "pushedAt": "2026-09-27T14:20:39Z"
+    },
+    {
+      "id": 40687563,
+      "fullName": "oppia/oppia",
+      "stars": 6825,
+      "forks": 5746,
+      "openIssues": 1815,
+      "pushedAt": "2026-09-28T03:37:44Z"
+    },
+    {
+      "id": 418086942,
+      "fullName": "plainhub/plain-app",
+      "stars": 6799,
+      "forks": 419,
+      "openIssues": 64,
+      "pushedAt": "2026-09-27T15:23:56Z"
+    },
+    {
+      "id": 1104341840,
+      "fullName": "shiaho777/web-to-app",
+      "stars": 6587,
+      "forks": 1011,
+      "openIssues": 13,
+      "pushedAt": "2026-09-28T03:40:09Z"
+    },
+    {
+      "id": 12004006,
+      "fullName": "hanami/hanami",
+      "stars": 6418,
+      "forks": 552,
+      "openIssues": 33,
+      "pushedAt": "2026-09-25T03:33:34Z"
+    },
+    {
+      "id": 51344082,
+      "fullName": "thelounge/thelounge",
+      "stars": 6341,
+      "forks": 784,
+      "openIssues": 315,
+      "pushedAt": "2026-09-24T19:02:58Z"
+    },
+    {
+      "id": 25158026,
+      "fullName": "BrowserWorks/waterfox",
+      "stars": 6315,
+      "forks": 432,
+      "openIssues": 353,
+      "pushedAt": "2026-09-22T17:15:31Z"
+    },
+    {
+      "id": 1127650407,
+      "fullName": "asciimoo/hister",
+      "stars": 5769,
+      "forks": 250,
+      "openIssues": 63,
+      "pushedAt": "2026-09-27T15:05:49Z"
+    },
+    {
+      "id": 1339922,
+      "fullName": "ServiceStack/ServiceStack",
+      "stars": 5499,
+      "forks": 1603,
+      "openIssues": 35,
+      "pushedAt": "2026-09-26T11:15:08Z"
+    },
+    {
+      "id": 382378702,
+      "fullName": "web-infra-dev/modern.js",
+      "stars": 5048,
+      "forks": 422,
+      "openIssues": 58,
+      "pushedAt": "2026-09-28T03:57:41Z"
+    },
+    {
+      "id": 176644153,
+      "fullName": "vugu/vugu",
+      "stars": 5005,
+      "forks": 174,
+      "openIssues": 117,
+      "pushedAt": "2026-09-23T13:15:47Z"
+    },
+    {
+      "id": 32761091,
+      "fullName": "AlmasB/FXGL",
+      "stars": 4861,
+      "forks": 710,
+      "openIssues": 160,
+      "pushedAt": "2026-09-25T21:23:37Z"
+    },
+    {
+      "id": 124166804,
+      "fullName": "flutter-webrtc/flutter-webrtc",
+      "stars": 4491,
+      "forks": 1460,
+      "openIssues": 718,
+      "pushedAt": "2026-09-22T16:52:31Z"
+    },
+    {
+      "id": 2751199,
+      "fullName": "geoserver/geoserver",
+      "stars": 4463,
+      "forks": 2335,
+      "openIssues": 34,
+      "pushedAt": "2026-09-25T17:47:11Z"
+    },
+    {
+      "id": 394929332,
+      "fullName": "poem-web/poem",
+      "stars": 4443,
+      "forks": 360,
+      "openIssues": 195,
+      "pushedAt": "2026-09-25T07:21:01Z"
+    },
+    {
+      "id": 220185454,
+      "fullName": "salvo-rs/salvo",
+      "stars": 4437,
+      "forks": 272,
+      "openIssues": 24,
+      "pushedAt": "2026-09-24T07:34:08Z"
+    },
+    {
+      "id": 245763170,
+      "fullName": "danielgtaylor/huma",
+      "stars": 4425,
+      "forks": 289,
+      "openIssues": 132,
+      "pushedAt": "2026-09-27T13:46:49Z"
+    },
+    {
+      "id": 31315021,
+      "fullName": "Kinto/kinto",
+      "stars": 4418,
+      "forks": 438,
+      "openIssues": 95,
+      "pushedAt": "2026-09-25T06:25:27Z"
+    },
+    {
+      "id": 27195711,
+      "fullName": "alextselegidis/easyappointments",
+      "stars": 4395,
+      "forks": 1570,
+      "openIssues": 166,
+      "pushedAt": "2026-09-25T14:45:55Z"
+    },
+    {
+      "id": 298620687,
+      "fullName": "taiga-family/taiga-ui",
+      "stars": 4057,
+      "forks": 576,
+      "openIssues": 143,
+      "pushedAt": "2026-09-27T12:55:46Z"
+    },
+    {
+      "id": 32675488,
+      "fullName": "yacy/yacy_search_server",
+      "stars": 4045,
+      "forks": 502,
+      "openIssues": 241,
+      "pushedAt": "2026-09-23T06:34:22Z"
+    },
+    {
+      "id": 439824270,
+      "fullName": "rejetto/hfs",
+      "stars": 3922,
+      "forks": 371,
+      "openIssues": 18,
+      "pushedAt": "2026-09-27T15:53:41Z"
+    },
+    {
+      "id": 5103785,
+      "fullName": "undertow-io/undertow",
+      "stars": 3760,
+      "forks": 1051,
+      "openIssues": 45,
+      "pushedAt": "2026-09-24T14:06:34Z"
+    },
+    {
+      "id": 668199241,
+      "fullName": "frappe/crm",
+      "stars": 3613,
+      "forks": 1458,
+      "openIssues": 265,
+      "pushedAt": "2026-09-28T03:01:16Z"
+    },
+    {
+      "id": 108403211,
+      "fullName": "JetBrains/kotlinconf-app",
+      "stars": 3564,
+      "forks": 425,
+      "openIssues": 49,
+      "pushedAt": "2026-09-23T12:17:33Z"
+    },
+    {
+      "id": 971782145,
+      "fullName": "Tencent-TDS/KuiklyUI",
+      "stars": 3544,
+      "forks": 309,
+      "openIssues": 143,
+      "pushedAt": "2026-09-24T04:58:12Z"
+    },
+    {
+      "id": 511199000,
+      "fullName": "analogjs/analog",
+      "stars": 3186,
+      "forks": 333,
+      "openIssues": 42,
+      "pushedAt": "2026-09-26T16:04:44Z"
+    },
+    {
+      "id": 518513704,
+      "fullName": "marc2332/freya",
+      "stars": 3182,
+      "forks": 140,
+      "openIssues": 38,
+      "pushedAt": "2026-09-27T22:25:13Z"
+    },
+    {
+      "id": 637866942,
+      "fullName": "kejilion/sh",
+      "stars": 3178,
+      "forks": 1030,
+      "openIssues": 80,
+      "pushedAt": "2026-09-27T04:49:29Z"
+    },
+    {
+      "id": 1074699914,
+      "fullName": "nickrunning/wechat-selkies",
+      "stars": 3046,
+      "forks": 272,
+      "openIssues": 6,
+      "pushedAt": "2026-09-22T02:13:56Z"
+    },
+    {
+      "id": 51702566,
+      "fullName": "tiangolo/uwsgi-nginx-flask-docker",
+      "stars": 3004,
+      "forks": 613,
+      "openIssues": 1,
+      "pushedAt": "2026-09-22T13:43:02Z"
+    },
+    {
+      "id": 393428601,
+      "fullName": "phcode-dev/phoenix",
+      "stars": 2993,
+      "forks": 205,
+      "openIssues": 263,
+      "pushedAt": "2026-09-27T20:20:07Z"
+    },
+    {
+      "id": 439011383,
+      "fullName": "userver-framework/userver",
+      "stars": 2978,
+      "forks": 408,
+      "openIssues": 128,
+      "pushedAt": "2026-09-26T18:59:21Z"
+    },
+    {
+      "id": 24106944,
+      "fullName": "yahoo/serialize-javascript",
+      "stars": 2923,
+      "forks": 214,
+      "openIssues": 44,
+      "pushedAt": "2026-09-23T15:50:34Z"
+    },
+    {
+      "id": 566568196,
+      "fullName": "viser-project/viser",
+      "stars": 2794,
+      "forks": 223,
+      "openIssues": 111,
+      "pushedAt": "2026-09-25T04:53:28Z"
+    },
+    {
+      "id": 523491444,
+      "fullName": "divkit/divkit",
+      "stars": 2677,
+      "forks": 194,
+      "openIssues": 14,
+      "pushedAt": "2026-09-25T15:42:34Z"
+    },
+    {
+      "id": 519912039,
+      "fullName": "sqlpage/SQLPage",
+      "stars": 2566,
+      "forks": 174,
+      "openIssues": 138,
+      "pushedAt": "2026-09-28T03:39:09Z"
+    },
+    {
+      "id": 23791087,
+      "fullName": "pretix/pretix",
+      "stars": 2527,
+      "forks": 658,
+      "openIssues": 148,
+      "pushedAt": "2026-09-25T22:19:39Z"
+    },
+    {
+      "id": 456918602,
+      "fullName": "schultek/jaspr",
+      "stars": 2488,
+      "forks": 329,
+      "openIssues": 71,
+      "pushedAt": "2026-09-25T18:24:13Z"
+    },
+    {
+      "id": 430749584,
+      "fullName": "OneKeyHQ/app-monorepo",
+      "stars": 2455,
+      "forks": 533,
+      "openIssues": 181,
+      "pushedAt": "2026-09-28T05:07:20Z"
+    },
+    {
+      "id": 307479783,
+      "fullName": "SpacingBat3/WebCord",
+      "stars": 2447,
+      "forks": 111,
+      "openIssues": 75,
+      "pushedAt": "2026-09-23T13:44:44Z"
+    },
+    {
+      "id": 52076467,
+      "fullName": "GenieFramework/Genie.jl",
+      "stars": 2413,
+      "forks": 186,
+      "openIssues": 125,
+      "pushedAt": "2026-09-23T06:28:17Z"
+    },
+    {
+      "id": 158754800,
+      "fullName": "Neoteroi/BlackSheep",
+      "stars": 2358,
+      "forks": 100,
+      "openIssues": 7,
+      "pushedAt": "2026-09-21T18:06:02Z"
+    },
+    {
+      "id": 279004149,
+      "fullName": "numberwolf/h265web.js",
+      "stars": 2348,
+      "forks": 383,
+      "openIssues": 65,
+      "pushedAt": "2026-09-27T03:42:22Z"
+    },
+    {
+      "id": 132187950,
+      "fullName": "cogentcore/core",
+      "stars": 2346,
+      "forks": 102,
+      "openIssues": 234,
+      "pushedAt": "2026-09-26T14:20:29Z"
+    },
+    {
+      "id": 121853760,
+      "fullName": "nmxiaowei/avue",
+      "stars": 2302,
+      "forks": 492,
+      "openIssues": 1,
+      "pushedAt": "2026-09-23T07:29:56Z"
+    },
+    {
+      "id": 39464018,
+      "fullName": "apache/superset",
+      "stars": 74944,
+      "forks": 18395,
+      "openIssues": 629,
+      "pushedAt": "2026-09-28T05:21:04Z"
+    },
+    {
+      "id": 843222,
+      "fullName": "scikit-learn/scikit-learn",
+      "stars": 67405,
+      "forks": 27449,
+      "openIssues": 2153,
+      "pushedAt": "2026-09-24T17:11:32Z"
+    },
+    {
+      "id": 33015583,
+      "fullName": "keras-team/keras",
+      "stars": 64346,
+      "forks": 19804,
+      "openIssues": 265,
+      "pushedAt": "2026-09-26T21:33:23Z"
+    },
+    {
+      "id": 858127,
+      "fullName": "pandas-dev/pandas",
+      "stars": 49854,
+      "forks": 20438,
+      "openIssues": 2501,
+      "pushedAt": "2026-09-28T00:06:50Z"
+    },
+    {
+      "id": 266417772,
+      "fullName": "SimplifyJobs/Summer2027-Internships",
+      "stars": 47731,
+      "forks": 3257,
+      "openIssues": 107,
+      "pushedAt": "2026-09-28T05:02:03Z"
+    },
+    {
+      "id": 33884891,
+      "fullName": "apache/airflow",
+      "stars": 46995,
+      "forks": 17926,
+      "openIssues": 1924,
+      "pushedAt": "2026-09-28T03:31:44Z"
+    },
+    {
+      "id": 71932349,
+      "fullName": "ray-project/ray",
+      "stars": 43938,
+      "forks": 8092,
+      "openIssues": 3569,
+      "pushedAt": "2026-09-27T19:57:30Z"
+    },
+    {
+      "id": 162405963,
+      "fullName": "gradio-app/gradio",
+      "stars": 43633,
+      "forks": 3615,
+      "openIssues": 89,
+      "pushedAt": "2026-09-28T04:53:59Z"
+    },
+    {
+      "id": 21515044,
+      "fullName": "academic/awesome-datascience",
+      "stars": 30080,
+      "forks": 6652,
+      "openIssues": 9,
+      "pushedAt": "2026-09-27T09:01:58Z"
+    },
+    {
+      "id": 33702544,
+      "fullName": "plotly/dash",
+      "stars": 24438,
+      "forks": 2324,
+      "openIssues": 426,
+      "pushedAt": "2026-09-24T19:27:16Z"
+    },
+    {
+      "id": 139199684,
+      "fullName": "PrefectHQ/prefect",
+      "stars": 23937,
+      "forks": 2541,
+      "openIssues": 849,
+      "pushedAt": "2026-09-27T15:15:07Z"
+    },
+    {
+      "id": 317029148,
+      "fullName": "lukasmasuch/best-of-ml-python",
+      "stars": 23825,
+      "forks": 3149,
+      "openIssues": 58,
+      "pushedAt": "2026-09-24T14:15:50Z"
+    },
+    {
+      "id": 1385122,
+      "fullName": "matplotlib/matplotlib",
+      "stars": 23297,
+      "forks": 8495,
+      "openIssues": 1491,
+      "pushedAt": "2026-09-26T03:37:28Z"
+    },
+    {
+      "id": 212037775,
+      "fullName": "akfamily/akshare",
+      "stars": 22769,
+      "forks": 3524,
+      "openIssues": 4,
+      "pushedAt": "2026-09-23T04:16:34Z"
+    },
+    {
+      "id": 83579167,
+      "fullName": "bharathgs/Awesome-pytorch-list",
+      "stars": 16683,
+      "forks": 2841,
+      "openIssues": 26,
+      "pushedAt": "2026-09-22T06:52:29Z"
+    },
+    {
+      "id": 131619646,
+      "fullName": "dagster-io/dagster",
+      "stars": 16207,
+      "forks": 2311,
+      "openIssues": 2569,
+      "pushedAt": "2026-09-25T17:44:40Z"
+    },
+    {
+      "id": 781261349,
+      "fullName": "microsoft/RD-Agent",
+      "stars": 14784,
+      "forks": 1936,
+      "openIssues": 232,
+      "pushedAt": "2026-09-23T11:05:33Z"
+    },
+    {
+      "id": 166515022,
+      "fullName": "trinodb/trino",
+      "stars": 13284,
+      "forks": 3796,
+      "openIssues": 2760,
+      "pushedAt": "2026-09-28T01:24:24Z"
+    },
+    {
+      "id": 586624356,
+      "fullName": "dair-ai/AI-Papers-of-the-Week",
+      "stars": 13235,
+      "forks": 826,
+      "openIssues": 1,
+      "pushedAt": "2026-09-21T15:01:06Z"
+    },
+    {
+      "id": 6220644,
+      "fullName": "OpenRefine/OpenRefine",
+      "stars": 12012,
+      "forks": 2171,
+      "openIssues": 745,
+      "pushedAt": "2026-09-25T18:54:18Z"
+    },
+    {
+      "id": 33457642,
+      "fullName": "dbcli/mycli",
+      "stars": 11978,
+      "forks": 699,
+      "openIssues": 0,
+      "pushedAt": "2026-09-26T18:51:17Z"
+    },
+    {
+      "id": 103071520,
+      "fullName": "fivetran/great_expectations",
+      "stars": 11846,
+      "forks": 1863,
+      "openIssues": 71,
+      "pushedAt": "2026-09-25T19:16:55Z"
+    },
+    {
+      "id": 163346054,
+      "fullName": "ludwig-ai/ludwig",
+      "stars": 11771,
+      "forks": 1216,
+      "openIssues": 2,
+      "pushedAt": "2026-09-26T22:45:20Z"
+    },
+    {
+      "id": 1885237,
+      "fullName": "statsmodels/statsmodels",
+      "stars": 11657,
+      "forks": 3609,
+      "openIssues": 2828,
+      "pushedAt": "2026-09-27T18:36:59Z"
+    },
+    {
+      "id": 86031674,
+      "fullName": "wandb/wandb",
+      "stars": 11263,
+      "forks": 900,
+      "openIssues": 999,
+      "pushedAt": "2026-09-27T21:55:34Z"
+    },
+    {
+      "id": 6105714,
+      "fullName": "pymupdf/PyMuPDF",
+      "stars": 10792,
+      "forks": 805,
+      "openIssues": 69,
+      "pushedAt": "2026-09-27T21:14:32Z"
+    },
+    {
+      "id": 199509705,
+      "fullName": "autogluon/autogluon",
+      "stars": 10751,
+      "forks": 1195,
+      "openIssues": 377,
+      "pushedAt": "2026-09-27T10:08:41Z"
+    },
+    {
+      "id": 244452551,
+      "fullName": "alexeygrigorev/data-science-interviews",
+      "stars": 10160,
+      "forks": 2154,
+      "openIssues": 8,
+      "pushedAt": "2026-09-26T02:59:47Z"
+    },
+    {
+      "id": 156401841,
+      "fullName": "sktime/sktime",
+      "stars": 10047,
+      "forks": 2395,
+      "openIssues": 2525,
+      "pushedAt": "2026-09-27T15:05:29Z"
+    },
+    {
+      "id": 90506918,
+      "fullName": "NVIDIA/cudf",
+      "stars": 9766,
+      "forks": 1121,
+      "openIssues": 1367,
+      "pushedAt": "2026-09-28T03:13:18Z"
+    },
+    {
+      "id": 148657183,
+      "fullName": "unit8co/darts",
+      "stars": 9527,
+      "forks": 1046,
+      "openIssues": 223,
+      "pushedAt": "2026-09-26T09:30:57Z"
+    },
+    {
+      "id": 47859258,
+      "fullName": "goplus/xgo",
+      "stars": 9459,
+      "forks": 567,
+      "openIssues": 47,
+      "pushedAt": "2026-09-28T04:38:26Z"
+    },
+    {
+      "id": 110684325,
+      "fullName": "polakowo/vectorbt",
+      "stars": 9203,
+      "forks": 1177,
+      "openIssues": 140,
+      "pushedAt": "2026-09-26T11:27:49Z"
+    },
+    {
+      "id": 97556265,
+      "fullName": "catboost/catboost",
+      "stars": 9119,
+      "forks": 1337,
+      "openIssues": 724,
+      "pushedAt": "2026-09-27T21:07:02Z"
+    },
+    {
+      "id": 365373172,
+      "fullName": "growthbook/growthbook",
+      "stars": 8446,
+      "forks": 861,
+      "openIssues": 828,
+      "pushedAt": "2026-09-28T05:11:09Z"
+    },
+    {
+      "id": 135584946,
+      "fullName": "py-why/dowhy",
+      "stars": 8332,
+      "forks": 1057,
+      "openIssues": 234,
+      "pushedAt": "2026-09-27T17:25:10Z"
+    },
+    {
+      "id": 509436902,
+      "fullName": "PriorLabs/TabPFN",
+      "stars": 8067,
+      "forks": 794,
+      "openIssues": 38,
+      "pushedAt": "2026-09-26T15:19:38Z"
+    },
+    {
+      "id": 1251648409,
+      "fullName": "opengeos/GeoLibre",
+      "stars": 7705,
+      "forks": 840,
+      "openIssues": 25,
+      "pushedAt": "2026-09-28T04:37:05Z"
+    },
+    {
+      "id": 216628419,
+      "fullName": "flyteorg/flyte",
+      "stars": 7593,
+      "forks": 894,
+      "openIssues": 178,
+      "pushedAt": "2026-09-25T21:52:14Z"
+    },
+    {
+      "id": 17371412,
+      "fullName": "h2oai/h2o-3",
+      "stars": 7510,
+      "forks": 2020,
+      "openIssues": 2856,
+      "pushedAt": "2026-09-25T08:28:44Z"
+    },
+    {
+      "id": 9952134,
+      "fullName": "python-visualization/folium",
+      "stars": 7404,
+      "forks": 2261,
+      "openIssues": 71,
+      "pushedAt": "2026-09-27T17:39:16Z"
+    },
+    {
+      "id": 161133770,
+      "fullName": "feast-dev/feast",
+      "stars": 7311,
+      "forks": 1451,
+      "openIssues": 449,
+      "pushedAt": "2026-09-26T16:51:49Z"
+    },
+    {
+      "id": 511691380,
+      "fullName": "lance-format/lance",
+      "stars": 7120,
+      "forks": 867,
+      "openIssues": 1279,
+      "pushedAt": "2026-09-27T17:26:44Z"
+    },
+    {
+      "id": 673277958,
+      "fullName": "datajuicer/data-juicer",
+      "stars": 7097,
+      "forks": 429,
+      "openIssues": 67,
+      "pushedAt": "2026-09-22T03:10:18Z"
+    },
+    {
+      "id": 371239231,
+      "fullName": "evidence-dev/evidence",
+      "stars": 6962,
+      "forks": 421,
+      "openIssues": 39,
+      "pushedAt": "2026-09-25T12:59:30Z"
+    },
+    {
+      "id": 8307391,
+      "fullName": "mahmoud/boltons",
+      "stars": 6927,
+      "forks": 448,
+      "openIssues": 96,
+      "pushedAt": "2026-09-23T23:55:31Z"
+    },
+    {
+      "id": 26921116,
+      "fullName": "haifengl/smile",
+      "stars": 6414,
+      "forks": 1149,
+      "openIssues": 0,
+      "pushedAt": "2026-09-28T03:33:07Z"
+    },
+    {
+      "id": 189640071,
+      "fullName": "aimhubio/aim",
+      "stars": 6269,
+      "forks": 413,
+      "openIssues": 479,
+      "pushedAt": "2026-09-27T22:42:47Z"
+    },
+    {
+      "id": 167388434,
+      "fullName": "online-ml/river",
+      "stars": 6111,
+      "forks": 830,
+      "openIssues": 77,
+      "pushedAt": "2026-09-28T03:17:21Z"
+    },
+    {
+      "id": 8357227,
+      "fullName": "biolab/orange3",
+      "stars": 5711,
+      "forks": 1113,
+      "openIssues": 120,
+      "pushedAt": "2026-09-22T10:08:26Z"
+    },
+    {
+      "id": 314197645,
+      "fullName": "zenml-io/zenml",
+      "stars": 5594,
+      "forks": 659,
+      "openIssues": 164,
+      "pushedAt": "2026-09-26T20:38:15Z"
+    },
+    {
+      "id": 93381875,
+      "fullName": "microsoft/SynapseML",
+      "stars": 5247,
+      "forks": 868,
+      "openIssues": 143,
+      "pushedAt": "2026-09-25T03:59:00Z"
+    },
+    {
+      "id": 22937749,
+      "fullName": "rasbt/mlxtend",
+      "stars": 5179,
+      "forks": 918,
+      "openIssues": 140,
+      "pushedAt": "2026-09-25T21:02:06Z"
+    },
+    {
+      "id": 431319532,
+      "fullName": "Nixtla/statsforecast",
+      "stars": 4915,
+      "forks": 395,
+      "openIssues": 152,
+      "pushedAt": "2026-09-21T21:14:20Z"
+    },
+    {
+      "id": 55262614,
+      "fullName": "FluxML/Flux.jl",
+      "stars": 4750,
+      "forks": 624,
+      "openIssues": 45,
+      "pushedAt": "2026-09-24T22:44:36Z"
+    },
+    {
+      "id": 101582879,
+      "fullName": "markusschanta/awesome-jupyter",
+      "stars": 4677,
+      "forks": 462,
+      "openIssues": 7,
+      "pushedAt": "2026-09-24T23:58:09Z"
+    },
+    {
+      "id": 1074218324,
+      "fullName": "ruc-datalab/DeepAnalyze",
+      "stars": 4656,
+      "forks": 736,
+      "openIssues": 25,
+      "pushedAt": "2026-09-23T13:41:15Z"
+    },
+    {
+      "id": 108053674,
+      "fullName": "tensorflow/probability",
+      "stars": 4435,
+      "forks": 1131,
+      "openIssues": 731,
+      "pushedAt": "2026-09-23T22:07:13Z"
+    },
+    {
+      "id": 289107293,
+      "fullName": "microsoft/FLAML",
+      "stars": 4398,
+      "forks": 569,
+      "openIssues": 179,
+      "pushedAt": "2026-09-28T01:24:54Z"
+    },
+    {
+      "id": 722915433,
+      "fullName": "SwanHubX/SwanLab",
+      "stars": 4229,
+      "forks": 227,
+      "openIssues": 45,
+      "pushedAt": "2026-09-24T08:50:54Z"
+    },
+    {
+      "id": 133100880,
+      "fullName": "kubeflow/pipelines",
+      "stars": 4229,
+      "forks": 2135,
+      "openIssues": 369,
+      "pushedAt": "2026-09-28T03:35:59Z"
+    },
+    {
+      "id": 172615836,
+      "fullName": "aws/aws-sdk-pandas",
+      "stars": 4119,
+      "forks": 750,
+      "openIssues": 61,
+      "pushedAt": "2026-09-26T08:15:46Z"
+    },
+    {
+      "id": 245837930,
+      "fullName": "gee-community/geemap",
+      "stars": 4032,
+      "forks": 1154,
+      "openIssues": 50,
+      "pushedAt": "2026-09-24T20:18:45Z"
+    },
+    {
+      "id": 1102015506,
+      "fullName": "Jon-Becker/prediction-market-analysis",
+      "stars": 3863,
+      "forks": 548,
+      "openIssues": 9,
+      "pushedAt": "2026-09-21T13:56:51Z"
+    },
+    {
+      "id": 787678390,
+      "fullName": "Netflix/maestro",
+      "stars": 3844,
+      "forks": 311,
+      "openIssues": 38,
+      "pushedAt": "2026-09-22T16:20:54Z"
+    },
+    {
+      "id": 295391759,
+      "fullName": "astroautomata/PySR",
+      "stars": 3778,
+      "forks": 352,
+      "openIssues": 134,
+      "pushedAt": "2026-09-28T00:29:58Z"
+    },
+    {
+      "id": 346188421,
+      "fullName": "opengeos/leafmap",
+      "stars": 3773,
+      "forks": 472,
+      "openIssues": 3,
+      "pushedAt": "2026-09-21T21:24:57Z"
+    },
+    {
+      "id": 307894865,
+      "fullName": "alibaba/GraphScope",
+      "stars": 3556,
+      "forks": 468,
+      "openIssues": 462,
+      "pushedAt": "2026-09-23T06:33:33Z"
+    },
+    {
+      "id": 943377535,
+      "fullName": "Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization",
+      "stars": 3448,
+      "forks": 620,
+      "openIssues": 4,
+      "pushedAt": "2026-09-26T14:48:50Z"
+    },
+    {
+      "id": 677526746,
+      "fullName": "opengeos/geoai",
+      "stars": 3394,
+      "forks": 484,
+      "openIssues": 5,
+      "pushedAt": "2026-09-28T03:03:56Z"
+    },
+    {
+      "id": 108669343,
+      "fullName": "hosseinmoein/DataFrame",
+      "stars": 2986,
+      "forks": 360,
+      "openIssues": 1,
+      "pushedAt": "2026-09-25T16:16:25Z"
+    },
+    {
+      "id": 606433492,
+      "fullName": "chdb-io/chdb",
+      "stars": 2908,
+      "forks": 136,
+      "openIssues": 44,
+      "pushedAt": "2026-09-28T01:00:12Z"
+    },
+    {
+      "id": 1034938477,
+      "fullName": "OpenDCAI/DataFlex",
+      "stars": 2847,
+      "forks": 400,
+      "openIssues": 1,
+      "pushedAt": "2026-09-25T09:23:11Z"
+    },
+    {
+      "id": 605682921,
+      "fullName": "apache/hamilton",
+      "stars": 2599,
+      "forks": 215,
+      "openIssues": 153,
+      "pushedAt": "2026-09-26T20:13:47Z"
+    },
+    {
+      "id": 660253968,
+      "fullName": "yuankunzhang/charming",
+      "stars": 2598,
+      "forks": 119,
+      "openIssues": 25,
+      "pushedAt": "2026-09-27T14:13:46Z"
+    },
+    {
+      "id": 290969078,
+      "fullName": "supabase/supabase-py",
+      "stars": 2594,
+      "forks": 569,
+      "openIssues": 110,
+      "pushedAt": "2026-09-24T23:42:58Z"
+    },
+    {
+      "id": 80342493,
+      "fullName": "scverse/scanpy",
+      "stars": 2575,
+      "forks": 781,
+      "openIssues": 537,
+      "pushedAt": "2026-09-27T11:16:04Z"
+    },
+    {
+      "id": 564689243,
+      "fullName": "man-group/ArcticDB",
+      "stars": 2524,
+      "forks": 224,
+      "openIssues": 356,
+      "pushedAt": "2026-09-28T00:11:17Z"
+    },
+    {
+      "id": 323721661,
+      "fullName": "Lightning-AI/torchmetrics",
+      "stars": 2474,
+      "forks": 529,
+      "openIssues": 195,
+      "pushedAt": "2026-09-22T09:48:10Z"
+    },
+    {
+      "id": 288792333,
+      "fullName": "metarank/metarank",
+      "stars": 2444,
+      "forks": 107,
+      "openIssues": 96,
+      "pushedAt": "2026-09-27T15:53:46Z"
+    },
+    {
+      "id": 223420284,
+      "fullName": "moj-analytical-services/splink",
+      "stars": 2436,
+      "forks": 266,
+      "openIssues": 227,
+      "pushedAt": "2026-09-27T11:08:30Z"
+    },
+    {
+      "id": 846263966,
+      "fullName": "zasper-io/zasper",
+      "stars": 2350,
+      "forks": 77,
+      "openIssues": 3,
+      "pushedAt": "2026-09-23T14:38:51Z"
+    },
+    {
+      "id": 53990033,
+      "fullName": "Esri/arcgis-python-api",
+      "stars": 2205,
+      "forks": 1151,
+      "openIssues": 67,
+      "pushedAt": "2026-09-25T23:56:53Z"
+    },
+    {
+      "id": 394140526,
+      "fullName": "orico/www.mlcompendium.com",
+      "stars": 2195,
+      "forks": 236,
+      "openIssues": 0,
+      "pushedAt": "2026-09-26T12:50:23Z"
+    },
+    {
+      "id": 71583602,
+      "fullName": "Developer-Y/cs-video-courses",
+      "stars": 83573,
+      "forks": 11495,
+      "openIssues": 4,
+      "pushedAt": "2026-09-27T16:53:08Z"
+    },
+    {
+      "id": 29207621,
+      "fullName": "caddyserver/caddy",
+      "stars": 76129,
+      "forks": 5010,
+      "openIssues": 298,
+      "pushedAt": "2026-09-26T23:33:19Z"
+    },
+    {
+      "id": 33791743,
+      "fullName": "x64dbg/x64dbg",
+      "stars": 49630,
+      "forks": 2849,
+      "openIssues": 575,
+      "pushedAt": "2026-09-27T22:47:16Z"
+    },
+    {
+      "id": 1065059442,
+      "fullName": "KeygraphHQ/shannon",
+      "stars": 48437,
+      "forks": 5545,
+      "openIssues": 23,
+      "pushedAt": "2026-09-21T12:58:11Z"
+    },
+    {
+      "id": 519832,
+      "fullName": "mitmproxy/mitmproxy",
+      "stars": 45172,
+      "forks": 4747,
+      "openIssues": 493,
+      "pushedAt": "2026-09-27T08:18:00Z"
+    },
+    {
+      "id": 519895363,
+      "fullName": "GyulyVGC/sniffnet",
+      "stars": 41273,
+      "forks": 1965,
+      "openIssues": 63,
+      "pushedAt": "2026-09-26T03:13:57Z"
+    },
+    {
+      "id": 180687624,
+      "fullName": "aquasecurity/trivy",
+      "stars": 38102,
+      "forks": 714,
+      "openIssues": 263,
+      "pushedAt": "2026-09-25T19:29:30Z"
+    },
+    {
+      "id": 658364446,
+      "fullName": "lissy93/web-check",
+      "stars": 34939,
+      "forks": 2865,
+      "openIssues": 33,
+      "pushedAt": "2026-09-27T12:55:01Z"
+    },
+    {
+      "id": 162723104,
+      "fullName": "OWASP/CheatSheetSeries",
+      "stars": 33326,
+      "forks": 4642,
+      "openIssues": 65,
+      "pushedAt": "2026-09-27T22:10:44Z"
+    },
+    {
+      "id": 37912398,
+      "fullName": "nginx/nginx",
+      "stars": 31742,
+      "forks": 8309,
+      "openIssues": 466,
+      "pushedAt": "2026-09-25T18:27:39Z"
+    },
+    {
+      "id": 252813491,
+      "fullName": "projectdiscovery/nuclei",
+      "stars": 31580,
+      "forks": 3901,
+      "openIssues": 109,
+      "pushedAt": "2026-09-28T04:36:47Z"
+    },
+    {
+      "id": 4008931,
+      "fullName": "StevenBlack/hosts",
+      "stars": 31117,
+      "forks": 2435,
+      "openIssues": 155,
+      "pushedAt": "2026-09-27T02:21:02Z"
+    },
+    {
+      "id": 58842707,
+      "fullName": "trailofbits/algo",
+      "stars": 30398,
+      "forks": 2366,
+      "openIssues": 80,
+      "pushedAt": "2026-09-23T08:45:21Z"
+    },
+    {
+      "id": 881925790,
+      "fullName": "community-scripts/ProxmoxVE",
+      "stars": 29684,
+      "forks": 2913,
+      "openIssues": 22,
+      "pushedAt": "2026-09-28T02:13:48Z"
+    },
+    {
+      "id": 119190187,
+      "fullName": "gitleaks/gitleaks",
+      "stars": 29524,
+      "forks": 2254,
+      "openIssues": 485,
+      "pushedAt": "2026-09-23T04:14:00Z"
+    },
+    {
+      "id": 521655652,
+      "fullName": "Infisical/infisical",
+      "stars": 29469,
+      "forks": 2288,
+      "openIssues": 786,
+      "pushedAt": "2026-09-28T05:18:23Z"
+    },
+    {
+      "id": 75785240,
+      "fullName": "authelia/authelia",
+      "stars": 29110,
+      "forks": 1493,
+      "openIssues": 124,
+      "pushedAt": "2026-09-27T22:57:14Z"
+    },
+    {
+      "id": 52729242,
+      "fullName": "keepassxreboot/keepassxc",
+      "stars": 28995,
+      "forks": 1924,
+      "openIssues": 898,
+      "pushedAt": "2026-09-23T06:20:27Z"
+    },
+    {
+      "id": 49217007,
+      "fullName": "hwdsl2/setup-ipsec-vpn",
+      "stars": 28594,
+      "forks": 6519,
+      "openIssues": 1,
+      "pushedAt": "2026-09-21T05:23:51Z"
+    },
+    {
+      "id": 77726177,
+      "fullName": "trufflesecurity/trufflehog",
+      "stars": 28147,
+      "forks": 2601,
+      "openIssues": 562,
+      "pushedAt": "2026-09-28T05:17:29Z"
+    },
+    {
+      "id": 64700934,
+      "fullName": "OpenZeppelin/openzeppelin-contracts",
+      "stars": 27255,
+      "forks": 12397,
+      "openIssues": 358,
+      "pushedAt": "2026-09-25T03:45:57Z"
+    },
+    {
+      "id": 230885748,
+      "fullName": "goauthentik/authentik",
+      "stars": 25758,
+      "forks": 2046,
+      "openIssues": 1130,
+      "pushedAt": "2026-09-28T04:21:23Z"
+    },
+    {
+      "id": 48109239,
+      "fullName": "cilium/cilium",
+      "stars": 25566,
+      "forks": 4110,
+      "openIssues": 1098,
+      "pushedAt": "2026-09-28T04:10:34Z"
+    },
+    {
+      "id": 4869294,
+      "fullName": "radareorg/radare2",
+      "stars": 24882,
+      "forks": 3332,
+      "openIssues": 804,
+      "pushedAt": "2026-09-28T05:21:18Z"
+    },
+    {
+      "id": 22394357,
+      "fullName": "osquery/osquery",
+      "stars": 23590,
+      "forks": 2600,
+      "openIssues": 578,
+      "pushedAt": "2026-09-25T20:48:59Z"
+    },
+    {
+      "id": 40684033,
+      "fullName": "getsops/sops",
+      "stars": 23231,
+      "forks": 1084,
+      "openIssues": 449,
+      "pushedAt": "2026-09-21T20:03:18Z"
+    },
+    {
+      "id": 950140488,
+      "fullName": "TecharoHQ/anubis",
+      "stars": 22729,
+      "forks": 735,
+      "openIssues": 381,
+      "pushedAt": "2026-09-28T00:39:07Z"
+    },
+    {
+      "id": 626896474,
+      "fullName": "chaitin/SafeLine",
+      "stars": 22679,
+      "forks": 1543,
+      "openIssues": 69,
+      "pushedAt": "2026-09-22T09:04:10Z"
+    },
+    {
+      "id": 1548202,
+      "fullName": "matomo-org/matomo",
+      "stars": 21905,
+      "forks": 2900,
+      "openIssues": 2580,
+      "pushedAt": "2026-09-28T04:22:15Z"
+    },
+    {
+      "id": 157245200,
+      "fullName": "twpayne/chezmoi",
+      "stars": 21750,
+      "forks": 692,
+      "openIssues": 60,
+      "pushedAt": "2026-09-27T20:34:02Z"
+    },
+    {
+      "id": 336920522,
+      "fullName": "Atlas-OS/Atlas",
+      "stars": 21681,
+      "forks": 759,
+      "openIssues": 9,
+      "pushedAt": "2026-09-23T17:24:45Z"
+    },
+    {
+      "id": 278933035,
+      "fullName": "bee-san/RustScan",
+      "stars": 20468,
+      "forks": 1383,
+      "openIssues": 56,
+      "pushedAt": "2026-09-23T09:02:57Z"
+    },
+    {
+      "id": 627480054,
+      "fullName": "eosphoros-ai/DB-GPT",
+      "stars": 20054,
+      "forks": 2945,
+      "openIssues": 443,
+      "pushedAt": "2026-09-28T01:50:41Z"
+    },
+    {
+      "id": 229407566,
+      "fullName": "simplex-chat/simplex-chat",
+      "stars": 19496,
+      "forks": 1362,
+      "openIssues": 1263,
+      "pushedAt": "2026-09-28T04:47:47Z"
+    },
+    {
+      "id": 16927692,
+      "fullName": "cure53/DOMPurify",
+      "stars": 17413,
+      "forks": 860,
+      "openIssues": 0,
+      "pushedAt": "2026-09-26T10:09:01Z"
+    },
+    {
+      "id": 40556106,
+      "fullName": "wazuh/wazuh",
+      "stars": 17021,
+      "forks": 2508,
+      "openIssues": 3077,
+      "pushedAt": "2026-09-28T05:17:13Z"
+    },
+    {
+      "id": 58360147,
+      "fullName": "javascript-obfuscator/javascript-obfuscator",
+      "stars": 16274,
+      "forks": 1742,
+      "openIssues": 23,
+      "pushedAt": "2026-09-26T23:14:04Z"
+    },
+    {
+      "id": 16446099,
+      "fullName": "cryptomator/cryptomator",
+      "stars": 16207,
+      "forks": 1547,
+      "openIssues": 282,
+      "pushedAt": "2026-09-27T10:57:00Z"
+    },
+    {
+      "id": 50824485,
+      "fullName": "winsiderss/systeminformer",
+      "stars": 16116,
+      "forks": 1791,
+      "openIssues": 297,
+      "pushedAt": "2026-09-26T04:19:31Z"
+    },
+    {
+      "id": 36817565,
+      "fullName": "zaproxy/zaproxy",
+      "stars": 15839,
+      "forks": 2649,
+      "openIssues": 862,
+      "pushedAt": "2026-09-24T15:16:36Z"
+    },
+    {
+      "id": 264154402,
+      "fullName": "crowdsecurity/crowdsec",
+      "stars": 14986,
+      "forks": 721,
+      "openIssues": 301,
+      "pushedAt": "2026-09-25T14:51:08Z"
+    },
+    {
+      "id": 386524895,
+      "fullName": "mvt-project/mvt",
+      "stars": 14945,
+      "forks": 1409,
+      "openIssues": 58,
+      "pushedAt": "2026-09-28T00:41:55Z"
+    },
+    {
+      "id": 66474729,
+      "fullName": "prowler-cloud/prowler",
+      "stars": 14884,
+      "forks": 2402,
+      "openIssues": 383,
+      "pushedAt": "2026-09-25T12:55:24Z"
+    },
+    {
+      "id": 9774482,
+      "fullName": "maurosoria/dirsearch",
+      "stars": 14761,
+      "forks": 2442,
+      "openIssues": 19,
+      "pushedAt": "2026-09-27T22:50:27Z"
+    },
+    {
+      "id": 4151993,
+      "fullName": "OpenVPN/openvpn",
+      "stars": 14612,
+      "forks": 3410,
+      "openIssues": 226,
+      "pushedAt": "2026-09-27T04:54:10Z"
+    },
+    {
+      "id": 333303663,
+      "fullName": "bytebase/bytebase",
+      "stars": 14512,
+      "forks": 985,
+      "openIssues": 165,
+      "pushedAt": "2026-09-28T04:13:17Z"
+    },
+    {
+      "id": 24233689,
+      "fullName": "juice-shop/juice-shop",
+      "stars": 13960,
+      "forks": 19771,
+      "openIssues": 5,
+      "pushedAt": "2026-09-26T16:44:31Z"
+    },
+    {
+      "id": 3671479,
+      "fullName": "nmap/nmap",
+      "stars": 13680,
+      "forks": 2909,
+      "openIssues": 700,
+      "pushedAt": "2026-09-27T23:00:05Z"
+    },
+    {
+      "id": 811675345,
+      "fullName": "zoicware/RemoveWindowsAI",
+      "stars": 13102,
+      "forks": 458,
+      "openIssues": 8,
+      "pushedAt": "2026-09-27T04:47:26Z"
+    },
+    {
+      "id": 253044228,
+      "fullName": "projectdiscovery/nuclei-templates",
+      "stars": 13030,
+      "forks": 3673,
+      "openIssues": 110,
+      "pushedAt": "2026-09-28T02:16:05Z"
+    },
+    {
+      "id": 267054247,
+      "fullName": "anchore/grype",
+      "stars": 12938,
+      "forks": 889,
+      "openIssues": 419,
+      "pushedAt": "2026-09-25T20:09:42Z"
+    },
+    {
+      "id": 63809205,
+      "fullName": "google/oss-fuzz",
+      "stars": 12675,
+      "forks": 2913,
+      "openIssues": 772,
+      "pushedAt": "2026-09-26T10:34:36Z"
+    },
+    {
+      "id": 43509302,
+      "fullName": "secdev/scapy",
+      "stars": 12568,
+      "forks": 2259,
+      "openIssues": 141,
+      "pushedAt": "2026-09-26T16:12:49Z"
+    },
+    {
+      "id": 50806714,
+      "fullName": "drduh/YubiKey-Guide",
+      "stars": 12481,
+      "forks": 1246,
+      "openIssues": 7,
+      "pushedAt": "2026-09-21T01:15:03Z"
+    },
+    {
+      "id": 54808920,
+      "fullName": "future-architect/vuls",
+      "stars": 12273,
+      "forks": 1244,
+      "openIssues": 91,
+      "pushedAt": "2026-09-28T00:58:47Z"
+    },
+    {
+      "id": 722152303,
+      "fullName": "jason5ng32/MyIP",
+      "stars": 11972,
+      "forks": 1245,
+      "openIssues": 23,
+      "pushedAt": "2026-09-28T00:19:45Z"
+    },
+    {
+      "id": 351486934,
+      "fullName": "gravitl/netmaker",
+      "stars": 11804,
+      "forks": 657,
+      "openIssues": 230,
+      "pushedAt": "2026-09-28T04:13:32Z"
+    },
+    {
+      "id": 395283401,
+      "fullName": "kubescape/kubescape",
+      "stars": 11751,
+      "forks": 1037,
+      "openIssues": 62,
+      "pushedAt": "2026-09-27T10:11:57Z"
+    },
+    {
+      "id": 77276660,
+      "fullName": "SigmaHQ/sigma",
+      "stars": 11114,
+      "forks": 2812,
+      "openIssues": 227,
+      "pushedAt": "2026-09-27T06:27:30Z"
+    },
+    {
+      "id": 203456148,
+      "fullName": "bunkerity/bunkerweb",
+      "stars": 11017,
+      "forks": 642,
+      "openIssues": 159,
+      "pushedAt": "2026-09-26T22:08:07Z"
+    },
+    {
+      "id": 25250913,
+      "fullName": "shadowsocks/shadowsocks-rust",
+      "stars": 10896,
+      "forks": 1454,
+      "openIssues": 65,
+      "pushedAt": "2026-09-27T05:38:43Z"
+    },
+    {
+      "id": 19316619,
+      "fullName": "monero-project/monero",
+      "stars": 10881,
+      "forks": 3530,
+      "openIssues": 614,
+      "pushedAt": "2026-09-26T15:59:02Z"
+    },
+    {
+      "id": 1299769220,
+      "fullName": "openai/codex-security",
+      "stars": 10867,
+      "forks": 823,
+      "openIssues": 244,
+      "pushedAt": "2026-09-28T02:07:57Z"
+    },
+    {
+      "id": 1864194,
+      "fullName": "frappe/frappe",
+      "stars": 10846,
+      "forks": 5365,
+      "openIssues": 2015,
+      "pushedAt": "2026-09-28T04:22:22Z"
+    },
+    {
+      "id": 162200234,
+      "fullName": "OpenCTI-Platform/opencti",
+      "stars": 10057,
+      "forks": 1459,
+      "openIssues": 2166,
+      "pushedAt": "2026-09-28T05:14:10Z"
+    },
+    {
+      "id": 512269935,
+      "fullName": "lissy93/awesome-privacy",
+      "stars": 9910,
+      "forks": 666,
+      "openIssues": 2,
+      "pushedAt": "2026-09-26T05:16:09Z"
+    },
+    {
+      "id": 91277330,
+      "fullName": "OWASP/wstg",
+      "stars": 9902,
+      "forks": 1688,
+      "openIssues": 24,
+      "pushedAt": "2026-09-23T19:18:21Z"
+    },
+    {
+      "id": 37038121,
+      "fullName": "go-acme/lego",
+      "stars": 9890,
+      "forks": 1170,
+      "openIssues": 104,
+      "pushedAt": "2026-09-27T22:47:11Z"
+    },
+    {
+      "id": 4994614,
+      "fullName": "wpscanteam/wpscan",
+      "stars": 9787,
+      "forks": 1344,
+      "openIssues": 2,
+      "pushedAt": "2026-09-26T01:23:27Z"
+    },
+    {
+      "id": 22117770,
+      "fullName": "ashishb/android-security-awesome",
+      "stars": 9712,
+      "forks": 1578,
+      "openIssues": 0,
+      "pushedAt": "2026-09-25T03:13:31Z"
+    },
+    {
+      "id": 3148979,
+      "fullName": "spring-projects/spring-security",
+      "stars": 9639,
+      "forks": 6354,
+      "openIssues": 1486,
+      "pushedAt": "2026-09-28T03:18:52Z"
+    },
+    {
+      "id": 27275442,
+      "fullName": "telekom-security/tpotce",
+      "stars": 9535,
+      "forks": 1393,
+      "openIssues": 0,
+      "pushedAt": "2026-09-24T12:08:35Z"
+    },
+    {
+      "id": 49986046,
+      "fullName": "falcosecurity/falco",
+      "stars": 9422,
+      "forks": 1080,
+      "openIssues": 46,
+      "pushedAt": "2026-09-25T13:23:09Z"
+    },
+    {
+      "id": 257787813,
+      "fullName": "firezone/firezone",
+      "stars": 9105,
+      "forks": 461,
+      "openIssues": 357,
+      "pushedAt": "2026-09-28T05:23:45Z"
+    },
+    {
+      "id": 14735429,
+      "fullName": "capstone-engine/capstone",
+      "stars": 9042,
+      "forks": 1729,
+      "openIssues": 355,
+      "pushedAt": "2026-09-24T21:02:13Z"
+    },
+    {
+      "id": 63625434,
+      "fullName": "securego/gosec",
+      "stars": 8953,
+      "forks": 714,
+      "openIssues": 10,
+      "pushedAt": "2026-09-28T03:08:50Z"
+    },
+    {
+      "id": 241524703,
+      "fullName": "maxgoedjen/secretive",
+      "stars": 8913,
+      "forks": 213,
+      "openIssues": 173,
+      "pushedAt": "2026-09-21T02:29:54Z"
+    },
+    {
+      "id": 155658556,
+      "fullName": "smallstep/certificates",
+      "stars": 8908,
+      "forks": 595,
+      "openIssues": 302,
+      "pushedAt": "2026-09-22T08:50:51Z"
+    },
+    {
+      "id": 113404957,
+      "fullName": "kata-containers/kata-containers",
+      "stars": 8809,
+      "forks": 1481,
+      "openIssues": 1188,
+      "pushedAt": "2026-09-25T22:01:44Z"
+    },
+    {
+      "id": 62937181,
+      "fullName": "PrivateBin/PrivateBin",
+      "stars": 8633,
+      "forks": 1038,
+      "openIssues": 210,
+      "pushedAt": "2026-09-24T05:44:44Z"
+    },
+    {
+      "id": 27561102,
+      "fullName": "stamparm/maltrail",
+      "stars": 8609,
+      "forks": 1266,
+      "openIssues": 37,
+      "pushedAt": "2026-09-27T15:24:24Z"
+    },
+    {
+      "id": 512334495,
+      "fullName": "firerpa/lamda",
+      "stars": 8489,
+      "forks": 1147,
+      "openIssues": 47,
+      "pushedAt": "2026-09-27T10:05:24Z"
+    },
+    {
+      "id": 867192625,
+      "fullName": "superradcompany/microsandbox",
+      "stars": 8451,
+      "forks": 455,
+      "openIssues": 100,
+      "pushedAt": "2026-09-27T22:56:31Z"
+    },
+    {
+      "id": 131129792,
+      "fullName": "PyCQA/bandit",
+      "stars": 8287,
+      "forks": 841,
+      "openIssues": 259,
+      "pushedAt": "2026-09-21T15:04:20Z"
+    },
+    {
+      "id": 169108858,
+      "fullName": "kyverno/kyverno",
+      "stars": 8192,
+      "forks": 1619,
+      "openIssues": 779,
+      "pushedAt": "2026-09-28T04:37:29Z"
+    },
+    {
+      "id": 325671936,
+      "fullName": "six2dez/reconftw",
+      "stars": 8154,
+      "forks": 1238,
+      "openIssues": 1,
+      "pushedAt": "2026-09-26T00:13:14Z"
+    },
+    {
+      "id": 671825,
+      "fullName": "Graylog2/graylog2-server",
+      "stars": 8148,
+      "forks": 1131,
+      "openIssues": 2096,
+      "pushedAt": "2026-09-28T00:30:52Z"
+    },
+    {
+      "id": 716719284,
+      "fullName": "openbao/openbao",
+      "stars": 8146,
+      "forks": 595,
+      "openIssues": 329,
+      "pushedAt": "2026-09-24T20:34:53Z"
+    },
+    {
+      "id": 454015416,
+      "fullName": "trickest/cve",
+      "stars": 8104,
+      "forks": 978,
+      "openIssues": 21,
+      "pushedAt": "2026-09-27T12:40:13Z"
+    },
+    {
+      "id": 226668668,
+      "fullName": "nomi-sec/PoC-in-GitHub",
+      "stars": 8090,
+      "forks": 1362,
+      "openIssues": 17,
+      "pushedAt": "2026-09-28T01:43:35Z"
+    },
+    {
+      "id": 54193621,
+      "fullName": "v1s1t0r1sh3r3/airgeddon",
+      "stars": 8029,
+      "forks": 1338,
+      "openIssues": 0,
+      "pushedAt": "2026-09-23T22:48:49Z"
+    },
+    {
+      "id": 4930716,
+      "fullName": "zeek/zeek",
+      "stars": 8012,
+      "forks": 1418,
+      "openIssues": 246,
+      "pushedAt": "2026-09-25T23:24:07Z"
+    },
+    {
+      "id": 22344874,
+      "fullName": "tutao/tutanota",
+      "stars": 7953,
+      "forks": 640,
+      "openIssues": 980,
+      "pushedAt": "2026-09-25T19:16:17Z"
+    },
+    {
+      "id": 416151847,
+      "fullName": "yaklang/yakit",
+      "stars": 7769,
+      "forks": 831,
+      "openIssues": 127,
+      "pushedAt": "2026-09-28T04:03:50Z"
+    },
+    {
+      "id": 5663857,
+      "fullName": "dependency-check/DependencyCheck",
+      "stars": 7708,
+      "forks": 1423,
+      "openIssues": 189,
+      "pushedAt": "2026-09-28T01:23:12Z"
+    },
+    {
+      "id": 4927517,
+      "fullName": "arkime/arkime",
+      "stars": 7503,
+      "forks": 1167,
+      "openIssues": 37,
+      "pushedAt": "2026-09-27T22:46:36Z"
+    },
+    {
+      "id": 63882194,
+      "fullName": "projectcalico/calico",
+      "stars": 7373,
+      "forks": 1610,
+      "openIssues": 271,
+      "pushedAt": "2026-09-28T03:18:05Z"
+    },
+    {
+      "id": 865250,
+      "fullName": "presidentbeef/brakeman",
+      "stars": 7273,
+      "forks": 778,
+      "openIssues": 114,
+      "pushedAt": "2026-09-25T17:24:56Z"
+    },
+    {
+      "id": 80723074,
+      "fullName": "gopasspw/gopass",
+      "stars": 7226,
+      "forks": 562,
+      "openIssues": 88,
+      "pushedAt": "2026-09-23T20:13:40Z"
+    },
+    {
+      "id": 27442967,
+      "fullName": "fastlane/fastlane",
+      "stars": 42169,
+      "forks": 6039,
+      "openIssues": 669,
+      "pushedAt": "2026-09-28T03:33:33Z"
+    },
+    {
+      "id": 14964475,
+      "fullName": "AvaloniaUI/Avalonia",
+      "stars": 31584,
+      "forks": 2829,
+      "openIssues": 1915,
+      "pushedAt": "2026-09-27T17:36:48Z"
+    },
+    {
+      "id": 88717215,
+      "fullName": "youzan/vant",
+      "stars": 24383,
+      "forks": 9374,
+      "openIssues": 227,
+      "pushedAt": "2026-09-28T02:11:25Z"
+    },
+    {
+      "id": 262395224,
+      "fullName": "dotnet/maui",
+      "stars": 23320,
+      "forks": 1984,
+      "openIssues": 4061,
+      "pushedAt": "2026-09-28T05:02:24Z"
+    },
+    {
+      "id": 4044891,
+      "fullName": "realm/realm-swift",
+      "stars": 16612,
+      "forks": 2241,
+      "openIssues": 498,
+      "pushedAt": "2026-09-27T01:17:57Z"
+    },
+    {
+      "id": 324829379,
+      "fullName": "organicmaps/organicmaps",
+      "stars": 15523,
+      "forks": 1609,
+      "openIssues": 3527,
+      "pushedAt": "2026-09-28T03:03:49Z"
+    },
+    {
+      "id": 19082715,
+      "fullName": "microg/GmsCore",
+      "stars": 14708,
+      "forks": 3221,
+      "openIssues": 1400,
+      "pushedAt": "2026-09-24T10:01:42Z"
+    },
+    {
+      "id": 776121034,
+      "fullName": "BasedHardware/omi",
+      "stars": 13597,
+      "forks": 2515,
+      "openIssues": 1460,
+      "pushedAt": "2026-09-28T05:17:33Z"
+    },
+    {
+      "id": 956657893,
+      "fullName": "mobile-next/mobile-mcp",
+      "stars": 7983,
+      "forks": 685,
+      "openIssues": 48,
+      "pushedAt": "2026-09-23T15:38:57Z"
+    },
+    {
+      "id": 877675290,
+      "fullName": "Axorax/awesome-free-apps",
+      "stars": 7774,
+      "forks": 500,
+      "openIssues": 51,
+      "pushedAt": "2026-09-23T16:54:21Z"
+    },
+    {
+      "id": 743770309,
+      "fullName": "HuLaSpark/HuLa",
+      "stars": 7742,
+      "forks": 1042,
+      "openIssues": 24,
+      "pushedAt": "2026-09-27T01:05:36Z"
+    },
+    {
+      "id": 21833183,
+      "fullName": "TeamAmaze/AmazeFileManager",
+      "stars": 6406,
+      "forks": 1699,
+      "openIssues": 640,
+      "pushedAt": "2026-09-28T05:11:12Z"
+    },
+    {
+      "id": 971447302,
+      "fullName": "cactus-compute/cactus",
+      "stars": 6076,
+      "forks": 514,
+      "openIssues": 112,
+      "pushedAt": "2026-09-26T03:14:00Z"
+    },
+    {
+      "id": 304836585,
+      "fullName": "mayswind/ezbookkeeping",
+      "stars": 5673,
+      "forks": 695,
+      "openIssues": 11,
+      "pushedAt": "2026-09-27T16:26:02Z"
+    },
+    {
+      "id": 60561834,
+      "fullName": "nextcloud/android",
+      "stars": 5604,
+      "forks": 2030,
+      "openIssues": 1548,
+      "pushedAt": "2026-09-28T04:03:46Z"
+    },
+    {
+      "id": 308639708,
+      "fullName": "varletjs/varlet",
+      "stars": 5332,
+      "forks": 619,
+      "openIssues": 11,
+      "pushedAt": "2026-09-21T08:30:26Z"
+    },
+    {
+      "id": 463628495,
+      "fullName": "pytorch/executorch",
+      "stars": 5057,
+      "forks": 1170,
+      "openIssues": 1292,
+      "pushedAt": "2026-09-28T02:31:27Z"
+    },
+    {
+      "id": 115476023,
+      "fullName": "SwiftOldDriver/iOS-Weekly",
+      "stars": 4986,
+      "forks": 431,
+      "openIssues": 9,
+      "pushedAt": "2026-09-28T03:21:34Z"
+    },
+    {
+      "id": 1146193768,
+      "fullName": "callstack/agent-device",
+      "stars": 4791,
+      "forks": 314,
+      "openIssues": 113,
+      "pushedAt": "2026-09-27T12:13:52Z"
+    },
+    {
+      "id": 5550567,
+      "fullName": "owncloud/android",
+      "stars": 4170,
+      "forks": 3081,
+      "openIssues": 208,
+      "pushedAt": "2026-09-25T11:14:38Z"
+    },
+    {
+      "id": 6898381,
+      "fullName": "apache/cordova-android",
+      "stars": 3788,
+      "forks": 1575,
+      "openIssues": 97,
+      "pushedAt": "2026-09-27T16:19:30Z"
+    },
+    {
+      "id": 9306568,
+      "fullName": "wordpress-mobile/WordPress-Android",
+      "stars": 3153,
+      "forks": 1367,
+      "openIssues": 787,
+      "pushedAt": "2026-09-28T00:05:48Z"
+    },
+    {
+      "id": 163527358,
+      "fullName": "coronalabs/corona",
+      "stars": 2880,
+      "forks": 314,
+      "openIssues": 198,
+      "pushedAt": "2026-09-28T02:33:44Z"
+    },
+    {
+      "id": 962125208,
+      "fullName": "zinja-coder/jadx-ai-mcp",
+      "stars": 2834,
+      "forks": 260,
+      "openIssues": 8,
+      "pushedAt": "2026-09-23T07:51:12Z"
+    },
+    {
+      "id": 228094,
+      "fullName": "tidev/titanium-sdk",
+      "stars": 2802,
+      "forks": 1199,
+      "openIssues": 231,
+      "pushedAt": "2026-09-24T10:54:10Z"
+    },
+    {
+      "id": 1073214662,
+      "fullName": "jqssun/android-titanium-browser",
+      "stars": 2749,
+      "forks": 129,
+      "openIssues": 145,
+      "pushedAt": "2026-09-26T13:55:27Z"
+    },
+    {
+      "id": 3534119,
+      "fullName": "OnionBrowser/OnionBrowser",
+      "stars": 2688,
+      "forks": 540,
+      "openIssues": 7,
+      "pushedAt": "2026-09-25T11:03:15Z"
+    },
+    {
+      "id": 487507014,
+      "fullName": "lichess-org/mobile",
+      "stars": 2568,
+      "forks": 503,
+      "openIssues": 506,
+      "pushedAt": "2026-09-28T01:03:51Z"
+    },
+    {
+      "id": 67674352,
+      "fullName": "OWASP/masvs",
+      "stars": 2452,
+      "forks": 747,
+      "openIssues": 7,
+      "pushedAt": "2026-09-21T08:50:59Z"
+    },
+    {
+      "id": 6898387,
+      "fullName": "apache/cordova-ios",
+      "stars": 2221,
+      "forks": 1000,
+      "openIssues": 55,
+      "pushedAt": "2026-09-23T14:16:47Z"
+    },
+    {
+      "id": 1264222628,
+      "fullName": "MG1937/ASC",
+      "stars": 2006,
+      "forks": 271,
+      "openIssues": 8,
+      "pushedAt": "2026-09-24T09:56:53Z"
+    },
+    {
+      "id": 222007330,
+      "fullName": "microsoft/rnx-kit",
+      "stars": 1735,
+      "forks": 119,
+      "openIssues": 12,
+      "pushedAt": "2026-09-28T04:08:45Z"
+    },
+    {
+      "id": 146185516,
+      "fullName": "WalletConnect/walletconnect-monorepo",
+      "stars": 1689,
+      "forks": 817,
+      "openIssues": 104,
+      "pushedAt": "2026-09-25T14:05:18Z"
+    },
+    {
+      "id": 7948548,
+      "fullName": "couchbase/couchbase-lite-ios",
+      "stars": 1667,
+      "forks": 305,
+      "openIssues": 6,
+      "pushedAt": "2026-09-26T02:09:38Z"
+    },
+    {
+      "id": 483564061,
+      "fullName": "bamlab/flashlight",
+      "stars": 1604,
+      "forks": 50,
+      "openIssues": 26,
+      "pushedAt": "2026-09-26T11:19:59Z"
+    },
+    {
+      "id": 52082254,
+      "fullName": "OneSignal/react-native-onesignal",
+      "stars": 1590,
+      "forks": 380,
+      "openIssues": 18,
+      "pushedAt": "2026-09-24T17:28:47Z"
+    },
+    {
+      "id": 121594173,
+      "fullName": "aurelia/aurelia",
+      "stars": 1544,
+      "forks": 149,
+      "openIssues": 82,
+      "pushedAt": "2026-09-27T20:44:09Z"
+    },
+    {
+      "id": 54633811,
+      "fullName": "ring-lang/ring",
+      "stars": 1465,
+      "forks": 434,
+      "openIssues": 0,
+      "pushedAt": "2026-09-25T11:48:16Z"
+    },
+    {
+      "id": 307678346,
+      "fullName": "atsign-foundation/at_client_sdk",
+      "stars": 1433,
+      "forks": 31,
+      "openIssues": 205,
+      "pushedAt": "2026-09-26T17:35:44Z"
+    },
+    {
+      "id": 258191576,
+      "fullName": "openfoodfacts/smooth-app",
+      "stars": 1419,
+      "forks": 480,
+      "openIssues": 669,
+      "pushedAt": "2026-09-27T19:01:14Z"
+    },
+    {
+      "id": 676897841,
+      "fullName": "measure-sh/measure",
+      "stars": 1403,
+      "forks": 88,
+      "openIssues": 84,
+      "pushedAt": "2026-09-28T04:45:27Z"
+    },
+    {
+      "id": 27185284,
+      "fullName": "opengisch/QField",
+      "stars": 1368,
+      "forks": 350,
+      "openIssues": 191,
+      "pushedAt": "2026-09-28T04:38:15Z"
+    },
+    {
+      "id": 287069971,
+      "fullName": "expo/eas-cli",
+      "stars": 1360,
+      "forks": 240,
+      "openIssues": 490,
+      "pushedAt": "2026-09-28T00:01:39Z"
+    },
+    {
+      "id": 197584193,
+      "fullName": "objectbox/objectbox-dart",
+      "stars": 1233,
+      "forks": 162,
+      "openIssues": 73,
+      "pushedAt": "2026-09-23T06:35:28Z"
+    },
+    {
+      "id": 10860602,
+      "fullName": "apache/cordova-plugin-inappbrowser",
+      "stars": 1139,
+      "forks": 2200,
+      "openIssues": 306,
+      "pushedAt": "2026-09-26T07:42:41Z"
+    },
+    {
+      "id": 1151010960,
+      "fullName": "K9i-0/ccpocket",
+      "stars": 1075,
+      "forks": 113,
+      "openIssues": 26,
+      "pushedAt": "2026-09-23T06:34:20Z"
+    },
+    {
+      "id": 21347346,
+      "fullName": "NativeScript/nativescript-cli",
+      "stars": 1053,
+      "forks": 204,
+      "openIssues": 380,
+      "pushedAt": "2026-09-24T02:43:18Z"
+    },
+    {
+      "id": 54325713,
+      "fullName": "rbfx/rbfx",
+      "stars": 1041,
+      "forks": 174,
+      "openIssues": 102,
+      "pushedAt": "2026-09-27T12:59:04Z"
+    },
+    {
+      "id": 44124366,
+      "fullName": "yahoo/elide",
+      "stars": 1032,
+      "forks": 237,
+      "openIssues": 90,
+      "pushedAt": "2026-09-21T13:02:50Z"
+    },
+    {
+      "id": 7126418,
+      "fullName": "apache/cordova-cli",
+      "stars": 967,
+      "forks": 343,
+      "openIssues": 56,
+      "pushedAt": "2026-09-23T18:35:37Z"
+    },
+    {
+      "id": 225837523,
+      "fullName": "yako-dev/flutter-settings-ui",
+      "stars": 961,
+      "forks": 241,
+      "openIssues": 0,
+      "pushedAt": "2026-09-26T14:24:21Z"
+    },
+    {
+      "id": 270155553,
+      "fullName": "pthom/hello_imgui",
+      "stars": 914,
+      "forks": 118,
+      "openIssues": 16,
+      "pushedAt": "2026-09-27T17:02:53Z"
+    },
+    {
+      "id": 1102782418,
+      "fullName": "chriswritescode-dev/opencode-manager",
+      "stars": 886,
+      "forks": 117,
+      "openIssues": 21,
+      "pushedAt": "2026-09-28T04:19:38Z"
+    },
+    {
+      "id": 633250537,
+      "fullName": "any-tdf/any-tdf",
+      "stars": 780,
+      "forks": 43,
+      "openIssues": 2,
+      "pushedAt": "2026-09-21T07:58:35Z"
+    },
+    {
+      "id": 73104945,
+      "fullName": "google/mobly",
+      "stars": 755,
+      "forks": 224,
+      "openIssues": 8,
+      "pushedAt": "2026-09-28T00:12:18Z"
+    },
+    {
+      "id": 867014724,
+      "fullName": "syncfusion/maui-toolkit",
+      "stars": 746,
+      "forks": 130,
+      "openIssues": 16,
+      "pushedAt": "2026-09-22T10:08:24Z"
+    },
+    {
+      "id": 143257953,
+      "fullName": "yako-dev/flutter_badges",
+      "stars": 737,
+      "forks": 133,
+      "openIssues": 0,
+      "pushedAt": "2026-09-26T14:23:56Z"
+    },
+    {
+      "id": 1178642731,
+      "fullName": "rust-ui/ui",
+      "stars": 669,
+      "forks": 47,
+      "openIssues": 5,
+      "pushedAt": "2026-09-24T07:49:09Z"
+    },
+    {
+      "id": 889885786,
+      "fullName": "krvstek/uni-apks",
+      "stars": 668,
+      "forks": 23,
+      "openIssues": 1,
+      "pushedAt": "2026-09-28T03:15:11Z"
+    },
+    {
+      "id": 32039560,
+      "fullName": "grahammendick/navigation",
+      "stars": 660,
+      "forks": 44,
+      "openIssues": 1,
+      "pushedAt": "2026-09-23T20:37:28Z"
+    },
+    {
+      "id": 59936034,
+      "fullName": "ain/smartbanner.js",
+      "stars": 656,
+      "forks": 174,
+      "openIssues": 11,
+      "pushedAt": "2026-09-28T02:02:29Z"
+    },
+    {
+      "id": 378835363,
+      "fullName": "linagora/tmail-flutter",
+      "stars": 655,
+      "forks": 127,
+      "openIssues": 313,
+      "pushedAt": "2026-09-28T04:28:06Z"
+    },
+    {
+      "id": 6898382,
+      "fullName": "apache/cordova-js",
+      "stars": 642,
+      "forks": 811,
+      "openIssues": 4,
+      "pushedAt": "2026-09-26T11:51:11Z"
+    },
+    {
+      "id": 116221698,
+      "fullName": "status-im/nimbus-eth1",
+      "stars": 631,
+      "forks": 165,
+      "openIssues": 117,
+      "pushedAt": "2026-09-28T03:00:46Z"
+    },
+    {
+      "id": 485650081,
+      "fullName": "stacksjs/stacks",
+      "stars": 629,
+      "forks": 19,
+      "openIssues": 49,
+      "pushedAt": "2026-09-28T03:53:18Z"
+    },
+    {
+      "id": 3459585,
+      "fullName": "gammu/gammu",
+      "stars": 591,
+      "forks": 170,
+      "openIssues": 52,
+      "pushedAt": "2026-09-26T07:08:16Z"
+    },
+    {
+      "id": 262536132,
+      "fullName": "AngeloAvv/flutter_flavorizr",
+      "stars": 570,
+      "forks": 116,
+      "openIssues": 32,
+      "pushedAt": "2026-09-26T10:06:57Z"
+    },
+    {
+      "id": 29137950,
+      "fullName": "NativeScript/android",
+      "stars": 563,
+      "forks": 144,
+      "openIssues": 121,
+      "pushedAt": "2026-09-23T00:08:12Z"
+    },
+    {
+      "id": 2698821,
+      "fullName": "medic/cht-core",
+      "stars": 556,
+      "forks": 420,
+      "openIssues": 652,
+      "pushedAt": "2026-09-25T21:22:10Z"
+    },
+    {
+      "id": 49672452,
+      "fullName": "theyosh/TerrariumPI",
+      "stars": 474,
+      "forks": 104,
+      "openIssues": 8,
+      "pushedAt": "2026-09-27T11:03:20Z"
+    },
+    {
+      "id": 504693902,
+      "fullName": "nuxt-modules/ionic",
+      "stars": 458,
+      "forks": 53,
+      "openIssues": 40,
+      "pushedAt": "2026-09-28T00:28:58Z"
+    },
+    {
+      "id": 214693717,
+      "fullName": "gluonhq/substrate",
+      "stars": 448,
+      "forks": 56,
+      "openIssues": 134,
+      "pushedAt": "2026-09-22T12:42:52Z"
+    },
+    {
+      "id": 264599412,
+      "fullName": "appwrite/sdk-for-flutter",
+      "stars": 419,
+      "forks": 149,
+      "openIssues": 20,
+      "pushedAt": "2026-09-24T15:19:34Z"
+    },
+    {
+      "id": 1153949512,
+      "fullName": "chadbyte/clay",
+      "stars": 398,
+      "forks": 56,
+      "openIssues": 1,
+      "pushedAt": "2026-09-28T04:37:06Z"
+    },
+    {
+      "id": 1264419530,
+      "fullName": "aws-devtools-labs/aws-blocks",
+      "stars": 395,
+      "forks": 50,
+      "openIssues": 144,
+      "pushedAt": "2026-09-28T05:10:11Z"
+    },
+    {
+      "id": 1275964022,
+      "fullName": "dcolinmorgan/herdr-remote",
+      "stars": 394,
+      "forks": 71,
+      "openIssues": 4,
+      "pushedAt": "2026-09-24T08:17:39Z"
+    },
+    {
+      "id": 46554390,
+      "fullName": "MerginMaps/mobile",
+      "stars": 388,
+      "forks": 87,
+      "openIssues": 532,
+      "pushedAt": "2026-09-26T07:03:45Z"
+    },
+    {
+      "id": 1349818659,
+      "fullName": "vicoa-ai/vicoa",
+      "stars": 381,
+      "forks": 39,
+      "openIssues": 6,
+      "pushedAt": "2026-09-27T15:59:52Z"
+    },
+    {
+      "id": 726240487,
+      "fullName": "cvs-health/ios-swiftui-accessibility-techniques",
+      "stars": 380,
+      "forks": 38,
+      "openIssues": 1,
+      "pushedAt": "2026-09-25T16:59:56Z"
+    },
+    {
+      "id": 241657529,
+      "fullName": "microlinkhq/top-user-agents",
+      "stars": 378,
+      "forks": 26,
+      "openIssues": 0,
+      "pushedAt": "2026-09-28T02:35:50Z"
+    },
+    {
+      "id": 143583841,
+      "fullName": "lrusso/Emulatrix",
+      "stars": 374,
+      "forks": 138,
+      "openIssues": 0,
+      "pushedAt": "2026-09-27T22:16:45Z"
+    },
+    {
+      "id": 450707404,
+      "fullName": "yuroyami/syncplay-mobile",
+      "stars": 362,
+      "forks": 19,
+      "openIssues": 11,
+      "pushedAt": "2026-09-26T14:37:19Z"
+    },
+    {
+      "id": 6898391,
+      "fullName": "apache/cordova-docs",
+      "stars": 353,
+      "forks": 566,
+      "openIssues": 47,
+      "pushedAt": "2026-09-26T07:47:06Z"
+    },
+    {
+      "id": 692515327,
+      "fullName": "neohaskell/NeoHaskell",
+      "stars": 347,
+      "forks": 11,
+      "openIssues": 338,
+      "pushedAt": "2026-09-25T21:56:03Z"
+    },
+    {
+      "id": 115437864,
+      "fullName": "michaelbel/movies",
+      "stars": 343,
+      "forks": 47,
+      "openIssues": 1,
+      "pushedAt": "2026-09-25T10:07:32Z"
+    },
+    {
+      "id": 1261204838,
+      "fullName": "mjmirza/app-store-compliance",
+      "stars": 336,
+      "forks": 32,
+      "openIssues": 109,
+      "pushedAt": "2026-09-28T04:21:04Z"
+    },
+    {
+      "id": 1334817483,
+      "fullName": "saya-ch/dsh-mobile",
+      "stars": 325,
+      "forks": 29,
+      "openIssues": 26,
+      "pushedAt": "2026-09-27T13:58:02Z"
+    },
+    {
+      "id": 828613440,
+      "fullName": "JoydeepMallick/Wallpapers",
+      "stars": 315,
+      "forks": 22,
+      "openIssues": 2,
+      "pushedAt": "2026-09-27T12:46:20Z"
+    },
+    {
+      "id": 19089866,
+      "fullName": "reactiveui/Fusillade",
+      "stars": 313,
+      "forks": 30,
+      "openIssues": 4,
+      "pushedAt": "2026-09-27T20:03:47Z"
+    }
+  ]
+}
