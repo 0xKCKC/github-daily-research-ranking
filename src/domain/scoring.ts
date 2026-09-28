@@ -20,19 +20,33 @@ interface PreparedRepository {
   signals: RankingSignals
 }
 
-function snapshotEntry(snapshot: RepositorySnapshot | undefined, id: number) {
-  return snapshot?.repositories.find((repository) => repository.id === id)
+type SnapshotEntry = RepositorySnapshot['repositories'][number]
+
+interface HistoryBaselines {
+  previous: Map<number, SnapshotEntry>
+  week: Map<number, SnapshotEntry>
+}
+
+function indexSnapshot(snapshot: RepositorySnapshot | undefined): Map<number, SnapshotEntry> {
+  return new Map((snapshot?.repositories ?? []).map((entry) => [entry.id, entry]))
+}
+
+function historyBaselines(history: RepositorySnapshot[], now: string): HistoryBaselines {
+  const sortedHistory = [...history].sort((left, right) => right.capturedAt.localeCompare(left.capturedAt))
+  const sevenDaysAgo = sortedHistory.find((snapshot) => daysBetween(snapshot.capturedAt, now) >= 6.5)
+  return {
+    previous: indexSnapshot(sortedHistory[0]),
+    week: indexSnapshot(sevenDaysAgo)
+  }
 }
 
 function buildSignals(
   repository: GithubRepository,
   now: string,
-  history: RepositorySnapshot[]
+  baselines: HistoryBaselines
 ): RankingSignals {
-  const sortedHistory = [...history].sort((left, right) => right.capturedAt.localeCompare(left.capturedAt))
-  const previous = snapshotEntry(sortedHistory[0], repository.id)
-  const sevenDaysAgo = sortedHistory.find((snapshot) => daysBetween(snapshot.capturedAt, now) >= 6.5)
-  const weekEntry = snapshotEntry(sevenDaysAgo, repository.id)
+  const previous = baselines.previous.get(repository.id)
+  const weekEntry = baselines.week.get(repository.id)
   const stars24h = previous ? Math.max(0, repository.stars - previous.stars) : null
   const forks24h = previous ? Math.max(0, repository.forks - previous.forks) : null
   const ageDays = Math.max(daysBetween(repository.createdAt, now), 0.25)
@@ -97,12 +111,12 @@ export function scoreRepositories(
   repositories: GithubRepository[],
   options: ScoreRepositoriesOptions
 ): RankedRepository[] {
-  const history = options.history ?? []
+  const baselines = historyBaselines(options.history ?? [], options.now)
   const prepared = repositories
     .filter((repository) => !repository.archived && !repository.fork)
     .map((repository) => ({
       repository,
-      signals: buildSignals(repository, options.now, history)
+      signals: buildSignals(repository, options.now, baselines)
     }))
   const hasDailyBaseline = prepared.some(({ signals }) => signals.stars24h !== null)
   const breakdowns = hasDailyBaseline ? liveBreakdowns(prepared) : warmupBreakdowns(prepared)

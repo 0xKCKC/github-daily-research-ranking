@@ -53,6 +53,29 @@ describe('scoreRepositories', () => {
     expect(result[1].signals.stars24h).toBe(10)
   })
 
+  it('scores tied repositories identically regardless of input order', () => {
+    const repositories = [
+      repository({ id: 1, fullName: 'flat/one', stars: 100 }),
+      repository({ id: 2, fullName: 'flat/two', stars: 100 }),
+      repository({ id: 3, fullName: 'up/three', stars: 150 })
+    ]
+    const history: RepositorySnapshot[] = [{
+      capturedAt: '2026-09-01T00:00:00Z',
+      repositories: repositories.map(({ id, fullName }) => ({
+        id, fullName, stars: 100, forks: 10, openIssues: 2, pushedAt: '2026-09-01T00:00:00Z'
+      }))
+    }]
+    const scores = (input: GithubRepository[]) => new Map(
+      scoreRepositories(input, { now: '2026-09-02T00:00:00Z', history }).map(({ id, score }) => [id, score])
+    )
+
+    const forward = scores(repositories)
+    const reversed = scores([...repositories].reverse())
+
+    expect(forward.get(1)).toBe(forward.get(2))
+    expect(reversed).toEqual(forward)
+  })
+
   it('excludes archived repositories and forks', () => {
     const result = scoreRepositories([
       repository({ id: 1, fullName: 'active/repo' }),

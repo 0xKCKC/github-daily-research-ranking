@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useDeferredValue, useMemo, useState } from 'react'
 import type { RepositoryCategory } from './domain/repository'
 import { useRankingData } from './hooks/useRankingData'
 import { FilterBar } from './components/FilterBar'
@@ -14,22 +14,30 @@ export function App() {
   const [category, setCategory] = useState<RepositoryCategory | 'all'>('all')
   const [query, setQuery] = useState('')
 
+  const deferredQuery = useDeferredValue(query)
+
+  const searchIndex = useMemo(() => (data?.repositories ?? []).map((repository) => ({
+    repository,
+    searchFields: [
+      repository.fullName,
+      repository.description,
+      repository.language ?? '',
+      ...repository.topics
+    ].map((value) => value.toLowerCase())
+  })), [data])
+
   const filteredRepositories = useMemo(() => {
-    if (!data) return []
-    const normalizedQuery = query.trim().toLowerCase()
+    const normalizedQuery = deferredQuery.trim().toLowerCase()
 
-    return data.repositories.filter((repository) => {
-      const matchesCategory = category === 'all' || repository.categories.includes(category)
-      const matchesQuery = !normalizedQuery || [
-        repository.fullName,
-        repository.description,
-        repository.language ?? '',
-        ...repository.topics
-      ].some((value) => value.toLowerCase().includes(normalizedQuery))
+    return searchIndex
+      .filter(({ repository, searchFields }) => {
+        const matchesCategory = category === 'all' || repository.categories.includes(category)
+        const matchesQuery = !normalizedQuery || searchFields.some((value) => value.includes(normalizedQuery))
 
-      return matchesCategory && matchesQuery
-    })
-  }, [category, data, query])
+        return matchesCategory && matchesQuery
+      })
+      .map(({ repository }) => repository)
+  }, [category, deferredQuery, searchIndex])
 
   if (loading) return <PageState type="loading" />
   if (error || !data) return <PageState type="error" message={error ?? undefined} />
