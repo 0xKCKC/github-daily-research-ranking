@@ -539,6 +539,11 @@
   font-size: 0.68rem;
 }
 
+.research-ai-note {
+  color: var(--text-faint);
+  font-size: 0.72rem;
+}
+
 .ranking-list {
   border-top: 1px solid var(--border-strong);
 }

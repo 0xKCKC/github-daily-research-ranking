@@ -82,13 +82,24 @@ pnpm backtest
 - Gamma-Poisson 經驗貝氏收縮取代 `sqrt(stars+25)` 體量校正：命中率略降。
 - 分數按前一日平滑：穩定度明顯上升，但命中率下降約 3 個百分點，屬取捨而非改進。
 
+## AI 研究摘要
+
+每日 Top 50 的「簡介」、「適合誰」和分類會交由 [GitHub Models](https://docs.github.com/en/github-models)（預設 `openai/gpt-4.1-mini`）根據 repo 名稱、描述、語言和 topics 生成。
+
+- 不需要額外 API key：GitHub Actions 用工作流自帶的 `GITHUB_TOKEN`，權限為 `models: read`，token 每次運行自動產生、完成後失效。
+- 每 10 個 repo 一次請求，每日約 5 次，在免費額度之內。
+- AI 文字只作參考，不影響分數和排名；「為何上榜」和注意事項仍由數據規則產生，避免 AI 編造數字。
+- 輸出經嚴格驗證（分類只可用固定選項、限制長度）；請求失敗、超額或格式不符時自動沿用模板文字。
+- 設 `AI_RESEARCH=off` 可停用，設 `AI_MODEL` 可改用其他 GitHub Models 模型。
+
 ## 每日資料流
 
 1. 九組搜尋分別探索新項目、活躍項目及主要技術分類。
 2. 合併並去除重複、fork 和 archived repository。
 3. 與最近八日快照比較，計算增長和排名變化。
-4. 寫入 `public/data/current.json`、日期歷史、候選快照及 Markdown 日報。
-5. 測試及建置全部通過後才提交資料並部署 Pages。
+4. Top 50 交由 GitHub Models 生成中文簡介，失敗時沿用模板。
+5. 寫入 `public/data/current.json`、日期歷史、候選快照及 Markdown 日報。
+6. 測試及建置全部通過後才提交資料並部署 Pages。
 
 ## GitHub Pages
 

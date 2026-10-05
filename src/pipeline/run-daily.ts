@@ -4,6 +4,7 @@ import type { RankingDocument, RepositorySnapshot } from '../domain/repository'
 import { discoverRepositories } from './discovery'
 import { fixtureRepositories } from './fixtures'
 import { GithubClient } from './github-client'
+import { enrichResearchWithAi } from './ai-research'
 import { buildMarkdownReport } from './report'
 import { loadCurrentRanking, loadSnapshotHistory, saveDailyOutputs } from './storage'
 
@@ -36,6 +37,13 @@ async function run(): Promise<void> {
     history,
     previousRanking: previousDocument?.repositories
   }).slice(0, 50)
+  const researched = useFixtures || process.env.AI_RESEARCH === 'off'
+    ? ranked
+    : await enrichResearchWithAi(ranked, {
+      token: process.env.GITHUB_TOKEN,
+      model: process.env.AI_MODEL,
+      log: (message) => process.stdout.write(`${message}\n`)
+    })
   const snapshot: RepositorySnapshot = {
     capturedAt: nowIso,
     repositories: repositories.map((repository) => ({
@@ -56,14 +64,14 @@ async function run(): Promise<void> {
     methodologyVersion: '1.2.0',
     stats: {
       candidateCount: repositories.length,
-      rankedCount: ranked.length,
+      rankedCount: researched.length,
       historyDays: history.length + 1
     },
-    repositories: ranked
+    repositories: researched
   }
 
   await saveDailyOutputs(root, document, snapshot, buildMarkdownReport(document))
-  process.stdout.write(`Saved ${ranked.length} ranked repositories from ${repositories.length} candidates.\n`)
+  process.stdout.write(`Saved ${researched.length} ranked repositories from ${repositories.length} candidates.\n`)
 }
 
 run().catch((error: unknown) => {
