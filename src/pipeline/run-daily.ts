@@ -53,7 +53,7 @@ async function run(): Promise<void> {
     dataDate,
     status: history.length > 0 ? 'live' : 'warmup',
     source: useFixtures ? 'fixtures' : 'github-live',
-    methodologyVersion: '1.1.0',
+    methodologyVersion: '1.2.0',
     stats: {
       candidateCount: repositories.length,
       rankedCount: ranked.length,

@@ -32,6 +32,9 @@ const DAILY_WINDOW = { min: 0.4, max: 4 }
 const SHORT_WINDOW = { min: 2.5, max: 4 }
 const WEEK_WINDOW = { min: 6.5, max: 9 }
 const SHORT_WINDOW_WEIGHT = 0.5
+const NO_BASELINE_QUANTILE = 0.7
+// Fork share of new stars is only reported once a repository gains this many stars in a week.
+const FORK_RATIO_MIN_STARS = 200
 
 interface DailyRate {
   value: number
@@ -99,12 +102,18 @@ function buildSignals(
     acceleration7d = daily.value / earlierDailyAverage
   }
 
+  const forkWeek = week ? dailyRate(history, repository, 'forks', WEEK_WINDOW) : null
+  const forkRatio7d = week && forkWeek && week.value * week.days >= FORK_RATIO_MIN_STARS
+    ? forkWeek.value / week.value
+    : null
+
   return {
     stars24h: daily ? Math.round(daily.value) : null,
     forks24h: forkDaily ? Math.round(forkDaily.value) : null,
     starVelocity,
     relativeGrowth: starVelocity === null ? null : relativeToSize(starVelocity, repository.stars),
     acceleration7d,
+    forkRatio7d,
     ageDays,
     hoursSincePush: hoursBetween(repository.pushedAt, now),
     starsPerDay
@@ -115,17 +124,20 @@ function relativeToSize(velocity: number, stars: number): number {
   return velocity / Math.sqrt(Math.max(stars, 0) + 25)
 }
 
-function median(values: number[]): number {
+function quantile(values: number[], fraction: number): number {
   if (values.length === 0) return 0
   const sorted = [...values].sort((left, right) => left - right)
-  const middle = Math.floor(sorted.length / 2)
-  return sorted.length % 2 === 0 ? (sorted[middle - 1] + sorted[middle]) / 2 : sorted[middle]
+  return sorted[Math.min(sorted.length - 1, Math.floor(sorted.length * fraction))]
 }
 
 function liveBreakdowns(prepared: PreparedRepository[]): ScoreBreakdown[] {
-  // Repositories without any baseline get the pool's typical velocity: neither buried nor promoted.
-  const typicalVelocity = median(prepared.flatMap(({ signals }) => signals.starVelocity ?? []))
-  const velocities = prepared.map(({ signals }) => signals.starVelocity ?? typicalVelocity)
+  // Repositories without any baseline usually just entered the candidate pool because they are
+  // rising, so they get an above-median velocity rather than zero.
+  const imputedVelocity = quantile(
+    prepared.flatMap(({ signals }) => signals.starVelocity ?? []),
+    NO_BASELINE_QUANTILE
+  )
+  const velocities = prepared.map(({ signals }) => signals.starVelocity ?? imputedVelocity)
   const starMomentum = percentileRanks(velocities.map((velocity) => Math.log1p(velocity)))
   const relativeGrowth = percentileRanks(prepared.map(({ repository }, index) =>
     Math.log1p(relativeToSize(velocities[index], repository.stars))

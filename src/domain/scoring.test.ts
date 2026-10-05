@@ -119,26 +119,36 @@ describe('scoreRepositories', () => {
     expect(result.signals.stars24h).toBe(300)
   })
 
-  it('gives repositories without a baseline the typical velocity instead of zero', () => {
+  it('gives repositories without a baseline an above-median velocity instead of zero', () => {
+    const gains = [1, 5, 20, 50, 100]
     const history: RepositorySnapshot[] = [{
       capturedAt: '2026-09-01T00:00:00Z',
-      repositories: [
-        snapshotEntry(1, 'slow/repo', 100),
-        snapshotEntry(2, 'mid/repo', 100),
-        snapshotEntry(3, 'fast/repo', 100)
-      ]
+      repositories: gains.map((_, index) => snapshotEntry(index + 1, `known/repo-${index + 1}`, 100))
     }]
     const result = scoreRepositories([
-      repository({ id: 1, fullName: 'slow/repo', stars: 101 }),
-      repository({ id: 2, fullName: 'mid/repo', stars: 120 }),
-      repository({ id: 3, fullName: 'fast/repo', stars: 200 }),
-      repository({ id: 4, fullName: 'unseen/repo', stars: 100 })
+      ...gains.map((gain, index) => repository({ id: index + 1, fullName: `known/repo-${index + 1}`, stars: 100 + gain })),
+      repository({ id: 9, fullName: 'unseen/repo', stars: 100 })
     ], { now: '2026-09-02T00:00:00Z', history })
     const momentum = (id: number) => result.find((entry) => entry.id === id)!.scoreBreakdown.starMomentum
 
-    expect(result.find(({ id }) => id === 4)?.signals.stars24h).toBeNull()
-    expect(momentum(4)).toBe(momentum(2))
-    expect(momentum(4)).toBeGreaterThan(momentum(1))
+    expect(result.find(({ id }) => id === 9)?.signals.stars24h).toBeNull()
+    expect(momentum(9)).toBe(momentum(4))
+    expect(momentum(9)).toBeGreaterThan(momentum(3))
+  })
+
+  it('reports the fork share of new stars over a week', () => {
+    const [result] = scoreRepositories([
+      repository({ id: 1, fullName: 'starry/repo', stars: 1300, forks: 15 })
+    ], {
+      now: '2026-09-08T00:00:00Z',
+      history: [
+        { capturedAt: '2026-09-07T00:00:00Z', repositories: [{ ...snapshotEntry(1, 'starry/repo', 1200), forks: 14 }] },
+        { capturedAt: '2026-09-01T00:00:00Z', repositories: [{ ...snapshotEntry(1, 'starry/repo', 300), forks: 10 }] }
+      ]
+    })
+
+    expect(result.signals.forkRatio7d).toBeCloseTo(0.005)
+    expect(result.research.cautions.some((caution) => caution.includes('刷星'))).toBe(true)
   })
 
   it('excludes archived repositories and forks', () => {

@@ -39,6 +39,10 @@ function cautionText(repository: GithubRepository, signals: RankingSignals): str
   if (repository.openIssues > Math.max(100, repository.stars * 0.08)) {
     cautions.push('未處理 issues 相對較多，要留意支援能力和成熟度。')
   }
+  if (signals.forkRatio7d != null && signals.forkRatio7d < 0.03) {
+    const share = (signals.forkRatio7d * 100).toFixed(1)
+    cautions.push(`近 7 日新增 forks 只有新增 stars 的 ${share}%（一般約 10%），可能是收藏型清單，亦可能有刷星，宜先核實 stargazers。`)
+  }
 
   return cautions.length > 0 ? cautions : ['熱門度不等於適合生產環境，採用前仍要檢查文件、測試和安全紀錄。']
 }
