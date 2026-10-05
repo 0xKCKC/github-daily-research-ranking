@@ -108,4 +108,16 @@ describe('enrichResearchWithAi', () => {
     expect(fetchImpl).toHaveBeenCalledTimes(1)
     expect(skipped).toEqual(repositories)
   })
+
+  it('stops after a non-JSON success body and reports it', async () => {
+    const fetchImpl = vi.fn(async () => new Response('OK\n', { status: 200 }))
+    const messages: string[] = []
+    const repositories = Array.from({ length: 25 }, (_, index) => ranked(index + 1))
+
+    const result = await enrichResearchWithAi(repositories, { token: 'token', fetchImpl, log: (message) => messages.push(message) })
+
+    expect(result).toEqual(repositories)
+    expect(fetchImpl).toHaveBeenCalledTimes(1)
+    expect(messages[0]).toContain('unexpected body')
+  })
 })
