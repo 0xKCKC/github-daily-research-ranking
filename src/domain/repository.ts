@@ -48,6 +48,8 @@ export interface RankingSignals {
   starVelocity?: number | null
   relativeGrowth: number | null
   acceleration7d: number | null
+  /** New forks per new star over about a week; null below 200 new stars. */
+  forkRatio7d?: number | null
   ageDays: number
   hoursSincePush: number
   starsPerDay: number
