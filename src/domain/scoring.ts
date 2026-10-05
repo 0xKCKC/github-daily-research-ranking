@@ -22,50 +22,88 @@ interface PreparedRepository {
 
 type SnapshotEntry = RepositorySnapshot['repositories'][number]
 
-interface HistoryBaselines {
-  previous: Map<number, SnapshotEntry>
-  week: Map<number, SnapshotEntry>
+interface IndexedSnapshot {
+  ageDays: number
+  entries: Map<number, SnapshotEntry>
 }
 
-function indexSnapshot(snapshot: RepositorySnapshot | undefined): Map<number, SnapshotEntry> {
-  return new Map((snapshot?.repositories ?? []).map((entry) => [entry.id, entry]))
+// Baseline windows in days, chosen by backtesting against the stored snapshots.
+const DAILY_WINDOW = { min: 0.4, max: 4 }
+const SHORT_WINDOW = { min: 2.5, max: 4 }
+const WEEK_WINDOW = { min: 6.5, max: 9 }
+const SHORT_WINDOW_WEIGHT = 0.5
+
+interface DailyRate {
+  value: number
+  days: number
 }
 
-function historyBaselines(history: RepositorySnapshot[], now: string): HistoryBaselines {
-  const sortedHistory = [...history].sort((left, right) => right.capturedAt.localeCompare(left.capturedAt))
-  const sevenDaysAgo = sortedHistory.find((snapshot) => daysBetween(snapshot.capturedAt, now) >= 6.5)
-  return {
-    previous: indexSnapshot(sortedHistory[0]),
-    week: indexSnapshot(sevenDaysAgo)
+function indexHistory(history: RepositorySnapshot[], now: string): IndexedSnapshot[] {
+  return [...history]
+    .sort((left, right) => right.capturedAt.localeCompare(left.capturedAt))
+    .map((snapshot) => ({
+      ageDays: daysBetween(snapshot.capturedAt, now),
+      entries: new Map(snapshot.repositories.map((entry) => [entry.id, entry]))
+    }))
+}
+
+// Gain per day against the most recent snapshot inside the window that contains the repository,
+// so a missed run or a repository that briefly left the candidate pool still has a baseline.
+function dailyRate(
+  history: IndexedSnapshot[],
+  repository: GithubRepository,
+  field: 'stars' | 'forks',
+  window: { min: number, max: number }
+): DailyRate | null {
+  for (const snapshot of history) {
+    if (snapshot.ageDays < window.min) continue
+    if (snapshot.ageDays > window.max) break
+    const entry = snapshot.entries.get(repository.id)
+    if (entry) {
+      return { value: Math.max(0, repository[field] - entry[field]) / snapshot.ageDays, days: snapshot.ageDays }
+    }
   }
+  return null
 }
 
 function buildSignals(
   repository: GithubRepository,
   now: string,
-  baselines: HistoryBaselines
+  history: IndexedSnapshot[]
 ): RankingSignals {
-  const previous = baselines.previous.get(repository.id)
-  const weekEntry = baselines.week.get(repository.id)
-  const stars24h = previous ? Math.max(0, repository.stars - previous.stars) : null
-  const forks24h = previous ? Math.max(0, repository.forks - previous.forks) : null
   const ageDays = Math.max(daysBetween(repository.createdAt, now), 0.25)
   const starsPerDay = repository.stars / ageDays
-  const relativeGrowth = stars24h === null
-    ? null
-    : stars24h / Math.sqrt(Math.max(repository.stars, 0) + 25)
+  let daily = dailyRate(history, repository, 'stars', DAILY_WINDOW)
+  let forkDaily = dailyRate(history, repository, 'forks', DAILY_WINDOW)
+
+  // A repository created after the latest baseline gained every star inside the window.
+  const latestBaseline = history.find((snapshot) => snapshot.ageDays >= DAILY_WINDOW.min)
+  if (!daily && latestBaseline && ageDays <= latestBaseline.ageDays) {
+    const days = Math.max(ageDays, 1)
+    daily = { value: repository.stars / days, days }
+    forkDaily = { value: repository.forks / days, days }
+  }
+
+  const shortTerm = daily ? dailyRate(history, repository, 'stars', SHORT_WINDOW) : null
+  const week = daily ? dailyRate(history, repository, 'stars', WEEK_WINDOW) : null
+  const starVelocity = daily
+    ? shortTerm
+      ? (1 - SHORT_WINDOW_WEIGHT) * daily.value + SHORT_WINDOW_WEIGHT * shortTerm.value
+      : daily.value
+    : null
 
   let acceleration7d: number | null = null
-  if (stars24h !== null && weekEntry) {
-    const weeklyGain = Math.max(0, repository.stars - weekEntry.stars)
-    const earlierDailyAverage = Math.max((weeklyGain - stars24h) / 6, 0.25)
-    acceleration7d = stars24h / earlierDailyAverage
+  if (daily && week && week.days > daily.days) {
+    const earlierGain = Math.max(week.value * week.days - daily.value * daily.days, 0)
+    const earlierDailyAverage = Math.max(earlierGain / (week.days - daily.days), 0.25)
+    acceleration7d = daily.value / earlierDailyAverage
   }
 
   return {
-    stars24h,
-    forks24h,
-    relativeGrowth,
+    stars24h: daily ? Math.round(daily.value) : null,
+    forks24h: forkDaily ? Math.round(forkDaily.value) : null,
+    starVelocity,
+    relativeGrowth: starVelocity === null ? null : relativeToSize(starVelocity, repository.stars),
     acceleration7d,
     ageDays,
     hoursSincePush: hoursBetween(repository.pushedAt, now),
@@ -73,9 +111,25 @@ function buildSignals(
   }
 }
 
+function relativeToSize(velocity: number, stars: number): number {
+  return velocity / Math.sqrt(Math.max(stars, 0) + 25)
+}
+
+function median(values: number[]): number {
+  if (values.length === 0) return 0
+  const sorted = [...values].sort((left, right) => left - right)
+  const middle = Math.floor(sorted.length / 2)
+  return sorted.length % 2 === 0 ? (sorted[middle - 1] + sorted[middle]) / 2 : sorted[middle]
+}
+
 function liveBreakdowns(prepared: PreparedRepository[]): ScoreBreakdown[] {
-  const starMomentum = percentileRanks(prepared.map(({ signals }) => Math.log1p(signals.stars24h ?? 0)))
-  const relativeGrowth = percentileRanks(prepared.map(({ signals }) => Math.log1p(signals.relativeGrowth ?? 0)))
+  // Repositories without any baseline get the pool's typical velocity: neither buried nor promoted.
+  const typicalVelocity = median(prepared.flatMap(({ signals }) => signals.starVelocity ?? []))
+  const velocities = prepared.map(({ signals }) => signals.starVelocity ?? typicalVelocity)
+  const starMomentum = percentileRanks(velocities.map((velocity) => Math.log1p(velocity)))
+  const relativeGrowth = percentileRanks(prepared.map(({ repository }, index) =>
+    Math.log1p(relativeToSize(velocities[index], repository.stars))
+  ))
   const acceleration = percentileRanks(prepared.map(({ signals }) => Math.log1p(signals.acceleration7d ?? 0)))
   const forkMomentum = percentileRanks(prepared.map(({ signals }) => Math.log1p(signals.forks24h ?? 0)))
 
@@ -111,12 +165,12 @@ export function scoreRepositories(
   repositories: GithubRepository[],
   options: ScoreRepositoriesOptions
 ): RankedRepository[] {
-  const baselines = historyBaselines(options.history ?? [], options.now)
+  const history = indexHistory(options.history ?? [], options.now)
   const prepared = repositories
     .filter((repository) => !repository.archived && !repository.fork)
     .map((repository) => ({
       repository,
-      signals: buildSignals(repository, options.now, baselines)
+      signals: buildSignals(repository, options.now, history)
     }))
   const hasDailyBaseline = prepared.some(({ signals }) => signals.stars24h !== null)
   const breakdowns = hasDailyBaseline ? liveBreakdowns(prepared) : warmupBreakdowns(prepared)
