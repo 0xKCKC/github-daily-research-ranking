@@ -9,6 +9,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  models: read
 
 concurrency:
   group: daily-ranking

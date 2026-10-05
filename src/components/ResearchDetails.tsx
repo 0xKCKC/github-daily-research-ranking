@@ -11,6 +11,12 @@ export function ResearchDetails({ repository }: ResearchDetailsProps) {
       <summary>研究摘要 <CaretDown size={16} aria-hidden="true" /></summary>
       <div className="research-content">
         <div className="research-main">
+          {repository.research.source === 'github-models' && (
+            <>
+              <h4>簡介</h4>
+              <p>{repository.research.summary}</p>
+            </>
+          )}
           <h4>為何上榜</h4>
           <p>{repository.research.whyNow}</p>
           <h4>適合誰</h4>
@@ -41,6 +47,9 @@ export function ResearchDetails({ repository }: ResearchDetailsProps) {
         <p className="research-categories">
           {repository.categories.map((category) => categoryLabels[category]).join(' / ')}
         </p>
+        {repository.research.source === 'github-models' && (
+          <p className="research-ai-note">簡介、適合誰和分類由 AI 根據 repo 描述生成，只作參考，不影響排名。</p>
+        )}
       </div>
     </details>
   )
