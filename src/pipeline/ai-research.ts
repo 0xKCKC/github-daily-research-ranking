@@ -88,11 +88,10 @@ async function requestBatch(
 ): Promise<Map<number, AiResearchItem>> {
   const response = await fetchImpl(ENDPOINT, {
     method: 'POST',
+    // Same headers as GitHub's documented Actions example for the inference endpoint.
     headers: {
-      Accept: 'application/vnd.github+json',
       Authorization: `Bearer ${token}`,
-      'Content-Type': 'application/json',
-      'X-GitHub-Api-Version': '2022-11-28'
+      'Content-Type': 'application/json'
     },
     body: JSON.stringify({
       model,
@@ -105,10 +104,16 @@ async function requestBatch(
     }),
     signal: AbortSignal.timeout(60_000)
   })
+  const text = await response.text()
   if (!response.ok) {
-    throw new Error(`GitHub Models ${response.status}: ${(await response.text()).slice(0, 200)}`)
+    throw new Error(`GitHub Models ${response.status}: ${text.slice(0, 200)}`)
   }
-  const body = await response.json() as { choices?: Array<{ message?: { content?: string } }> }
+  let body: { choices?: Array<{ message?: { content?: string } }> }
+  try {
+    body = JSON.parse(text)
+  } catch {
+    throw new Error(`GitHub Models ${response.status} unexpected body (${response.headers.get('content-type') ?? 'no content-type'}): ${text.slice(0, 120)}`)
+  }
   const content = body.choices?.[0]?.message?.content ?? ''
   return parseAiResearch(content, new Set(repositories.map(({ id }) => id)))
 }
@@ -134,8 +139,8 @@ export async function enrichResearchWithAi(
       batchResults.forEach((item, id) => results.set(id, item))
     } catch (error) {
       log(`AI research batch ${start / BATCH_SIZE + 1} failed, keeping template text: ${error instanceof Error ? error.message : String(error)}`)
-      // A rate limit or auth error will hit every batch, so stop early.
-      if (error instanceof Error && /GitHub Models (401|403|429)/.test(error.message)) break
+      // Auth, rate-limit and protocol errors will hit every batch, so stop early.
+      if (error instanceof Error && /GitHub Models (401|403|429|\d+ unexpected body)/.test(error.message)) break
     }
   }
 
