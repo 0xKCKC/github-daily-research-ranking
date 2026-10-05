@@ -44,6 +44,8 @@ export interface RepositorySnapshot {
 export interface RankingSignals {
   stars24h: number | null
   forks24h: number | null
+  /** Stars per day blended from the 24h and 3-day windows; null without a baseline. */
+  starVelocity?: number | null
   relativeGrowth: number | null
   acceleration7d: number | null
   ageDays: number

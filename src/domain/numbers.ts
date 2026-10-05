@@ -10,9 +10,17 @@ export function percentileRanks(values: number[]): number[] {
     .sort((left, right) => left.value - right.value)
   const results = Array.from<number>({ length: values.length }).fill(0)
 
-  indexed.forEach((entry, position) => {
-    results[entry.index] = position / (values.length - 1)
-  })
+  // Tied values share their average position so input order cannot change a score.
+  let start = 0
+  while (start < indexed.length) {
+    let end = start
+    while (end + 1 < indexed.length && indexed[end + 1].value === indexed[start].value) end += 1
+    const percentile = (start + end) / 2 / (values.length - 1)
+    for (let position = start; position <= end; position += 1) {
+      results[indexed[position].index] = percentile
+    }
+    start = end + 1
+  }
 
   return results
 }
