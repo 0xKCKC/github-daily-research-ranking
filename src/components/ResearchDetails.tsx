@@ -26,8 +26,10 @@ export function ResearchDetails({ repository }: ResearchDetailsProps) {
         </div>
         <div className="research-cautions">
           <h4>採用前注意</h4>
-          {repository.research.cautions.map((caution) => (
-            <p key={caution}><Warning size={16} aria-hidden="true" />{caution}</p>
+          {repository.research.cautions.map((caution, index) => (
+            <p key={caution} className={index < (repository.research.risks?.length ?? 0) ? 'is-risk' : undefined}>
+              <Warning size={16} aria-hidden="true" />{caution}
+            </p>
           ))}
         </div>
         <div className="score-breakdown" aria-label="分數拆解">
@@ -42,7 +44,7 @@ export function ResearchDetails({ repository }: ResearchDetailsProps) {
           {repository.categories.map((category) => categoryLabels[category]).join(' / ')}
         </p>
         {repository.research.categorySource === 'jev' && (
-          <p className="research-ai-note">分類由 Jev 模型根據 repo 描述判斷，只作參考，不影響排名。</p>
+          <p className="research-ai-note">分類和風險提示由 Jev 模型根據 repo 描述判斷，只作參考，不影響排名。</p>
         )}
       </div>
     </details>

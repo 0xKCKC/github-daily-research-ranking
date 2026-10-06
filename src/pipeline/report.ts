@@ -1,4 +1,4 @@
-import { categoryLabels, type RankingDocument } from '../domain/repository'
+import { categoryLabels, riskLabels, type RankingDocument } from '../domain/repository'
 
 export function buildMarkdownReport(document: RankingDocument): string {
   const status = document.status === 'warmup'
@@ -8,7 +8,10 @@ export function buildMarkdownReport(document: RankingDocument): string {
     const growth = repository.signals.stars24h === null
       ? `${repository.signals.starsPerDay.toFixed(1)} stars/day 基線`
       : `+${repository.signals.stars24h} stars/24h`
-    const categories = repository.categories.map((category) => categoryLabels[category]).join('、')
+    const risks = repository.research.risks?.length
+      ? `（⚠ ${repository.research.risks.map((risk) => riskLabels[risk]).join('、')}）`
+      : ''
+    const categories = repository.categories.map((category) => categoryLabels[category]).join('、') + risks
     return `| ${repository.rank} | [${repository.fullName}](${repository.url}) | ${repository.score.toFixed(1)} | ${growth} | ${categories} |`
   })
 

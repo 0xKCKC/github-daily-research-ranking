@@ -1,15 +1,17 @@
 import { choice, noul, TypeSafeClient, APIError, type NoulQuestion } from '@typesafe-ai/sdk'
 import { buildResearch } from '../domain/research'
-import { repositoryCategories, type RankedRepository, type RepositoryCategory } from '../domain/repository'
+import { repositoryCategories, riskCautions, type RankedRepository, type RepositoryCategory, type RiskFlag } from '../domain/repository'
 
-// Optional category judgments from TypeSafe's Jev model. Jev returns a typed choice with
-// probabilities instead of generated text, so there is nothing to parse or sanitize.
-// Without TYPESAFE_API_KEY, or on any failure, the rule-based categories stay.
-// Categories never change scores or ranks.
+// Optional judgments from TypeSafe's Jev model: categories and risk warnings for the Top 50.
+// Jev returns typed choices and probabilities instead of generated text, so there is nothing
+// to parse or sanitize. Without TYPESAFE_API_KEY, or on any failure, the rule-based research
+// stays. Nothing here changes scores or ranks, and risky repositories stay in the ranking.
 
 const CONCURRENCY = 5
 /** A second category is shown when Jev's yes-probability for it reaches this. To be checked on real runs. */
 const SECONDARY_MIN_YES = 0.6
+/** A risk warning is shown when Jev's yes-probability reaches this. To be checked on real runs. */
+const RISK_MIN_YES = 0.7
 
 const categoryCriteria: Record<RepositoryCategory, string> = {
   ai: 'AI models, LLM applications, AI agents, skills or plugins for AI coding assistants, machine learning research and tooling',
@@ -57,6 +59,37 @@ const alsoQuestions = Object.fromEntries(secondaryCategories.map((category) => [
   )
 ])) as Record<`also_${SecondaryCategory}`, NoulQuestion>
 
+// One self-contained yes/no question per risk, asked in the same request as the categories.
+const riskQuestions: Record<RiskFlag, NoulQuestion> = {
+  piracy: noul(
+    'Does `repository` help pirate, crack, keygen or activate paid software or media, or bypass DRM or license checks?',
+    { true: 'Cracking, activation, piracy or DRM/license bypass is a main purpose', false: 'It does not, or only mentions such things in passing' }
+  ),
+  leaked: noul(
+    'Is `repository` built on or distributing leaked, stolen or unreleased proprietary code, binaries, builds or models?',
+    { true: 'It relies on or redistributes leaked or unauthorized proprietary material', false: 'Its material is original, open source or officially released' }
+  ),
+  adult: noul(
+    'Is `repository` mainly about pornography or sexual content, including tools to download, generate or undress such content?',
+    { true: 'Sexual or pornographic content is a main purpose', false: 'It is not about sexual content' }
+  ),
+  crypto: noul(
+    'Does `repository` promote or launch a specific cryptocurrency token, meme coin, airdrop or token sale?',
+    { true: 'Promoting or launching a token is a main purpose', false: 'It does not promote a token; general blockchain or finance tooling does not count' }
+  ),
+  serviceAbuse: noul(
+    'Does `repository` give access to a paid or account-limited service without paying for it, for example through reverse-engineered APIs, shared account pools, or free-trial farming?',
+    { true: 'Getting a paid or limited service for free or beyond its terms is a main purpose', false: 'It uses services within their normal terms, or not at all' }
+  ),
+  misuse: noul(
+    'Is `repository` malware, a ready-to-use exploit or attack tool, or a tool to spy on people or access their accounts or private data without permission?',
+    { true: 'It is mainly a tool for attacking systems or people, or for surveillance without consent', false: 'It is defensive, educational at a conceptual level, or unrelated to attacks' }
+  )
+}
+const riskFlags = Object.keys(riskQuestions) as RiskFlag[]
+const riskQuestionsById = Object.fromEntries(riskFlags.map((flag) => [`risk_${flag}`, riskQuestions[flag]])) as
+  Record<`risk_${RiskFlag}`, NoulQuestion>
+
 interface JevClient {
   systemOne: TypeSafeClient['systemOne']
 }
@@ -68,8 +101,14 @@ interface JevOptions {
 }
 
 export interface JevJudgment {
-  categories: RepositoryCategory[]
-  confidence: number
+  categories: RepositoryCategory[] | null
+  risks: Array<{ flag: RiskFlag, yes: number }>
+}
+
+export function risksFromAnswers(yes: Partial<Record<RiskFlag, number>>): Array<{ flag: RiskFlag, yes: number }> {
+  return riskFlags
+    .map((flag) => ({ flag, yes: yes[flag] ?? 0 }))
+    .filter(({ yes: probability }) => probability >= RISK_MIN_YES)
 }
 
 export function categoriesFromAnswers(
@@ -85,7 +124,7 @@ export function categoriesFromAnswers(
   return secondary ? [primary, secondary[0] as RepositoryCategory] : [primary]
 }
 
-async function judge(client: JevClient, repository: RankedRepository): Promise<JevJudgment | null> {
+async function judge(client: JevClient, repository: RankedRepository): Promise<JevJudgment> {
   const { answers } = await client.systemOne({
     state: {
       repository: {
@@ -95,25 +134,32 @@ async function judge(client: JevClient, repository: RankedRepository): Promise<J
         topics: repository.topics.slice(0, 15)
       }
     },
-    questions: { category: categoryQuestion, ...alsoQuestions }
+    questions: {
+      category: categoryQuestion,
+      ...alsoQuestions,
+      ...riskQuestionsById
+    }
   })
   const alsoYes = Object.fromEntries(secondaryCategories.map((category) =>
     [category, answers[`also_${category}`]?.noul ?? 0]))
-  const categories = categoriesFromAnswers(answers.category.choice, alsoYes)
-  return categories ? { categories, confidence: answers.category.confidence } : null
+  const riskYes = Object.fromEntries(riskFlags.map((flag) => [flag, answers[`risk_${flag}`]?.noul ?? 0]))
+  return {
+    categories: categoriesFromAnswers(answers.category.choice, alsoYes),
+    risks: risksFromAnswers(riskYes)
+  }
 }
 
 function isFatal(error: unknown): boolean {
   return error instanceof APIError && [400, 401, 403, 404, 422].includes(error.status)
 }
 
-export async function categorizeWithJev(
+export async function researchWithJev(
   repositories: RankedRepository[],
   options: JevOptions = {}
 ): Promise<RankedRepository[]> {
   const log = options.log ?? (() => undefined)
   if (!options.client && !options.apiKey) {
-    log('Jev categories skipped: no TYPESAFE_API_KEY.')
+    log('Jev research skipped: no TYPESAFE_API_KEY.')
     return repositories
   }
   const client = options.client ?? new TypeSafeClient({ apiKey: options.apiKey, timeout: 15_000, logLevel: 'off' })
@@ -129,15 +175,14 @@ export async function categorizeWithJev(
       const repository = pending.shift()
       if (!repository) return
       try {
-        const judgment = await judge(client, repository)
-        if (judgment) judgments.set(repository.id, judgment)
+        judgments.set(repository.id, await judge(client, repository))
       } catch (error) {
         failures += 1
         const message = error instanceof Error ? error.message : String(error)
         if (failures <= 3) log(`Jev failed for ${repository.fullName}: ${message}`)
         if (isFatal(error)) {
           stopped = true
-          log('Jev categories stopped: the API rejected the request or the key.')
+          log('Jev research stopped: the API rejected the request or the key.')
         }
       }
     }
@@ -145,20 +190,31 @@ export async function categorizeWithJev(
   await Promise.all(Array.from({ length: CONCURRENCY }, worker))
 
   let agreed = 0
+  let categorized = 0
   const result = repositories.map((repository) => {
     const judgment = judgments.get(repository.id)
     if (!judgment) return repository
-    if (judgment.categories[0] === repository.categories[0]) agreed += 1
+    const categories = judgment.categories ?? repository.categories
+    if (judgment.categories) {
+      categorized += 1
+      if (judgment.categories[0] === repository.categories[0]) agreed += 1
+    }
+    for (const { flag, yes } of judgment.risks) log(`Jev risk: ${repository.fullName} ${flag} ${yes.toFixed(2)}`)
+    const research = buildResearch(repository, repository.signals, categories)
+    const risks = judgment.risks.map(({ flag }) => flag)
     return {
       ...repository,
-      categories: judgment.categories,
+      categories,
       research: {
-        ...buildResearch(repository, repository.signals, judgment.categories),
-        categorySource: 'jev' as const
+        ...research,
+        cautions: [...risks.map((flag) => riskCautions[flag]), ...research.cautions],
+        ...(judgment.categories ? { categorySource: 'jev' as const } : {}),
+        ...(risks.length > 0 ? { risks } : {})
       }
     }
   })
-  log(`Jev categorized ${judgments.size}/${repositories.length} repositories (${failures} failed); ` +
-    `primary category matched the rules for ${agreed}/${judgments.size}.`)
+  const flagged = result.filter(({ research }) => research.risks?.length).length
+  log(`Jev judged ${judgments.size}/${repositories.length} repositories (${failures} failed); ` +
+    `primary category matched the rules for ${agreed}/${categorized}; ${flagged} flagged with risks.`)
   return result
 }
