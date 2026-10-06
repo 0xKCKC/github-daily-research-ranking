@@ -3,8 +3,9 @@ name: StarMomentum ranking update
 on:
   workflow_dispatch:
   schedule:
-    # 08:00, 16:00 and 24:00 Hong Kong time (UTC+8)
-    - cron: '0 0,8,16 * * *'
+    # Hours are UTC: 23:47, 07:47 and 15:47 UTC = 07:47, 15:47 and 23:47 Hong Kong time (UTC+8).
+    # Off the hour on purpose: GitHub delays or skips many scheduled runs at :00.
+    - cron: '47 7,15,23 * * *'
 
 permissions:
   contents: write
