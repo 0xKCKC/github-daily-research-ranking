@@ -10,7 +10,6 @@ permissions:
   contents: write
   pages: write
   id-token: write
-  models: read
 
 concurrency:
   group: daily-ranking
@@ -46,6 +45,7 @@ jobs:
         run: pnpm daily
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
 
       - name: Verify ranking and website
         run: |
