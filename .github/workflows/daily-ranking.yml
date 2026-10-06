@@ -3,7 +3,8 @@ name: Daily GitHub research ranking
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 0 * * *'
+    # 08:00, 16:00 and 24:00 Hong Kong time (UTC+8)
+    - cron: '0 0,8,16 * * *'
 
 permissions:
   contents: write
