@@ -73,7 +73,7 @@ export function App() {
         <Methodology status={data.status} historyDays={data.stats.historyDays} />
       </main>
       <footer className="site-footer container">
-        <p>GitHub 日研榜只使用公開資料。熱門度不是安全或品質保證。</p>
+        <p>星勢只使用 GitHub 公開資料，與 GitHub 並無關聯。熱門度不是安全或品質保證。</p>
         <a href="https://github.com" target="_blank" rel="noreferrer">資料來源 GitHub</a>
       </footer>
     </div>

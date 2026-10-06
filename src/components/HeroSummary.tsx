@@ -1,4 +1,4 @@
-import { GithubLogo, Pulse, Timer } from '@phosphor-icons/react'
+import { Pulse, Timer } from '@phosphor-icons/react'
 import type { RankingDocument } from '../domain/repository'
 import { formatInteger } from '../utils/format'
 
@@ -13,9 +13,9 @@ export function HeroSummary({ document }: HeroSummaryProps) {
     <section className="hero" id="top">
       <div className="container hero-grid">
         <div className="hero-copy">
-          <p className="hero-kicker"><GithubLogo size={17} weight="fill" aria-hidden="true" /> 開源情報，每日三更</p>
-          <h1>找到正在上升的開源項目</h1>
-          <p className="hero-lede">用可解釋的增長數據排名，再把每個項目研究成人話。</p>
+          <p className="hero-kicker">星勢 StarMomentum · GitHub 開源情報，每日三更</p>
+          <h1>不看誰最多星，看誰最有勢。</h1>
+          <p className="hero-lede">按 star 增長、加速度和開發活動排名正在上升的開源項目，每個分數都可拆開核對。</p>
         </div>
         <dl className="hero-metrics" aria-label="今日資料概況">
           <div>
