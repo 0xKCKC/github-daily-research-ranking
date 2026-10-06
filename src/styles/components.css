@@ -22,8 +22,15 @@
   letter-spacing: -0.025em;
 }
 
-.brand svg {
-  color: var(--accent);
+.brand .logo {
+  flex: 0 0 auto;
+}
+
+.brand-latin {
+  color: var(--text-faint);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0;
 }
 
 .nav-links {
@@ -87,8 +94,9 @@
 }
 
 .hero-kicker {
+  flex-wrap: wrap;
   gap: 7px;
-  width: max-content;
+  max-width: 100%;
   margin: 0 0 12px;
   color: var(--accent-strong);
   font-size: 0.84rem;

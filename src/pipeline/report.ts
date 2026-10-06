@@ -16,7 +16,7 @@ export function buildMarkdownReport(document: RankingDocument): string {
   })
 
   return [
-    `# GitHub 日研榜 ${document.dataDate}`,
+    `# 星勢 StarMomentum ${document.dataDate}`,
     '',
     status,
     '',
