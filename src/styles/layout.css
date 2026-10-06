@@ -84,8 +84,8 @@
 
 .filter-row {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(260px, 340px);
-  gap: 24px;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 280px);
+  gap: 16px;
   align-items: center;
   min-height: 68px;
 }

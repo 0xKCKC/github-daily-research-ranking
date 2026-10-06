@@ -1,5 +1,5 @@
 import { MagnifyingGlass } from '@phosphor-icons/react'
-import { categoryLabels, type RepositoryCategory } from '../domain/repository'
+import { categoryLabels, repositoryCategories, type RepositoryCategory } from '../domain/repository'
 
 interface FilterBarProps {
   category: RepositoryCategory | 'all'
@@ -9,16 +9,7 @@ interface FilterBarProps {
   resultCount: number
 }
 
-const categories: Array<RepositoryCategory | 'all'> = [
-  'all',
-  'ai',
-  'devtools',
-  'web',
-  'data',
-  'security',
-  'mobile',
-  'other'
-]
+const categories: Array<RepositoryCategory | 'all'> = ['all', ...repositoryCategories]
 
 export function FilterBar({
   category,

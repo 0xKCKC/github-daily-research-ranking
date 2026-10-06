@@ -4,7 +4,12 @@ export type RepositoryCategory =
   | 'web'
   | 'data'
   | 'security'
+  | 'infra'
   | 'mobile'
+  | 'desktop'
+  | 'creative'
+  | 'games'
+  | 'learning'
   | 'other'
 
 export interface GithubRepository {
@@ -106,7 +111,14 @@ export const categoryLabels: Record<RepositoryCategory, string> = {
   devtools: '開發工具',
   web: 'Web',
   data: '資料',
+  infra: '雲端與基建',
   security: '安全',
-  mobile: '流動開發',
+  mobile: '手機應用',
+  desktop: '桌面與系統',
+  creative: '設計與多媒體',
+  games: '遊戲',
+  learning: '學習資源',
   other: '其他'
 }
+
+export const repositoryCategories = Object.keys(categoryLabels) as RepositoryCategory[]
