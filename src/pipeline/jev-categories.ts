@@ -1,4 +1,4 @@
-import { choice, TypeSafeClient, APIError } from '@typesafe-ai/sdk'
+import { choice, noul, TypeSafeClient, APIError, type NoulQuestion } from '@typesafe-ai/sdk'
 import { buildResearch } from '../domain/research'
 import { repositoryCategories, type RankedRepository, type RepositoryCategory } from '../domain/repository'
 
@@ -8,8 +8,8 @@ import { repositoryCategories, type RankedRepository, type RepositoryCategory } 
 // Categories never change scores or ranks.
 
 const CONCURRENCY = 5
-/** A second category is shown when Jev gives it at least this probability. */
-const SECONDARY_MIN_PROBABILITY = 0.25
+/** A second category is shown when Jev's yes-probability for it reaches this. To be checked on real runs. */
+const SECONDARY_MIN_YES = 0.6
 
 const categoryCriteria: Record<RepositoryCategory, string> = {
   ai: 'AI models, LLM applications, AI agents, skills or plugins for AI coding assistants, machine learning research and tooling',
@@ -38,6 +38,25 @@ const categoryQuestion = choice(
   categoryCriteria
 )
 
+type SecondaryCategory = Exclude<RepositoryCategory, 'other'>
+const secondaryCategories = repositoryCategories.filter((category): category is SecondaryCategory => category !== 'other')
+
+// Choice picks one main category. Several may apply, so each category also gets its own
+// yes/no question in the same request; question IDs are not sent, so each one is self-contained.
+const alsoQuestions = Object.fromEntries(secondaryCategories.map((category) => [
+  `also_${category}`,
+  noul(
+    {
+      task: 'Is `repository` substantially a project of the kind described in `category`, even if that is not its main purpose?',
+      category: categoryCriteria[category]
+    },
+    {
+      true: 'A large part of what the project does or who it serves fits this category',
+      false: 'It only touches this category in passing, or not at all'
+    }
+  )
+])) as Record<`also_${SecondaryCategory}`, NoulQuestion>
+
 interface JevClient {
   systemOne: TypeSafeClient['systemOne']
 }
@@ -53,18 +72,17 @@ export interface JevJudgment {
   confidence: number
 }
 
-export function categoriesFromProbabilities(
+export function categoriesFromAnswers(
   selected: string,
-  probabilities: Record<string, number>
+  alsoYes: Partial<Record<SecondaryCategory, number>>
 ): RepositoryCategory[] | null {
   if (!repositoryCategories.includes(selected as RepositoryCategory)) return null
   const primary = selected as RepositoryCategory
-  const secondary = Object.entries(probabilities)
-    .filter(([label, probability]) =>
-      label !== primary && label !== 'other' && probability >= SECONDARY_MIN_PROBABILITY &&
-      repositoryCategories.includes(label as RepositoryCategory))
-    .sort((left, right) => right[1] - left[1])[0]
-  return secondary && primary !== 'other' ? [primary, secondary[0] as RepositoryCategory] : [primary]
+  if (primary === 'other') return [primary]
+  const secondary = Object.entries(alsoYes)
+    .filter(([category, yes]) => category !== primary && (yes ?? 0) >= SECONDARY_MIN_YES)
+    .sort((left, right) => (right[1] ?? 0) - (left[1] ?? 0))[0]
+  return secondary ? [primary, secondary[0] as RepositoryCategory] : [primary]
 }
 
 async function judge(client: JevClient, repository: RankedRepository): Promise<JevJudgment | null> {
@@ -77,11 +95,12 @@ async function judge(client: JevClient, repository: RankedRepository): Promise<J
         topics: repository.topics.slice(0, 15)
       }
     },
-    questions: { category: categoryQuestion }
+    questions: { category: categoryQuestion, ...alsoQuestions }
   })
-  const answer = answers.category
-  const categories = categoriesFromProbabilities(answer.choice, answer.probabilities)
-  return categories ? { categories, confidence: answer.confidence } : null
+  const alsoYes = Object.fromEntries(secondaryCategories.map((category) =>
+    [category, answers[`also_${category}`]?.noul ?? 0]))
+  const categories = categoriesFromAnswers(answers.category.choice, alsoYes)
+  return categories ? { categories, confidence: answers.category.confidence } : null
 }
 
 function isFatal(error: unknown): boolean {

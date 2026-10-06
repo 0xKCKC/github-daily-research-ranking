@@ -2,7 +2,7 @@
 import { TypeSafeClient } from '@typesafe-ai/sdk'
 import { describe, expect, it } from 'vitest'
 import type { RankedRepository } from '../domain/repository'
-import { categoriesFromProbabilities, categorizeWithJev } from './jev-categories'
+import { categoriesFromAnswers, categorizeWithJev } from './jev-categories'
 
 function ranked(id: number, description: string, categories: RankedRepository['categories'] = ['other']): RankedRepository {
   return {
@@ -59,6 +59,8 @@ function clientReturning(answer: (body: Record<string, unknown>) => unknown, sta
   return { client, requests }
 }
 
+const categories = ['ai', 'devtools', 'web', 'data', 'infra', 'security', 'mobile', 'desktop', 'creative', 'games', 'learning']
+
 const gameAnswer = {
   model: 'jev-1',
   usage: { input_tokens: 100, output_tokens: 1 },
@@ -68,22 +70,26 @@ const gameAnswer = {
       choice: 'games',
       confidence: 0.8,
       probabilities: { games: 0.6, creative: 0.3, other: 0.1 }
-    }
+    },
+    ...Object.fromEntries(categories.map((category) => [
+      `also_${category}`,
+      { type: 'noul', noul: category === 'games' ? 0.95 : category === 'desktop' ? 0.7 : 0.1 }
+    ]))
   }
 }
 
-describe('categoriesFromProbabilities', () => {
-  it('adds a strong runner-up as the second category', () => {
-    expect(categoriesFromProbabilities('games', { games: 0.6, creative: 0.3, other: 0.1 })).toEqual(['games', 'creative'])
+describe('categoriesFromAnswers', () => {
+  it('adds the strongest other category that clearly also applies', () => {
+    expect(categoriesFromAnswers('games', { games: 0.95, desktop: 0.7, creative: 0.65 })).toEqual(['games', 'desktop'])
   })
 
-  it('keeps one category when the runner-up is weak or other', () => {
-    expect(categoriesFromProbabilities('ai', { ai: 0.85, devtools: 0.1, other: 0.05 })).toEqual(['ai'])
-    expect(categoriesFromProbabilities('ai', { ai: 0.6, other: 0.4 })).toEqual(['ai'])
+  it('keeps one category when nothing else clearly applies', () => {
+    expect(categoriesFromAnswers('ai', { ai: 0.9, devtools: 0.5 })).toEqual(['ai'])
+    expect(categoriesFromAnswers('other', { web: 0.9 })).toEqual(['other'])
   })
 
   it('rejects labels outside the category list', () => {
-    expect(categoriesFromProbabilities('hacking', { hacking: 1 })).toBeNull()
+    expect(categoriesFromAnswers('hacking', {})).toBeNull()
   })
 })
 
@@ -97,7 +103,9 @@ describe('categorizeWithJev', () => {
     expect(requests[0].body.model).toBe('jev-latest')
     expect(requests[0].body.state).toMatchObject({ repository: { name: 'owner/repo1', description: 'Experimental Eden port for PS5' } })
     expect(requests[0].body.questions).toHaveProperty('category.type', 'choice')
-    expect(result.categories).toEqual(['games', 'creative'])
+    expect(requests[0].body.questions).toHaveProperty('also_desktop.type', 'noul')
+    expect(Object.keys(requests[0].body.questions as object)).toHaveLength(12)
+    expect(result.categories).toEqual(['games', 'desktop'])
     expect(result.research.categorySource).toBe('jev')
     expect(result.research.bestFor).toContain('遊戲')
   })
