@@ -1,5 +1,5 @@
-import { ArrowDown, ArrowUp, GitFork, Minus, Star, TrendUp } from '@phosphor-icons/react'
-import type { RankedRepository } from '../domain/repository'
+import { ArrowDown, ArrowUp, GitFork, Minus, Star, TrendUp, Warning } from '@phosphor-icons/react'
+import { riskLabels, type RankedRepository } from '../domain/repository'
 import { formatCompactNumber } from '../utils/format'
 
 interface RepositoryMetaProps {
@@ -25,6 +25,12 @@ export function RepositoryMeta({ repository, compact = false }: RepositoryMetaPr
       <span title="總 forks"><GitFork size={16} />{formatCompactNumber(repository.forks)}</span>
       <span className="momentum" title="star 動能"><TrendUp size={16} />{momentum}</span>
       {!compact && <RankMovement change={repository.rankChange} />}
+      {repository.research.risks?.length ? (
+        <span className="risk-badge" title="由 Jev 判斷，詳情見研究摘要的「採用前注意」">
+          <Warning size={13} weight="bold" aria-hidden="true" />
+          {repository.research.risks.map((risk) => riskLabels[risk]).join('、')}
+        </span>
+      ) : null}
     </div>
   )
 }

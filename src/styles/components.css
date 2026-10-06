@@ -9,6 +9,7 @@
 .repo-meta,
 .repository-heading a,
 .rank-movement,
+.risk-badge,
 .research-details summary,
 .research-evidence li,
 .research-cautions p {
@@ -427,6 +428,19 @@
 .rank-movement.is-up,
 .rank-movement.is-new {
   color: var(--accent-strong);
+}
+
+.risk-badge {
+  gap: 3px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--warning-soft);
+  color: var(--warning);
+  font-weight: 600;
+}
+
+.research-cautions p.is-risk {
+  color: var(--warning);
 }
 
 .repository-age {

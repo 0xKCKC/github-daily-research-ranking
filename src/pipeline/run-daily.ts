@@ -4,7 +4,7 @@ import type { RankingDocument, RepositorySnapshot } from '../domain/repository'
 import { discoverRepositories } from './discovery'
 import { fixtureRepositories } from './fixtures'
 import { GithubClient } from './github-client'
-import { categorizeWithJev } from './jev-categories'
+import { researchWithJev } from './jev-research'
 import { buildMarkdownReport } from './report'
 import { loadCurrentRanking, loadSnapshotHistory, saveDailyOutputs } from './storage'
 
@@ -37,9 +37,9 @@ async function run(): Promise<void> {
     history,
     previousRanking: previousDocument?.repositories
   }).slice(0, 50)
-  const researched = useFixtures || process.env.JEV_CATEGORIES === 'off'
+  const researched = useFixtures || process.env.JEV === 'off'
     ? ranked
-    : await categorizeWithJev(ranked, {
+    : await researchWithJev(ranked, {
       apiKey: process.env.TYPESAFE_API_KEY,
       log: (message) => process.stdout.write(`${message}\n`)
     })

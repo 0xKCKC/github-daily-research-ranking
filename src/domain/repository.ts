@@ -77,6 +77,8 @@ export interface RepositoryResearch {
   cautions: string[]
   /** 'jev' when TypeSafe's Jev model chose the categories; absent means the keyword rules. */
   categorySource?: 'jev'
+  /** Risks Jev judged likely. Shown as warnings only; they never change scores or ranks. */
+  risks?: RiskFlag[]
 }
 
 export interface RankedRepository extends GithubRepository {
@@ -121,3 +123,23 @@ export const categoryLabels: Record<RepositoryCategory, string> = {
 }
 
 export const repositoryCategories = Object.keys(categoryLabels) as RepositoryCategory[]
+
+export type RiskFlag = 'piracy' | 'leaked' | 'adult' | 'crypto' | 'serviceAbuse' | 'misuse'
+
+export const riskLabels: Record<RiskFlag, string> = {
+  piracy: '盜版／破解',
+  leaked: '洩漏內容',
+  adult: '成人內容',
+  crypto: '加密貨幣推廣',
+  serviceAbuse: '繞過付費服務',
+  misuse: '可被濫用'
+}
+
+export const riskCautions: Record<RiskFlag, string> = {
+  piracy: '可能涉及破解、盜版或繞過授權，使用可能違反軟件條款或法律。',
+  leaked: '可能基於洩漏或未經授權公開的程式、檔案或模型，來源和合法性存疑。',
+  adult: '可能涉及成人內容，不適合在工作場所或未成年人面前瀏覽。',
+  crypto: '可能在推廣特定加密貨幣或代幣，留意投資和詐騙風險。',
+  serviceAbuse: '可能透過共用帳號、逆向 API 等方式繞過付費服務，或會違反服務條款並導致封號。',
+  misuse: '可能是惡意程式、攻擊工具或侵犯他人私隱的工具，只應在獲授權的情況下研究使用。'
+}
