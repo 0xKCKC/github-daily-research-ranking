@@ -31,13 +31,17 @@ export const categoryRules: Record<Exclude<RepositoryCategory, 'other'>, Categor
       'claude skills', 'mcp', 'mcp server', 'model context protocol', 'rag', 'embeddings', 'transformer',
       'transformers', 'stable diffusion', 'llm inference', 'fine tuning', 'prompt engineering', 'copilot',
       'vibe coding', 'chatbot', 'nlp', 'computer vision', 'huggingface', 'pytorch', 'tensorflow', 'neural network',
-      'speech recognition', 'tts', 'text to speech',
+      'moe', 'speech recognition', 'tts', 'text to speech',
       'open model', 'open models', 'multimodal', 'multimodal model', 'fine tunes', 'agi', 'model evaluation', 'web agent', 'agent harness', 'agent harnesses', 'grok', 'gemma', 'jev', 'pretraining', 'robot policy', 'world model'
     ],
     topicTerms: [
-      'prompt', 'prompts', 'agent', 'inference', 'moe', 'diffusion'
+      'prompt', 'prompts', 'agent', 'inference', 'diffusion'
     ],
-    patterns: [/\b(qwen|gemma|llama|gpt|claude|opus|sonnet|haiku|fable|deepseek|kimi|glm|mistral|phi)\s?\d/],
+    patterns: [
+      /\b(qwen|gemma|llama|gpt|claude|opus|sonnet|haiku|fable|deepseek|kimi|glm|mistral|phi)\s?\d/,
+      // Parameter counts such as "35b moe" or "27b model".
+      /\b\d{1,4}b (moe|dense|model|models|params|parameters)\b/
+    ],
     cjk: ['人工智能', '人工智慧', '大模型', '大語言模型', '大语言模型', '智能體', '智能体', '模型', '提示詞', '提示词']
   },
   devtools: {
@@ -112,7 +116,8 @@ export const categoryRules: Record<Exclude<RepositoryCategory, 'other'>, Categor
     topicTerms: [
       'mobile', 'expo', 'apk'
     ],
-    cjk: ['手機', '手机', '安卓', '移動端', '移动端'],
+    // Not plain 手機/手机: "readable on phones" does not make a phone app.
+    cjk: ['手機應用', '手机应用', '手機 App', '手机 App', '裝在手機', '装在手机', '安卓', '移動端', '移动端'],
     languages: ['Kotlin', 'Dart']
   },
   desktop: {

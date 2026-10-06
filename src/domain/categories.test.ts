@@ -70,4 +70,10 @@ describe('categorizeRepository', () => {
   it('falls back to other without evidence', () => {
     expect(categorizeRepository(repository(''))).toEqual(['other'])
   })
+
+  it('prefers what a project is over where it runs', () => {
+    const result = categorizeRepository(repository('Run 35B MoE models in 2.5 GB of RAM. Mac, iPhone, Android supported'))
+    expect(result[0]).toBe('ai')
+    expect(categorizeRepository(repository('人生指南全书的在线阅读版：手机可读、可搜索'))).toEqual(['learning'])
+  })
 })
