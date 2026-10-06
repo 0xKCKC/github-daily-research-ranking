@@ -104,7 +104,7 @@ export class GithubClient {
     const response = await fetch(url, {
       headers: {
         Accept: 'application/vnd.github+json',
-        'User-Agent': 'github-daily-research-ranking',
+        'User-Agent': 'star-momentum',
         'X-GitHub-Api-Version': '2026-03-10',
         ...(this.token ? { Authorization: `Bearer ${this.token}` } : {})
       }
