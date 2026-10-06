@@ -92,24 +92,26 @@ pnpm backtest
 - 中文描述用關鍵字配對，例如「指南」、「遊戲」、「輸入法」。
 - 每個 repo 最多兩個分類，最強的排第一；第二個分類的證據要有第一個的一半以上。
 - 以歷史榜單 414 個項目檢驗，歸入「其他」的由 94 個減至 49 個，剩下大多沒有描述。
-- AI 摘要成功時會以 AI 的分類為準，選項與規則相同。
+- 設定了 Jev 時，Top 50 以 Jev 的判斷為準，規則作後備。
 
-## AI 研究摘要
+## Jev 分類
 
-每日 Top 50 的「簡介」、「適合誰」和分類會交由 [GitHub Models](https://docs.github.com/en/github-models)（預設 `openai/gpt-4.1-mini`）根據 repo 名稱、描述、語言和 topics 生成。
+Top 50 的分類交由 TypeSafe 的 [Jev](https://docs.typesafe.ai/) 模型判斷。Jev 不生成文字，只會在固定的分類選項中選一個，並給出每個選項的機率。
 
-- 不需要額外 API key：GitHub Actions 用工作流自帶的 `GITHUB_TOKEN`，權限為 `models: read`，token 每次運行自動產生、完成後失效。
-- 每 10 個 repo 一次請求，每日約 5 次，在免費額度之內。
-- AI 文字只作參考，不影響分數和排名；「為何上榜」和注意事項仍由數據規則產生，避免 AI 編造數字。
-- 輸出經嚴格驗證（分類只可用固定選項、限制長度）；請求失敗、超額或格式不符時自動沿用模板文字。
-- 設 `AI_RESEARCH=off` 可停用，設 `AI_MODEL` 可改用其他 GitHub Models 模型。
+- 每個 repo 問一條選擇題：根據名稱、描述、語言和 topics，它最屬於哪個分類。題目明確要求看項目做甚麼，而不是用甚麼語言寫、支援哪些平台。
+- 機率最高的是主分類；另一個分類的機率有 25% 或以上，就列為第二分類。
+- 沒有描述也沒有 topics 的 repo 不問 Jev，因為只看名稱只能靠估。
+- 需要 GitHub repository secret `TYPESAFE_API_KEY`。沒有 key、key 無效或請求失敗時，自動沿用關鍵字規則。
+- 每次運行的日誌會記錄成功數目，以及 Jev 與規則主分類一致的比例，方便核對。
+- 設 `JEV_CATEGORIES=off` 可停用，設 `TYPESAFE_DEFAULT_MODEL` 可改用其他模型（預設 `jev-latest`）。
+- 分類只用於篩選和「適合誰」，不影響分數和排名。
 
 ## 每日資料流
 
 1. 九組搜尋分別探索新項目、活躍項目及主要技術分類。
 2. 合併並去除重複、fork 和 archived repository。
 3. 與最近八日快照比較，計算增長和排名變化。
-4. Top 50 交由 GitHub Models 生成中文簡介，失敗時沿用模板。
+4. Top 50 交由 Jev 判斷分類，失敗時沿用關鍵字規則。
 5. 寫入 `public/data/current.json`、日期歷史、候選快照及 Markdown 日報。
 6. 測試及建置全部通過後才提交資料並部署 Pages。
 

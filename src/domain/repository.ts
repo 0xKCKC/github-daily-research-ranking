@@ -75,9 +75,8 @@ export interface RepositoryResearch {
   bestFor: string
   evidence: string[]
   cautions: string[]
-  /** Who wrote summary and bestFor; absent means the built-in template. */
-  source?: 'github-models'
-  model?: string
+  /** 'jev' when TypeSafe's Jev model chose the categories; absent means the keyword rules. */
+  categorySource?: 'jev'
 }
 
 export interface RankedRepository extends GithubRepository {
