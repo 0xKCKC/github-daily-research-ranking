@@ -5,8 +5,13 @@ const bestForByCategory: Record<RepositoryCategory, string> = {
   devtools: '希望改善開發、測試或部署流程的工程團隊',
   web: '建立網站、服務或前端產品的開發者',
   data: '處理資料管線、分析、儲存或視覺化的團隊',
+  infra: '負責部署、伺服器、網絡或自託管服務的工程師',
   security: '負責程式安全、審計或防禦工作的工程師',
-  mobile: '開發 iOS、Android 或跨平台應用的團隊',
+  mobile: '使用或開發 iOS、Android 應用的人',
+  desktop: '想改善 macOS、Windows 或 Linux 使用體驗的用戶',
+  creative: '處理圖片、影片、音樂或設計工作的創作者',
+  games: '玩家、遊戲開發者和 mod 作者',
+  learning: '想系統學習或查找參考資料的人',
   other: '正在尋找新開源工具和技術方向的開發者'
 }
 
