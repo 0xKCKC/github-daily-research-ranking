@@ -1,4 +1,5 @@
 import { ArrowSquareOut } from '@phosphor-icons/react'
+import { useState } from 'react'
 import type { RankedRepository } from '../domain/repository'
 
 interface RepositoryHeaderProps {
@@ -6,15 +7,22 @@ interface RepositoryHeaderProps {
 }
 
 export function RepositoryHeader({ repository }: RepositoryHeaderProps) {
+  const [avatarFailed, setAvatarFailed] = useState(!repository.ownerAvatarUrl)
+
   return (
     <div className="repository-heading">
-      <img
-        src={repository.ownerAvatarUrl}
-        width="40"
-        height="40"
-        alt={`${repository.owner} 的頭像`}
-        loading="lazy"
-      />
+      {avatarFailed ? (
+        <span className="avatar-fallback" aria-hidden="true">{repository.owner.slice(0, 1).toUpperCase()}</span>
+      ) : (
+        <img
+          src={repository.ownerAvatarUrl}
+          width="40"
+          height="40"
+          alt=""
+          loading="lazy"
+          onError={() => setAvatarFailed(true)}
+        />
+      )}
       <div>
         <a href={repository.url} target="_blank" rel="noreferrer">
           {repository.fullName}

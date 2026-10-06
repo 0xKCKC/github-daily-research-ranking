@@ -38,25 +38,40 @@
   background: linear-gradient(110deg, transparent 0 62%, color-mix(in srgb, var(--accent) 8%, transparent) 62% 100%);
 }
 
+.nav-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+}
+
 .hero-grid {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(340px, 0.65fr);
-  gap: clamp(40px, 7vw, 96px);
-  align-items: center;
-  min-height: 560px;
-  padding-block: 64px 72px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px 48px;
+  align-items: end;
+  padding-block: 44px 40px;
 }
 
 .ranking-section {
-  padding-block: 72px 96px;
+  padding-block: 36px 88px;
 }
 
 .section-heading {
-  margin-bottom: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 16px;
+  margin-bottom: 18px;
 }
 
-.section-heading h2,
+.section-heading h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: -0.03em;
+}
+
 .methodology h2 {
   margin: 0;
   color: var(--text);
@@ -66,17 +81,16 @@
 }
 
 .section-heading p {
-  max-width: 62ch;
-  margin: 12px 0 0;
+  margin: 0;
   color: var(--text-muted);
-  font-size: 1rem;
+  font-size: 0.86rem;
 }
 
 .filter-shell {
   position: sticky;
   top: 64px;
   z-index: 10;
-  margin-bottom: 36px;
+  margin-bottom: 24px;
   border-block: 1px solid var(--border);
   background: color-mix(in srgb, var(--bg) 92%, transparent);
   backdrop-filter: blur(14px);
@@ -92,18 +106,14 @@
 
 .rankings-layout {
   display: grid;
-  gap: 48px;
+  gap: 28px;
 }
 
 .podium {
   display: grid;
-  grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.6fr);
-  grid-template-rows: repeat(2, minmax(0, auto));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
   gap: 16px;
-}
-
-.podium-card.is-first {
-  grid-row: 1 / span 2;
 }
 
 .methodology {
@@ -140,7 +150,8 @@
 
 @media (max-width: 900px) {
   .nav-row {
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr auto auto;
+    gap: 12px;
   }
 
   .updated-at {
@@ -153,12 +164,12 @@
   }
 
   .hero-grid {
-    min-height: auto;
-    gap: 48px;
+    align-items: start;
+    gap: 24px;
   }
 
   .hero::before {
-    background: linear-gradient(180deg, transparent 0 54%, color-mix(in srgb, var(--accent) 7%, transparent) 54% 100%);
+    background: none;
   }
 
   .filter-row {
@@ -173,7 +184,6 @@
 
   .podium-card.is-first {
     grid-column: 1 / -1;
-    grid-row: auto;
   }
 }
 
@@ -191,11 +201,11 @@
   }
 
   .hero-grid {
-    padding-block: 48px 56px;
+    padding-block: 28px;
   }
 
   .ranking-section {
-    padding-block: 52px 72px;
+    padding-block: 28px 64px;
   }
 
   .filter-shell {

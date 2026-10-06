@@ -1,5 +1,6 @@
 import { GithubLogo, Info, TrendUp } from '@phosphor-icons/react'
 import { formatDateTime } from '../utils/format'
+import { ThemeSwitcher } from './ThemeSwitcher'
 
 interface HeaderProps {
   generatedAt: string
@@ -17,7 +18,10 @@ export function Header({ generatedAt }: HeaderProps) {
           <a href="#ranking"><TrendUp size={17} aria-hidden="true" />排行</a>
           <a href="#methodology"><Info size={17} aria-hidden="true" />計分方法</a>
         </div>
-        <p className="updated-at">更新 {formatDateTime(generatedAt)}</p>
+        <div className="nav-end">
+          <p className="updated-at">更新 {formatDateTime(generatedAt)}</p>
+          <ThemeSwitcher />
+        </div>
       </nav>
     </header>
   )
