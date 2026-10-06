@@ -49,10 +49,8 @@ export function App() {
         <HeroSummary document={data} />
         <section className="ranking-section" id="ranking" aria-labelledby="ranking-title">
           <div className="section-heading container">
-            <div>
-              <h2 id="ranking-title">今日排行</h2>
-              <p>排名來自增長和開發活動，研究摘要不參與分數。</p>
-            </div>
+            <h2 id="ranking-title">今日排行</h2>
+            <p>排名來自增長和開發活動；分類和風險提示只作參考，不參與分數。</p>
           </div>
           <FilterBar
             category={category}

@@ -1,4 +1,5 @@
 import type { RankedRepository } from '../domain/repository'
+import { CategoryChips } from './CategoryChips'
 import { RepositoryHeader } from './RepositoryHeader'
 import { RepositoryMeta } from './RepositoryMeta'
 import { ResearchDetails } from './ResearchDetails'
@@ -20,10 +21,15 @@ export function RankingList({ repositories }: RankingListProps) {
           </div>
           <div className="row-main">
             <RepositoryHeader repository={repository} />
-            <p className="repository-description">{repository.description || repository.research.summary}</p>
-            <RepositoryMeta repository={repository} />
-            <ResearchDetails repository={repository} />
+            {(repository.description || repository.research.summary) && (
+              <p className="repository-description">{repository.description || repository.research.summary}</p>
+            )}
           </div>
+          <div className="row-side">
+            <RepositoryMeta repository={repository} />
+            <CategoryChips categories={repository.categories} />
+          </div>
+          <ResearchDetails repository={repository} />
         </article>
       ))}
     </div>

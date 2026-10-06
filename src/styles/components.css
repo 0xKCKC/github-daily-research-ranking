@@ -3,9 +3,7 @@
 .nav-links a,
 .updated-at,
 .hero-kicker,
-.primary-action,
-.status-heading,
-.top-signal,
+.hero-note,
 .repo-meta,
 .repository-heading a,
 .rank-movement,
@@ -56,10 +54,42 @@
   font-size: 0.74rem;
 }
 
+.theme-switcher {
+  display: inline-flex;
+  gap: 2px;
+  padding: 2px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+}
+
+.theme-switcher button {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text-faint);
+  cursor: pointer;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+
+.theme-switcher button:hover {
+  color: var(--text);
+}
+
+.theme-switcher button.is-active {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+}
+
 .hero-kicker {
   gap: 7px;
   width: max-content;
-  margin: 0 0 18px;
+  margin: 0 0 12px;
   color: var(--accent-strong);
   font-size: 0.84rem;
   font-weight: 720;
@@ -67,19 +97,20 @@
 }
 
 .hero-copy h1 {
-  max-width: 760px;
   margin: 0;
-  font-size: clamp(3.1rem, 7.4vw, 6.8rem);
+  font-size: clamp(2rem, 4.4vw, 3.4rem);
   font-weight: 760;
-  line-height: 0.94;
-  letter-spacing: -0.07em;
+  line-height: 1.05;
+  letter-spacing: -0.045em;
+  text-wrap: balance;
 }
 
 .hero-lede {
-  max-width: 30ch;
-  margin: 24px 0 0;
+  max-width: 48ch;
+  text-wrap: pretty;
+  margin: 12px 0 0;
   color: var(--text-muted);
-  font-size: clamp(1.05rem, 2vw, 1.3rem);
+  font-size: 1rem;
   line-height: 1.55;
 }
 
@@ -131,88 +162,51 @@
   transform: translateY(1px);
 }
 
-.hero-status {
+.hero-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(88px, auto));
+  gap: 14px 28px;
+  margin: 0;
+  padding: 16px 20px;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--surface-raised);
   box-shadow: var(--shadow);
 }
 
-.status-heading {
-  gap: 12px;
-  padding: 20px;
-  border-bottom: 1px solid var(--border);
-}
-
-.status-heading > svg {
-  flex: 0 0 auto;
-  color: var(--accent);
-}
-
-.status-heading div {
-  display: grid;
-  gap: 2px;
-}
-
-.status-heading strong {
-  font-size: 0.95rem;
-}
-
-.status-heading span {
-  color: var(--text-muted);
-  font-size: 0.78rem;
-}
-
-.hero-metrics {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 0;
-  padding: 22px 20px;
-}
-
 .hero-metrics div {
   display: grid;
-  gap: 5px;
+  gap: 2px;
   min-width: 0;
 }
 
 .hero-metrics dt {
   color: var(--text-faint);
-  font-size: 0.75rem;
+  font-size: 0.74rem;
 }
 
 .hero-metrics dd {
   margin: 0;
   font-family: var(--mono);
-  font-size: clamp(1.35rem, 3vw, 2rem);
+  font-size: clamp(1.25rem, 2.4vw, 1.6rem);
   font-weight: 700;
   letter-spacing: -0.04em;
 }
 
-.top-signal {
-  gap: 8px;
-  min-width: 0;
-  padding: 14px 20px;
+.hero-note {
+  grid-column: 1 / -1;
+  gap: 6px;
+  margin: 0;
+  padding-top: 12px;
   border-top: 1px solid var(--border);
   color: var(--text-muted);
   font-size: 0.78rem;
 }
 
-.top-signal svg {
-  flex: 0 0 auto;
+.hero-note svg {
   color: var(--accent);
 }
 
-.top-signal a {
-  overflow: hidden;
-  color: var(--text);
-  font-family: var(--mono);
-  font-weight: 700;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.top-signal a:hover,
 .repository-heading a:hover,
 .site-footer a:hover {
   color: var(--accent-strong);
@@ -221,9 +215,10 @@
 }
 
 .fixture-notice {
+  grid-column: 1 / -1;
   margin: 0;
   padding: 12px 20px;
-  border-top: 1px solid var(--border);
+  border-radius: var(--radius);
   background: var(--accent-soft);
   color: var(--text);
   font-size: 0.78rem;
@@ -312,9 +307,7 @@
 }
 
 .podium-card.is-first {
-  display: flex;
-  flex-direction: column;
-  padding: clamp(24px, 4vw, 40px);
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
   background:
     linear-gradient(145deg, color-mix(in srgb, var(--accent) 9%, var(--surface)), var(--surface) 52%);
 }
@@ -324,13 +317,13 @@
   justify-content: space-between;
   align-items: baseline;
   gap: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 
 .rank-number {
   color: var(--accent-strong);
   font-family: var(--mono);
-  font-size: clamp(1.2rem, 3vw, 2.4rem);
+  font-size: clamp(1.2rem, 2.4vw, 1.8rem);
   font-weight: 760;
   letter-spacing: -0.05em;
 }
@@ -354,6 +347,37 @@
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--surface-subtle);
+}
+
+.avatar-fallback {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-subtle);
+  color: var(--text-muted);
+  font-family: var(--mono);
+  font-weight: 700;
+}
+
+.category-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 0 0 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.category-chips li {
+  padding: 1px 8px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  font-weight: 600;
 }
 
 .repository-heading > div {
@@ -394,16 +418,13 @@
   -webkit-line-clamp: 3;
 }
 
-.podium-card.is-first .repository-description {
-  max-width: 62ch;
-  margin-top: 24px;
-  font-size: 1rem;
+.podium-card .repository-description {
+  margin-block: 14px 12px;
 }
 
 .repo-meta {
   flex-wrap: wrap;
   gap: 8px 14px;
-  margin-top: auto;
   color: var(--text-muted);
   font-family: var(--mono);
   font-size: 0.74rem;
@@ -444,13 +465,13 @@
 }
 
 .repository-age {
-  margin: 14px 0 0;
+  margin: 10px 0 0;
   color: var(--text-faint);
   font-size: 0.72rem;
 }
 
 .research-details {
-  margin-top: 18px;
+  margin-top: 14px;
   border-top: 1px solid var(--border);
 }
 
@@ -564,42 +585,80 @@
 
 .ranking-row {
   display: grid;
-  grid-template-columns: 72px minmax(0, 1fr);
-  gap: 24px;
-  padding-block: 24px;
+  grid-template-columns: 56px minmax(0, 1fr) minmax(200px, auto);
+  gap: 4px 24px;
+  padding-block: 16px 6px;
   border-bottom: 1px solid var(--border);
+  transition: background-color 160ms ease;
+}
+
+.ranking-row:hover {
+  background: color-mix(in srgb, var(--surface-subtle) 45%, transparent);
 }
 
 .row-rank {
   display: grid;
   align-content: start;
   gap: 2px;
-  padding-top: 4px;
+  padding-top: 2px;
+  padding-left: 4px;
   font-family: var(--mono);
 }
 
 .row-rank strong {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 
 .row-rank span {
   color: var(--text-faint);
-  font-size: 0.72rem;
+  font-size: 0.7rem;
 }
 
 .row-main {
   min-width: 0;
 }
 
+.row-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  padding-top: 4px;
+}
+
+.row-side .repo-meta {
+  justify-content: flex-end;
+}
+
+.row-side .category-chips {
+  justify-content: flex-end;
+  margin: 0;
+}
+
 .ranking-row .repository-description {
-  max-width: 72ch;
-  margin-block: 10px 14px;
+  max-width: 80ch;
+  margin-block: 8px 0;
   -webkit-line-clamp: 2;
 }
 
 .ranking-row .research-details {
-  max-width: 880px;
-  margin-top: 14px;
+  grid-column: 2 / -1;
+  max-width: 920px;
+  margin-top: 2px;
+  border-top: 0;
+}
+
+.ranking-row .research-details summary {
+  justify-content: flex-start;
+  gap: 4px;
+  width: max-content;
+  min-height: 32px;
+  color: var(--text-faint);
+  font-size: 0.74rem;
+}
+
+.ranking-row .research-details summary:hover {
+  color: var(--accent-strong);
 }
 
 .methodology-copy > p {
@@ -783,12 +842,7 @@
   }
 
   .hero-copy h1 {
-    font-size: clamp(2.65rem, 12vw, 3.4rem);
-    line-height: 0.98;
-  }
-
-  .hero-metrics {
-    gap: 14px;
+    font-size: clamp(1.8rem, 8vw, 2.4rem);
   }
 
   .filter-row {
@@ -802,8 +856,24 @@
   }
 
   .ranking-row {
-    grid-template-columns: 48px minmax(0, 1fr);
-    gap: 12px;
+    grid-template-columns: 40px minmax(0, 1fr);
+    gap: 4px 12px;
+  }
+
+  .row-side {
+    grid-column: 2;
+    align-items: flex-start;
+    padding-top: 6px;
+  }
+
+  .row-side .repo-meta,
+  .row-side .category-chips {
+    justify-content: flex-start;
+  }
+
+  .hero-metrics {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: 14px 16px;
   }
 
   .row-rank strong {

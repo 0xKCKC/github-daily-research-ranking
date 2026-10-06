@@ -1,5 +1,6 @@
 import type { RankedRepository } from '../domain/repository'
 import { formatAge } from '../utils/format'
+import { CategoryChips } from './CategoryChips'
 import { RepositoryHeader } from './RepositoryHeader'
 import { RepositoryMeta } from './RepositoryMeta'
 import { ResearchDetails } from './ResearchDetails'
@@ -21,6 +22,7 @@ export function Podium({ repositories }: PodiumProps) {
           </div>
           <RepositoryHeader repository={repository} />
           <p className="repository-description">{repository.description || repository.research.summary}</p>
+          <CategoryChips categories={repository.categories} />
           <RepositoryMeta repository={repository} />
           <p className="repository-age">{formatAge(repository.signals.ageDays)}</p>
           <ResearchDetails repository={repository} />
