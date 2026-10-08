@@ -14,8 +14,8 @@ export function HeroSummary({ document }: HeroSummaryProps) {
       <div className="container hero-grid">
         <div className="hero-copy">
           <p className="hero-kicker">星勢 StarMomentum · GitHub 開源情報，每日三更</p>
-          <h1>不看誰最多星，看誰最有勢。</h1>
-          <p className="hero-lede">按 star 增長、加速度和開發活動排名正在上升的開源項目，每個分數都可拆開核對。</p>
+          <h1>看準勢頭，發現下一顆新星。</h1>
+          <p className="hero-lede">按 star 增長、加速度和開發活動，排名正在上升的開源項目。</p>
         </div>
         <dl className="hero-metrics" aria-label="今日資料概況">
           <div>

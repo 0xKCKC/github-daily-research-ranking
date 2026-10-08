@@ -20,7 +20,7 @@ export function Methodology({ status, historyDays }: MethodologyProps) {
       <div className="container methodology-inner">
         <div className="methodology-copy">
           <h2 id="methodology-title">名次有證據，摘要不投票。</h2>
-          <p>研究文字只解釋數據，不會替喜歡的項目加分。所有分數都能在每個 repo 的研究摘要中拆開核對。</p>
+          <p>研究文字只解釋數據，不會替喜歡的項目加分。</p>
           <div className="method-note">
             <strong>{status === 'warmup' ? '目前是暖機排名' : `已有 ${historyDays} 日快照`}</strong>
             <span>{status === 'warmup' ? '首日以 stars/day、項目年齡和活躍度建立基線。' : '增量按實際間隔換算成每日速度，缺漏快照會用最近一份補上。'}</span>

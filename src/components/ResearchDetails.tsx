@@ -11,8 +11,6 @@ export function ResearchDetails({ repository }: ResearchDetailsProps) {
       <summary>研究摘要 <CaretDown size={16} aria-hidden="true" /></summary>
       <div className="research-content">
         <div className="research-main">
-          <h4>為何上榜</h4>
-          <p>{repository.research.whyNow}</p>
           <h4>適合誰</h4>
           <p>{repository.research.bestFor}</p>
         </div>

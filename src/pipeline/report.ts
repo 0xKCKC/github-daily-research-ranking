@@ -33,7 +33,6 @@ export function buildMarkdownReport(document: RankingDocument): string {
       '',
       repository.research.summary,
       '',
-      `**為何上榜：** ${repository.research.whyNow}`,
       '',
       `**適合：** ${repository.research.bestFor}`,
       '',
