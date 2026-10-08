@@ -1,42 +1,42 @@
 {
-  "capturedAt": "2026-10-08T02:15:32.636Z",
+  "capturedAt": "2026-10-08T02:21:51.842Z",
   "repositories": [
     {
       "id": 1407950271,
       "fullName": "openai/math",
-      "stars": 9739,
-      "forks": 962,
+      "stars": 9765,
+      "forks": 967,
       "openIssues": 0,
       "pushedAt": "2026-10-06T22:01:11Z"
     },
     {
       "id": 1401476500,
       "fullName": "QingYunA/answer-me-with-html",
-      "stars": 2079,
+      "stars": 2080,
       "forks": 140,
       "openIssues": 8,
       "pushedAt": "2026-10-07T15:39:58Z"
     },
     {
-      "id": 1400136506,
-      "fullName": "storytold/effectcraft",
-      "stars": 1724,
-      "forks": 703,
-      "openIssues": 16,
-      "pushedAt": "2026-10-08T02:08:04Z"
-    },
-    {
       "id": 1406706284,
       "fullName": "alchaincyf/huashu-art-motion",
-      "stars": 1716,
-      "forks": 197,
+      "stars": 1725,
+      "forks": 199,
       "openIssues": 2,
       "pushedAt": "2026-10-06T08:32:56Z"
     },
     {
+      "id": 1400136506,
+      "fullName": "storytold/effectcraft",
+      "stars": 1725,
+      "forks": 707,
+      "openIssues": 16,
+      "pushedAt": "2026-10-08T02:08:04Z"
+    },
+    {
       "id": 1402193143,
       "fullName": "facebookincubator/muse-gadget-sdk",
-      "stars": 1665,
+      "stars": 1667,
       "forks": 331,
       "openIssues": 61,
       "pushedAt": "2026-10-08T01:46:47Z"
@@ -60,7 +60,7 @@
     {
       "id": 1400080206,
       "fullName": "lucasmarkes/hairline",
-      "stars": 1099,
+      "stars": 1100,
       "forks": 59,
       "openIssues": 4,
       "pushedAt": "2026-10-05T21:39:14Z"
@@ -68,15 +68,15 @@
     {
       "id": 1400018213,
       "fullName": "storytold/designcraft",
-      "stars": 1005,
-      "forks": 538,
+      "stars": 1006,
+      "forks": 544,
       "openIssues": 47,
       "pushedAt": "2026-10-08T02:13:56Z"
     },
     {
       "id": 1401506630,
       "fullName": "mizorewww/x_gift_bot",
-      "stars": 949,
+      "stars": 950,
       "forks": 320,
       "openIssues": 0,
       "pushedAt": "2026-10-07T12:50:19Z"
@@ -92,7 +92,7 @@
     {
       "id": 1403115747,
       "fullName": "Jakeschincariol/replica-skill",
-      "stars": 883,
+      "stars": 884,
       "forks": 103,
       "openIssues": 4,
       "pushedAt": "2026-10-03T12:07:53Z"
@@ -140,7 +140,7 @@
     {
       "id": 1408099862,
       "fullName": "alejandrobujan/tendedero",
-      "stars": 534,
+      "stars": 536,
       "forks": 42,
       "openIssues": 12,
       "pushedAt": "2026-10-07T17:59:57Z"
@@ -172,7 +172,7 @@
     {
       "id": 1408557215,
       "fullName": "LoreanXavier/pt-pc",
-      "stars": 500,
+      "stars": 505,
       "forks": 34,
       "openIssues": 10,
       "pushedAt": "2026-10-07T20:34:02Z"
@@ -180,7 +180,7 @@
     {
       "id": 1401821001,
       "fullName": "whirlchat/whirl",
-      "stars": 495,
+      "stars": 496,
       "forks": 45,
       "openIssues": 0,
       "pushedAt": "2026-10-05T07:19:29Z"
@@ -188,7 +188,7 @@
     {
       "id": 1408284340,
       "fullName": "pingdotgg/ts-rust",
-      "stars": 488,
+      "stars": 490,
       "forks": 27,
       "openIssues": 9,
       "pushedAt": "2026-10-08T02:01:24Z"
@@ -196,15 +196,15 @@
     {
       "id": 1402504227,
       "fullName": "blendi-remade/agentcraft",
-      "stars": 485,
+      "stars": 487,
       "forks": 66,
       "openIssues": 8,
-      "pushedAt": "2026-10-06T05:12:35Z"
+      "pushedAt": "2026-10-08T02:19:41Z"
     },
     {
       "id": 1405604903,
       "fullName": "szabadkai/c64-keyboard-font",
-      "stars": 483,
+      "stars": 484,
       "forks": 11,
       "openIssues": 3,
       "pushedAt": "2026-10-07T21:18:43Z"
@@ -228,7 +228,7 @@
     {
       "id": 1403974550,
       "fullName": "BQ-Wang0511/TalkLikeYou-Streaming-RealTime-Demo",
-      "stars": 436,
+      "stars": 437,
       "forks": 2,
       "openIssues": 0,
       "pushedAt": "2026-10-07T13:46:32Z"
@@ -240,6 +240,14 @@
       "forks": 30,
       "openIssues": 3,
       "pushedAt": "2026-10-05T05:49:45Z"
+    },
+    {
+      "id": 1408465463,
+      "fullName": "nullmoth/nvidia-macos-driver",
+      "stars": 418,
+      "forks": 45,
+      "openIssues": 10,
+      "pushedAt": "2026-10-08T01:35:04Z"
     },
     {
       "id": 1402121018,
@@ -256,14 +264,6 @@
       "forks": 72,
       "openIssues": 1,
       "pushedAt": "2026-10-05T11:23:17Z"
-    },
-    {
-      "id": 1408465463,
-      "fullName": "nullmoth/nvidia-macos-driver",
-      "stars": 412,
-      "forks": 45,
-      "openIssues": 10,
-      "pushedAt": "2026-10-08T01:35:04Z"
     },
     {
       "id": 1401620953,
@@ -311,7 +311,7 @@
       "stars": 315,
       "forks": 32,
       "openIssues": 6,
-      "pushedAt": "2026-10-07T12:55:46Z"
+      "pushedAt": "2026-10-08T02:19:46Z"
     },
     {
       "id": 1403092191,
@@ -332,8 +332,8 @@
     {
       "id": 1403307052,
       "fullName": "jiwoochris/artex-ko",
-      "stars": 290,
-      "forks": 129,
+      "stars": 291,
+      "forks": 128,
       "openIssues": 1,
       "pushedAt": "2026-10-08T01:42:18Z"
     },
@@ -341,7 +341,7 @@
       "id": 1408489772,
       "fullName": "storytold/wordcraft",
       "stars": 287,
-      "forks": 122,
+      "forks": 123,
       "openIssues": 4,
       "pushedAt": "2026-10-08T02:08:10Z"
     },
@@ -364,7 +364,7 @@
     {
       "id": 1401219750,
       "fullName": "openqodex/openqodex",
-      "stars": 276,
+      "stars": 277,
       "forks": 11,
       "openIssues": 6,
       "pushedAt": "2026-10-07T00:04:37Z"
@@ -399,7 +399,7 @@
       "stars": 256,
       "forks": 26,
       "openIssues": 19,
-      "pushedAt": "2026-10-08T02:15:25Z"
+      "pushedAt": "2026-10-08T02:21:10Z"
     },
     {
       "id": 1399525785,
@@ -420,15 +420,15 @@
     {
       "id": 1408289866,
       "fullName": "storytold/cadcraft",
-      "stars": 238,
-      "forks": 119,
+      "stars": 239,
+      "forks": 121,
       "openIssues": 1,
       "pushedAt": "2026-10-08T02:08:31Z"
     },
     {
       "id": 1401480940,
       "fullName": "joeseesun/qiaomu-clipper",
-      "stars": 234,
+      "stars": 235,
       "forks": 35,
       "openIssues": 6,
       "pushedAt": "2026-10-07T08:59:19Z"
@@ -453,7 +453,7 @@
       "id": 1398982586,
       "fullName": "hezhanleiok/gate",
       "stars": 228,
-      "forks": 434,
+      "forks": 436,
       "openIssues": 6,
       "pushedAt": "2026-10-06T18:03:20Z"
     },
@@ -466,6 +466,14 @@
       "pushedAt": "2026-10-06T10:08:29Z"
     },
     {
+      "id": 1407873347,
+      "fullName": "LosaLosSantos/aurelio-finance",
+      "stars": 218,
+      "forks": 22,
+      "openIssues": 0,
+      "pushedAt": "2026-10-07T22:02:10Z"
+    },
+    {
       "id": 1402656250,
       "fullName": "heise3/academic-deai",
       "stars": 217,
@@ -474,17 +482,9 @@
       "pushedAt": "2026-10-04T09:53:02Z"
     },
     {
-      "id": 1407873347,
-      "fullName": "LosaLosSantos/aurelio-finance",
-      "stars": 216,
-      "forks": 22,
-      "openIssues": 0,
-      "pushedAt": "2026-10-07T22:02:10Z"
-    },
-    {
       "id": 1406961551,
       "fullName": "nanocle/Charakuru",
-      "stars": 214,
+      "stars": 215,
       "forks": 15,
       "openIssues": 3,
       "pushedAt": "2026-10-07T17:02:43Z"
@@ -492,7 +492,7 @@
     {
       "id": 1403805593,
       "fullName": "TannerMidd/pi-pocket",
-      "stars": 206,
+      "stars": 207,
       "forks": 11,
       "openIssues": 5,
       "pushedAt": "2026-10-07T23:20:35Z"
@@ -546,20 +546,20 @@
       "pushedAt": "2026-10-05T09:39:32Z"
     },
     {
+      "id": 1408371739,
+      "fullName": "bas3line/ascii",
+      "stars": 195,
+      "forks": 11,
+      "openIssues": 0,
+      "pushedAt": "2026-10-07T18:10:32Z"
+    },
+    {
       "id": 1403175431,
       "fullName": "bigmak94/AstroQuest",
       "stars": 194,
       "forks": 11,
       "openIssues": 5,
       "pushedAt": "2026-10-06T18:45:57Z"
-    },
-    {
-      "id": 1408371739,
-      "fullName": "bas3line/ascii",
-      "stars": 192,
-      "forks": 10,
-      "openIssues": 0,
-      "pushedAt": "2026-10-07T18:10:32Z"
     },
     {
       "id": 1403703149,
@@ -578,20 +578,20 @@
       "pushedAt": "2026-10-02T16:01:26Z"
     },
     {
-      "id": 1408285582,
-      "fullName": "storytold/gridcraft",
-      "stars": 188,
-      "forks": 88,
-      "openIssues": 0,
-      "pushedAt": "2026-10-08T02:08:14Z"
-    },
-    {
       "id": 1408698842,
       "fullName": "gr8rstudio/gr8r-studio",
-      "stars": 187,
+      "stars": 188,
       "forks": 39,
       "openIssues": 3,
       "pushedAt": "2026-10-07T14:51:02Z"
+    },
+    {
+      "id": 1408285582,
+      "fullName": "storytold/gridcraft",
+      "stars": 188,
+      "forks": 90,
+      "openIssues": 0,
+      "pushedAt": "2026-10-08T02:08:14Z"
     },
     {
       "id": 1399076061,
@@ -602,20 +602,20 @@
       "pushedAt": "2026-10-01T09:02:53Z"
     },
     {
+      "id": 1408486424,
+      "fullName": "storytold/soundcraft",
+      "stars": 185,
+      "forks": 97,
+      "openIssues": 6,
+      "pushedAt": "2026-10-08T02:08:12Z"
+    },
+    {
       "id": 1405466823,
       "fullName": "kandinskylab/kandinsky-6",
       "stars": 185,
       "forks": 11,
       "openIssues": 1,
       "pushedAt": "2026-10-07T12:49:26Z"
-    },
-    {
-      "id": 1408486424,
-      "fullName": "storytold/soundcraft",
-      "stars": 185,
-      "forks": 96,
-      "openIssues": 6,
-      "pushedAt": "2026-10-08T02:08:12Z"
     },
     {
       "id": 1402070894,
@@ -653,17 +653,25 @@
       "id": 1408294296,
       "fullName": "storytold/deckcraft",
       "stars": 171,
-      "forks": 86,
+      "forks": 88,
       "openIssues": 1,
       "pushedAt": "2026-10-08T02:08:09Z"
     },
     {
       "id": 1407464278,
       "fullName": "nickvasilescu/bops",
-      "stars": 170,
+      "stars": 171,
       "forks": 47,
       "openIssues": 6,
       "pushedAt": "2026-10-06T15:16:59Z"
+    },
+    {
+      "id": 1406548400,
+      "fullName": "opencoredev/convt",
+      "stars": 169,
+      "forks": 6,
+      "openIssues": 17,
+      "pushedAt": "2026-10-08T02:18:43Z"
     },
     {
       "id": 1399796212,
@@ -680,14 +688,6 @@
       "forks": 19,
       "openIssues": 0,
       "pushedAt": "2026-10-05T18:50:02Z"
-    },
-    {
-      "id": 1406548400,
-      "fullName": "opencoredev/convt",
-      "stars": 167,
-      "forks": 6,
-      "openIssues": 17,
-      "pushedAt": "2026-10-08T02:14:40Z"
     },
     {
       "id": 1400291755,
@@ -714,20 +714,20 @@
       "pushedAt": "2026-10-03T14:00:20Z"
     },
     {
+      "id": 1405917790,
+      "fullName": "google-deepmind/alphaprotein-novo",
+      "stars": 162,
+      "forks": 22,
+      "openIssues": 0,
+      "pushedAt": "2026-10-06T11:23:42Z"
+    },
+    {
       "id": 1403731980,
       "fullName": "cth9191/animate",
       "stars": 162,
       "forks": 22,
       "openIssues": 0,
       "pushedAt": "2026-10-05T20:31:48Z"
-    },
-    {
-      "id": 1405917790,
-      "fullName": "google-deepmind/alphaprotein-novo",
-      "stars": 161,
-      "forks": 22,
-      "openIssues": 0,
-      "pushedAt": "2026-10-06T11:23:42Z"
     },
     {
       "id": 1402010123,
@@ -791,7 +791,7 @@
       "stars": 156,
       "forks": 121,
       "openIssues": 1,
-      "pushedAt": "2026-10-08T02:15:00Z"
+      "pushedAt": "2026-10-08T02:21:02Z"
     },
     {
       "id": 1400104434,
@@ -804,7 +804,7 @@
     {
       "id": 1375382253,
       "fullName": "NandhaKishorM/laya",
-      "stars": 31458,
+      "stars": 31461,
       "forks": 2775,
       "openIssues": 116,
       "pushedAt": "2026-10-07T14:16:29Z"
@@ -820,15 +820,15 @@
     {
       "id": 1398080271,
       "fullName": "storytold/photocraft",
-      "stars": 17785,
-      "forks": 2342,
-      "openIssues": 197,
-      "pushedAt": "2026-10-08T02:07:54Z"
+      "stars": 17833,
+      "forks": 2351,
+      "openIssues": 205,
+      "pushedAt": "2026-10-08T02:18:52Z"
     },
     {
       "id": 1385946301,
       "fullName": "Niko1221/Strata",
-      "stars": 17170,
+      "stars": 17182,
       "forks": 1523,
       "openIssues": 370,
       "pushedAt": "2026-10-07T18:01:30Z"
@@ -836,16 +836,16 @@
     {
       "id": 1373614120,
       "fullName": "robbietilton/Compositor",
-      "stars": 11431,
-      "forks": 1046,
+      "stars": 11441,
+      "forks": 1048,
       "openIssues": 56,
-      "pushedAt": "2026-10-08T02:15:34Z"
+      "pushedAt": "2026-10-08T02:20:08Z"
     },
     {
       "id": 1375997079,
       "fullName": "cdyforever/how-to-live-better",
-      "stars": 9410,
-      "forks": 650,
+      "stars": 9414,
+      "forks": 652,
       "openIssues": 8,
       "pushedAt": "2026-10-08T01:24:33Z"
     },
@@ -876,7 +876,7 @@
     {
       "id": 1379574728,
       "fullName": "jev-chat/jev-chat-jarvis",
-      "stars": 7434,
+      "stars": 7435,
       "forks": 1226,
       "openIssues": 26,
       "pushedAt": "2026-10-06T15:18:48Z"
@@ -892,7 +892,7 @@
     {
       "id": 1393965829,
       "fullName": "KKKKhazix/AIHOT",
-      "stars": 6432,
+      "stars": 6435,
       "forks": 1591,
       "openIssues": 2,
       "pushedAt": "2026-10-07T19:23:13Z"
@@ -900,9 +900,9 @@
     {
       "id": 1385817306,
       "fullName": "shihabal3amri/DiPlay",
-      "stars": 6329,
+      "stars": 6340,
       "forks": 803,
-      "openIssues": 186,
+      "openIssues": 187,
       "pushedAt": "2026-10-07T11:24:59Z"
     },
     {
@@ -916,16 +916,16 @@
     {
       "id": 1383809012,
       "fullName": "yetone/magpie",
-      "stars": 5978,
+      "stars": 5983,
       "forks": 433,
-      "openIssues": 265,
-      "pushedAt": "2026-10-08T01:54:28Z"
+      "openIssues": 266,
+      "pushedAt": "2026-10-08T02:20:41Z"
     },
     {
       "id": 1397016507,
       "fullName": "rehan-remade/universal-modder",
-      "stars": 5234,
-      "forks": 476,
+      "stars": 5235,
+      "forks": 478,
       "openIssues": 27,
       "pushedAt": "2026-10-07T23:03:29Z"
     },
@@ -940,7 +940,7 @@
     {
       "id": 1363417187,
       "fullName": "yi1108/printfilm",
-      "stars": 4492,
+      "stars": 4493,
       "forks": 569,
       "openIssues": 3,
       "pushedAt": "2026-09-24T11:10:32Z"
@@ -948,7 +948,7 @@
     {
       "id": 1396117711,
       "fullName": "CopilotKit/OpenDots",
-      "stars": 4216,
+      "stars": 4217,
       "forks": 587,
       "openIssues": 45,
       "pushedAt": "2026-10-06T22:46:41Z"
@@ -956,7 +956,7 @@
     {
       "id": 1371757322,
       "fullName": "CopilotKit/openmuse",
-      "stars": 4186,
+      "stars": 4187,
       "forks": 573,
       "openIssues": 41,
       "pushedAt": "2026-10-08T00:53:13Z"
@@ -964,7 +964,7 @@
     {
       "id": 1391438314,
       "fullName": "Louis-CFM/coucou",
-      "stars": 4029,
+      "stars": 4030,
       "forks": 678,
       "openIssues": 151,
       "pushedAt": "2026-10-07T23:37:42Z"
@@ -972,7 +972,7 @@
     {
       "id": 1361439328,
       "fullName": "Edge0-AI/Edge0",
-      "stars": 3574,
+      "stars": 3575,
       "forks": 510,
       "openIssues": 18,
       "pushedAt": "2026-10-04T16:16:11Z"
@@ -980,7 +980,7 @@
     {
       "id": 1394989252,
       "fullName": "omlahore/RemoveMacAI",
-      "stars": 3559,
+      "stars": 3562,
       "forks": 94,
       "openIssues": 12,
       "pushedAt": "2026-10-07T19:42:55Z"
@@ -988,7 +988,7 @@
     {
       "id": 1385896447,
       "fullName": "Ebony-Vinyl/dsh-our-free-model",
-      "stars": 3463,
+      "stars": 3470,
       "forks": 66,
       "openIssues": 57,
       "pushedAt": "2026-10-07T15:59:39Z"
@@ -996,8 +996,8 @@
     {
       "id": 1398091865,
       "fullName": "storytold/filmcraft",
-      "stars": 3446,
-      "forks": 1092,
+      "stars": 3451,
+      "forks": 1098,
       "openIssues": 51,
       "pushedAt": "2026-10-08T02:07:58Z"
     },
@@ -1020,8 +1020,8 @@
     {
       "id": 1398185212,
       "fullName": "storytold/lightcraft",
-      "stars": 3172,
-      "forks": 933,
+      "stars": 3178,
+      "forks": 939,
       "openIssues": 64,
       "pushedAt": "2026-10-08T02:08:00Z"
     },
@@ -1071,7 +1071,7 @@
       "stars": 2722,
       "forks": 275,
       "openIssues": 1,
-      "pushedAt": "2026-09-30T02:09:22Z"
+      "pushedAt": "2026-10-08T02:17:59Z"
     },
     {
       "id": 1396688303,
@@ -1092,7 +1092,7 @@
     {
       "id": 1395994653,
       "fullName": "shader-effects-inc/shaders",
-      "stars": 2533,
+      "stars": 2536,
       "forks": 89,
       "openIssues": 0,
       "pushedAt": "2026-10-07T22:45:39Z"
@@ -1108,10 +1108,10 @@
     {
       "id": 1398086162,
       "fullName": "storytold/pdfcraft",
-      "stars": 2488,
-      "forks": 841,
-      "openIssues": 70,
-      "pushedAt": "2026-10-08T02:15:27Z"
+      "stars": 2498,
+      "forks": 847,
+      "openIssues": 66,
+      "pushedAt": "2026-10-08T02:17:01Z"
     },
     {
       "id": 1386391454,
@@ -1124,7 +1124,7 @@
     {
       "id": 1386355153,
       "fullName": "tobi/disktree",
-      "stars": 2458,
+      "stars": 2460,
       "forks": 158,
       "openIssues": 27,
       "pushedAt": "2026-10-04T19:07:54Z"
@@ -1148,15 +1148,15 @@
     {
       "id": 1398097510,
       "fullName": "storytold/vectorcraft",
-      "stars": 2334,
-      "forks": 879,
+      "stars": 2339,
+      "forks": 885,
       "openIssues": 9,
       "pushedAt": "2026-10-08T02:07:56Z"
     },
     {
       "id": 1361693766,
       "fullName": "Vincentwei1021/anything2explainer",
-      "stars": 2309,
+      "stars": 2311,
       "forks": 320,
       "openIssues": 5,
       "pushedAt": "2026-09-18T11:52:13Z"
@@ -1164,7 +1164,7 @@
     {
       "id": 1388867993,
       "fullName": "kaankiziltug/logo-design-skill",
-      "stars": 2297,
+      "stars": 2298,
       "forks": 155,
       "openIssues": 0,
       "pushedAt": "2026-09-30T18:16:50Z"
@@ -1220,7 +1220,7 @@
     {
       "id": 1378081384,
       "fullName": "RubinLabs26/ISpotify",
-      "stars": 1898,
+      "stars": 1899,
       "forks": 1,
       "openIssues": 3,
       "pushedAt": "2026-09-29T07:21:58Z"
@@ -1268,7 +1268,7 @@
     {
       "id": 1397771878,
       "fullName": "nanaism/yomiyasu",
-      "stars": 1715,
+      "stars": 1716,
       "forks": 38,
       "openIssues": 0,
       "pushedAt": "2026-10-07T16:30:31Z"
@@ -1276,7 +1276,7 @@
     {
       "id": 1369141830,
       "fullName": "waligoraamodio288-rgb/hongguo-desktop-releases",
-      "stars": 1700,
+      "stars": 1703,
       "forks": 84,
       "openIssues": 118,
       "pushedAt": "2026-10-07T11:05:29Z"
@@ -1285,14 +1285,14 @@
       "id": 1393689296,
       "fullName": "edenfunf/reelmimic",
       "stars": 1697,
-      "forks": 181,
+      "forks": 182,
       "openIssues": 32,
       "pushedAt": "2026-10-07T06:44:27Z"
     },
     {
       "id": 1376713674,
       "fullName": "pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-      "stars": 1692,
+      "stars": 1693,
       "forks": 169,
       "openIssues": 0,
       "pushedAt": "2026-10-06T03:56:33Z"
@@ -1300,7 +1300,7 @@
     {
       "id": 1382717255,
       "fullName": "852wa/JIZURA",
-      "stars": 1672,
+      "stars": 1673,
       "forks": 235,
       "openIssues": 26,
       "pushedAt": "2026-10-01T08:24:41Z"
@@ -1316,7 +1316,7 @@
     {
       "id": 1394134758,
       "fullName": "wy51ai/floorplan-3d",
-      "stars": 1582,
+      "stars": 1586,
       "forks": 318,
       "openIssues": 6,
       "pushedAt": "2026-10-02T02:32:11Z"
@@ -1330,20 +1330,20 @@
       "pushedAt": "2026-10-06T06:24:30Z"
     },
     {
+      "id": 1391948723,
+      "fullName": "KingKongRobotics/jumper",
+      "stars": 1566,
+      "forks": 139,
+      "openIssues": 4,
+      "pushedAt": "2026-10-05T21:07:05Z"
+    },
+    {
       "id": 1377694077,
       "fullName": "mizorewww/laya-coreml",
       "stars": 1561,
       "forks": 131,
       "openIssues": 0,
       "pushedAt": "2026-10-02T03:29:01Z"
-    },
-    {
-      "id": 1391948723,
-      "fullName": "KingKongRobotics/jumper",
-      "stars": 1559,
-      "forks": 138,
-      "openIssues": 3,
-      "pushedAt": "2026-10-05T21:07:05Z"
     },
     {
       "id": 1371220575,
@@ -1405,7 +1405,7 @@
       "id": 1367299537,
       "fullName": "Clearailhc/clearai-dsh",
       "stars": 1337,
-      "forks": 42,
+      "forks": 43,
       "openIssues": 1,
       "pushedAt": "2026-10-08T02:05:59Z"
     },
@@ -1452,7 +1452,7 @@
     {
       "id": 1376380844,
       "fullName": "incoai/splash",
-      "stars": 1274,
+      "stars": 1275,
       "forks": 115,
       "openIssues": 81,
       "pushedAt": "2026-10-06T11:57:19Z"
@@ -1556,15 +1556,15 @@
     {
       "id": 1103012935,
       "fullName": "openclaw/openclaw",
-      "stars": 391602,
+      "stars": 391603,
       "forks": 82290,
-      "openIssues": 9495,
-      "pushedAt": "2026-10-08T02:14:04Z"
+      "openIssues": 9494,
+      "pushedAt": "2026-10-08T02:19:40Z"
     },
     {
       "id": 85077558,
       "fullName": "nilbuild/developer-roadmap",
-      "stars": 369116,
+      "stars": 369118,
       "forks": 45045,
       "openIssues": 2,
       "pushedAt": "2026-10-07T15:29:59Z"
@@ -1580,7 +1580,7 @@
     {
       "id": 36633370,
       "fullName": "awesome-selfhosted/awesome-selfhosted",
-      "stars": 324683,
+      "stars": 324684,
       "forks": 15189,
       "openIssues": 0,
       "pushedAt": "2026-10-06T18:10:01Z"
@@ -1588,7 +1588,7 @@
     {
       "id": 1073224795,
       "fullName": "obra/superpowers",
-      "stars": 296407,
+      "stars": 296409,
       "forks": 26456,
       "openIssues": 327,
       "pushedAt": "2026-10-08T01:58:30Z"
@@ -1596,18 +1596,18 @@
     {
       "id": 1148788086,
       "fullName": "mattpocock/skills",
-      "stars": 279698,
-      "forks": 23444,
+      "stars": 279706,
+      "forks": 23447,
       "openIssues": 156,
       "pushedAt": "2026-10-07T18:55:04Z"
     },
     {
       "id": 1024554267,
       "fullName": "NousResearch/hermes-agent",
-      "stars": 251959,
+      "stars": 251960,
       "forks": 54256,
-      "openIssues": 47743,
-      "pushedAt": "2026-10-08T02:08:45Z"
+      "openIssues": 47745,
+      "pushedAt": "2026-10-08T02:20:57Z"
     },
     {
       "id": 2325298,
@@ -1636,16 +1636,16 @@
     {
       "id": 975734319,
       "fullName": "anomalyco/opencode",
-      "stars": 212226,
+      "stars": 212229,
       "forks": 28282,
-      "openIssues": 6249,
+      "openIssues": 6199,
       "pushedAt": "2026-10-08T02:10:25Z"
     },
     {
       "id": 193215554,
       "fullName": "n8n-io/n8n",
       "stars": 206840,
-      "forks": 61013,
+      "forks": 61014,
       "openIssues": 1176,
       "pushedAt": "2026-10-08T01:33:43Z"
     },
@@ -1654,16 +1654,16 @@
       "fullName": "tensorflow/tensorflow",
       "stars": 200735,
       "forks": 78562,
-      "openIssues": 3256,
-      "pushedAt": "2026-10-08T00:45:16Z"
+      "openIssues": 3257,
+      "pushedAt": "2026-10-08T02:20:13Z"
     },
     {
       "id": 41881900,
       "fullName": "microsoft/vscode",
       "stars": 193636,
       "forks": 44582,
-      "openIssues": 21594,
-      "pushedAt": "2026-10-08T02:07:22Z"
+      "openIssues": 21593,
+      "pushedAt": "2026-10-08T02:18:20Z"
     },
     {
       "id": 291137,
@@ -1676,7 +1676,7 @@
     {
       "id": 787076358,
       "fullName": "firecrawl/firecrawl",
-      "stars": 189518,
+      "stars": 189519,
       "forks": 10046,
       "openIssues": 529,
       "pushedAt": "2026-10-08T01:14:14Z"
@@ -1687,12 +1687,12 @@
       "stars": 187689,
       "forks": 45938,
       "openIssues": 611,
-      "pushedAt": "2026-10-08T02:12:24Z"
+      "pushedAt": "2026-10-08T02:18:01Z"
     },
     {
       "id": 21540759,
       "fullName": "avelino/awesome-go",
-      "stars": 187424,
+      "stars": 187425,
       "forks": 13604,
       "openIssues": 67,
       "pushedAt": "2026-10-07T19:06:08Z"
@@ -1702,7 +1702,7 @@
       "fullName": "ollama/ollama",
       "stars": 182505,
       "forks": 18145,
-      "openIssues": 4196,
+      "openIssues": 4197,
       "pushedAt": "2026-10-08T00:22:14Z"
     },
     {
@@ -1724,7 +1724,7 @@
     {
       "id": 155220641,
       "fullName": "huggingface/transformers",
-      "stars": 167037,
+      "stars": 167038,
       "forks": 34766,
       "openIssues": 2354,
       "pushedAt": "2026-10-08T02:12:47Z"
@@ -1732,17 +1732,17 @@
     {
       "id": 1075372545,
       "fullName": "msitarzewski/agency-agents",
-      "stars": 158286,
-      "forks": 25505,
+      "stars": 158288,
+      "forks": 25506,
       "openIssues": 175,
       "pushedAt": "2026-10-07T16:45:46Z"
     },
     {
       "id": 626805178,
       "fullName": "langgenius/dify",
-      "stars": 158044,
+      "stars": 158043,
       "forks": 24939,
-      "openIssues": 1072,
+      "openIssues": 1074,
       "pushedAt": "2026-10-08T02:11:46Z"
     },
     {
@@ -1756,15 +1756,15 @@
     {
       "id": 701547123,
       "fullName": "open-webui/open-webui",
-      "stars": 154171,
-      "forks": 22530,
+      "stars": 154172,
+      "forks": 22529,
       "openIssues": 286,
       "pushedAt": "2026-10-07T22:11:44Z"
     },
     {
       "id": 111583593,
       "fullName": "Genymobile/scrcpy",
-      "stars": 151603,
+      "stars": 151604,
       "forks": 13895,
       "openIssues": 2923,
       "pushedAt": "2026-10-07T07:23:10Z"
@@ -1780,7 +1780,7 @@
     {
       "id": 721767116,
       "fullName": "clash-verge-rev/clash-verge-rev",
-      "stars": 149763,
+      "stars": 149767,
       "forks": 10750,
       "openIssues": 497,
       "pushedAt": "2026-10-07T23:18:29Z"
@@ -1798,13 +1798,13 @@
       "fullName": "vercel/next.js",
       "stars": 143240,
       "forks": 34141,
-      "openIssues": 3566,
-      "pushedAt": "2026-10-08T02:13:24Z"
+      "openIssues": 3565,
+      "pushedAt": "2026-10-08T02:16:19Z"
     },
     {
       "id": 1031912724,
       "fullName": "farion1231/cc-switch",
-      "stars": 140914,
+      "stars": 140925,
       "forks": 9446,
       "openIssues": 2924,
       "pushedAt": "2026-10-08T02:10:58Z"
@@ -1812,7 +1812,7 @@
     {
       "id": 1042367133,
       "fullName": "github/spec-kit",
-      "stars": 140556,
+      "stars": 140558,
       "forks": 12573,
       "openIssues": 251,
       "pushedAt": "2026-10-07T22:48:11Z"
@@ -1838,13 +1838,13 @@
       "fullName": "golang/go",
       "stars": 139320,
       "forks": 21511,
-      "openIssues": 10314,
+      "openIssues": 10313,
       "pushedAt": "2026-10-07T23:54:18Z"
     },
     {
       "id": 184456251,
       "fullName": "microsoft/PowerToys",
-      "stars": 139294,
+      "stars": 139293,
       "forks": 8622,
       "openIssues": 7744,
       "pushedAt": "2026-10-08T02:04:50Z"
@@ -1852,7 +1852,7 @@
     {
       "id": 589831718,
       "fullName": "Comfy-Org/ComfyUI",
-      "stars": 136511,
+      "stars": 136512,
       "forks": 16205,
       "openIssues": 5085,
       "pushedAt": "2026-10-08T02:12:49Z"
@@ -1860,8 +1860,8 @@
     {
       "id": 1179264259,
       "fullName": "garrytan/gstack",
-      "stars": 135714,
-      "forks": 20140,
+      "stars": 135715,
+      "forks": 20141,
       "openIssues": 441,
       "pushedAt": "2026-10-07T23:34:06Z"
     },
@@ -1869,14 +1869,14 @@
       "id": 1106996539,
       "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
       "stars": 133852,
-      "forks": 14188,
+      "forks": 14189,
       "openIssues": 86,
       "pushedAt": "2026-10-08T02:08:49Z"
     },
     {
       "id": 231283452,
       "fullName": "excalidraw/excalidraw",
-      "stars": 133659,
+      "stars": 133661,
       "forks": 15611,
       "openIssues": 3251,
       "pushedAt": "2026-10-07T18:32:00Z"
@@ -1892,7 +1892,7 @@
     {
       "id": 770153867,
       "fullName": "harry0703/MoneyPrinterTurbo",
-      "stars": 129148,
+      "stars": 129149,
       "forks": 20212,
       "openIssues": 55,
       "pushedAt": "2026-10-07T13:46:58Z"
@@ -1910,13 +1910,13 @@
       "fullName": "openai/codex",
       "stars": 128215,
       "forks": 20089,
-      "openIssues": 21263,
+      "openIssues": 21266,
       "pushedAt": "2026-10-08T02:07:15Z"
     },
     {
       "id": 29028775,
       "fullName": "react/react-native",
-      "stars": 126810,
+      "stars": 126809,
       "forks": 25301,
       "openIssues": 1156,
       "pushedAt": "2026-10-08T00:50:37Z"
@@ -1926,7 +1926,7 @@
       "fullName": "rustdesk/rustdesk",
       "stars": 125376,
       "forks": 19517,
-      "openIssues": 185,
+      "openIssues": 182,
       "pushedAt": "2026-10-07T16:23:16Z"
     },
     {
@@ -1940,7 +1940,7 @@
     {
       "id": 1200597263,
       "fullName": "Graphify-Labs/graphify",
-      "stars": 124702,
+      "stars": 124703,
       "forks": 12019,
       "openIssues": 1541,
       "pushedAt": "2026-10-07T17:04:38Z"
@@ -1964,7 +1964,7 @@
     {
       "id": 655806940,
       "fullName": "microsoft/generative-ai-for-beginners",
-      "stars": 121136,
+      "stars": 121137,
       "forks": 63777,
       "openIssues": 16,
       "pushedAt": "2026-10-07T01:42:48Z"
@@ -2012,9 +2012,9 @@
     {
       "id": 455229168,
       "fullName": "immich-app/immich",
-      "stars": 115741,
+      "stars": 115742,
       "forks": 7147,
-      "openIssues": 690,
+      "openIssues": 691,
       "pushedAt": "2026-10-08T01:33:18Z"
     },
     {
@@ -2029,7 +2029,7 @@
       "id": 1035029907,
       "fullName": "earendil-works/pi",
       "stars": 113217,
-      "forks": 14381,
+      "forks": 14382,
       "openIssues": 284,
       "pushedAt": "2026-10-07T22:23:27Z"
     },
@@ -2055,7 +2055,7 @@
       "stars": 111219,
       "forks": 16029,
       "openIssues": 1146,
-      "pushedAt": "2026-10-08T02:07:13Z"
+      "pushedAt": "2026-10-08T02:18:30Z"
     },
     {
       "id": 1201173969,
@@ -2068,7 +2068,7 @@
     {
       "id": 23088740,
       "fullName": "axios/axios",
-      "stars": 109348,
+      "stars": 109349,
       "forks": 11893,
       "openIssues": 110,
       "pushedAt": "2026-10-07T18:15:48Z"
@@ -2101,9 +2101,9 @@
       "id": 65600975,
       "fullName": "pytorch/pytorch",
       "stars": 103864,
-      "forks": 31608,
+      "forks": 31609,
       "openIssues": 17722,
-      "pushedAt": "2026-10-08T02:15:24Z"
+      "pushedAt": "2026-10-08T02:18:20Z"
     },
     {
       "id": 16408992,
@@ -2132,7 +2132,7 @@
     {
       "id": 1223170290,
       "fullName": "nexu-io/open-design",
-      "stars": 99888,
+      "stars": 99891,
       "forks": 11534,
       "openIssues": 1166,
       "pushedAt": "2026-10-08T01:33:52Z"
@@ -2156,15 +2156,15 @@
     {
       "id": 1170821064,
       "fullName": "paperclipai/paperclip",
-      "stars": 98486,
-      "forks": 16638,
-      "openIssues": 6176,
-      "pushedAt": "2026-10-08T02:08:03Z"
+      "stars": 98491,
+      "forks": 16639,
+      "openIssues": 6175,
+      "pushedAt": "2026-10-08T02:20:12Z"
     },
     {
       "id": 1048065319,
       "fullName": "thedotmack/claude-mem",
-      "stars": 97765,
+      "stars": 97768,
       "forks": 8607,
       "openIssues": 115,
       "pushedAt": "2026-10-07T00:57:45Z"
@@ -2180,7 +2180,7 @@
     {
       "id": 997737944,
       "fullName": "ruvnet/RuView",
-      "stars": 96828,
+      "stars": 96830,
       "forks": 12730,
       "openIssues": 388,
       "pushedAt": "2026-10-08T00:44:01Z"
@@ -2191,7 +2191,7 @@
       "stars": 96145,
       "forks": 5096,
       "openIssues": 9384,
-      "pushedAt": "2026-10-08T02:03:10Z"
+      "pushedAt": "2026-10-08T02:20:10Z"
     },
     {
       "id": 90796663,
@@ -2206,13 +2206,13 @@
       "fullName": "nvm-sh/nvm",
       "stars": 95282,
       "forks": 10485,
-      "openIssues": 388,
+      "openIssues": 387,
       "pushedAt": "2026-10-07T22:50:28Z"
     },
     {
       "id": 22790488,
       "fullName": "iluwatar/java-design-patterns",
-      "stars": 94761,
+      "stars": 94762,
       "forks": 27372,
       "openIssues": 135,
       "pushedAt": "2026-10-06T02:56:28Z"
@@ -2228,7 +2228,7 @@
     {
       "id": 578822531,
       "fullName": "localsend/localsend",
-      "stars": 93614,
+      "stars": 93615,
       "forks": 5227,
       "openIssues": 1003,
       "pushedAt": "2026-10-07T23:01:53Z"
@@ -2236,7 +2236,7 @@
     {
       "id": 1162099055,
       "fullName": "Leonxlnx/taste-skill",
-      "stars": 93532,
+      "stars": 93534,
       "forks": 6346,
       "openIssues": 76,
       "pushedAt": "2026-10-07T06:20:58Z"
@@ -2244,7 +2244,7 @@
     {
       "id": 162998479,
       "fullName": "sherlock-project/sherlock",
-      "stars": 93496,
+      "stars": 93497,
       "forks": 11048,
       "openIssues": 356,
       "pushedAt": "2026-10-07T05:18:49Z"
@@ -2252,15 +2252,15 @@
     {
       "id": 599547518,
       "fullName": "vllm-project/vllm",
-      "stars": 93352,
-      "forks": 23101,
-      "openIssues": 8555,
+      "stars": 93354,
+      "forks": 23102,
+      "openIssues": 8556,
       "pushedAt": "2026-10-08T02:02:19Z"
     },
     {
       "id": 1165277268,
       "fullName": "Panniantong/Agent-Reach",
-      "stars": 93312,
+      "stars": 93319,
       "forks": 8173,
       "openIssues": 200,
       "pushedAt": "2026-10-07T17:17:29Z"
@@ -2277,7 +2277,7 @@
       "id": 1255180606,
       "fullName": "odysseus-dev/odysseus",
       "stars": 91872,
-      "forks": 1388,
+      "forks": 1389,
       "openIssues": 1424,
       "pushedAt": "2026-10-07T13:38:42Z"
     },
@@ -2292,7 +2292,7 @@
     {
       "id": 340547520,
       "fullName": "zed-industries/zed",
-      "stars": 91425,
+      "stars": 91427,
       "forks": 10956,
       "openIssues": 3051,
       "pushedAt": "2026-10-07T22:30:40Z"
@@ -2332,7 +2332,7 @@
     {
       "id": 890668799,
       "fullName": "modelcontextprotocol/servers",
-      "stars": 91071,
+      "stars": 91069,
       "forks": 11760,
       "openIssues": 494,
       "pushedAt": "2026-10-07T21:22:09Z"
@@ -2364,7 +2364,7 @@
     {
       "id": 695864515,
       "fullName": "hacksider/Deep-Live-Cam",
-      "stars": 96934,
+      "stars": 96933,
       "forks": 14120,
       "openIssues": 46,
       "pushedAt": "2026-10-05T00:58:03Z"
@@ -2372,7 +2372,7 @@
     {
       "id": 771302083,
       "fullName": "OpenHands/OpenHands",
-      "stars": 90209,
+      "stars": 90210,
       "forks": 11940,
       "openIssues": 919,
       "pushedAt": "2026-10-08T00:19:22Z"
@@ -2406,15 +2406,15 @@
       "fullName": "simstudioai/sim",
       "stars": 29791,
       "forks": 3852,
-      "openIssues": 407,
-      "pushedAt": "2026-10-08T02:13:29Z"
+      "openIssues": 409,
+      "pushedAt": "2026-10-08T02:18:17Z"
     },
     {
       "id": 138552196,
       "fullName": "nautechsystems/nautilus_trader",
       "stars": 29692,
       "forks": 3941,
-      "openIssues": 143,
+      "openIssues": 132,
       "pushedAt": "2026-10-08T02:01:20Z"
     },
     {
@@ -2478,7 +2478,7 @@
       "fullName": "huggingface/datasets",
       "stars": 22036,
       "forks": 3503,
-      "openIssues": 1458,
+      "openIssues": 1457,
       "pushedAt": "2026-10-06T09:20:25Z"
     },
     {
@@ -2510,7 +2510,7 @@
       "fullName": "onnx/onnx",
       "stars": 21564,
       "forks": 4051,
-      "openIssues": 269,
+      "openIssues": 270,
       "pushedAt": "2026-10-07T01:02:05Z"
     },
     {
@@ -2628,8 +2628,8 @@
     {
       "id": 644293378,
       "fullName": "CVHub520/X-AnyLabeling",
-      "stars": 10611,
-      "forks": 1174,
+      "stars": 10612,
+      "forks": 1175,
       "openIssues": 6,
       "pushedAt": "2026-10-06T10:04:53Z"
     },
@@ -2999,7 +2999,7 @@
       "stars": 3100,
       "forks": 231,
       "openIssues": 914,
-      "pushedAt": "2026-10-08T02:15:11Z"
+      "pushedAt": "2026-10-08T02:21:54Z"
     },
     {
       "id": 99561213,
@@ -3132,7 +3132,7 @@
     {
       "id": 1136590548,
       "fullName": "affaan-m/ECC",
-      "stars": 274967,
+      "stars": 274971,
       "forks": 41021,
       "openIssues": 372,
       "pushedAt": "2026-10-05T04:55:16Z"
@@ -3140,16 +3140,16 @@
     {
       "id": 1266797999,
       "fullName": "DietrichGebert/ponytail",
-      "stars": 157648,
-      "forks": 8468,
+      "stars": 157656,
+      "forks": 8469,
       "openIssues": 17,
       "pushedAt": "2026-10-05T20:46:39Z"
     },
     {
       "id": 1139971460,
       "fullName": "rtk-ai/rtk",
-      "stars": 82643,
-      "forks": 5250,
+      "stars": 82644,
+      "forks": 5251,
       "openIssues": 1516,
       "pushedAt": "2026-10-07T16:11:56Z"
     },
@@ -3164,15 +3164,15 @@
     {
       "id": 1211139949,
       "fullName": "tt-a1i/archify",
-      "stars": 79280,
-      "forks": 5315,
+      "stars": 79285,
+      "forks": 5316,
       "openIssues": 216,
       "pushedAt": "2026-10-08T01:11:17Z"
     },
     {
       "id": 1238120057,
       "fullName": "ayghri/i-have-adhd",
-      "stars": 55176,
+      "stars": 55182,
       "forks": 3162,
       "openIssues": 73,
       "pushedAt": "2026-10-06T23:23:46Z"
@@ -3292,7 +3292,7 @@
     {
       "id": 1180745961,
       "fullName": "JCodesMore/ai-website-cloner-template",
-      "stars": 36193,
+      "stars": 36194,
       "forks": 5296,
       "openIssues": 2,
       "pushedAt": "2026-10-05T08:07:48Z"
@@ -3348,9 +3348,9 @@
     {
       "id": 1008713177,
       "fullName": "QwenLM/qwen-code",
-      "stars": 28343,
+      "stars": 28344,
       "forks": 3169,
-      "openIssues": 1714,
+      "openIssues": 1715,
       "pushedAt": "2026-10-08T02:13:37Z"
     },
     {
@@ -3375,7 +3375,7 @@
       "stars": 23640,
       "forks": 3495,
       "openIssues": 247,
-      "pushedAt": "2026-10-08T01:43:22Z"
+      "pushedAt": "2026-10-08T02:18:51Z"
     },
     {
       "id": 501045649,
@@ -3420,7 +3420,7 @@
     {
       "id": 1075381375,
       "fullName": "getpaseo/paseo",
-      "stars": 20017,
+      "stars": 20018,
       "forks": 2354,
       "openIssues": 1078,
       "pushedAt": "2026-10-07T23:01:23Z"
@@ -3436,7 +3436,7 @@
     {
       "id": 903700733,
       "fullName": "ahmedkhaleel2004/gitdiagram",
-      "stars": 17955,
+      "stars": 17956,
       "forks": 1374,
       "openIssues": 45,
       "pushedAt": "2026-10-08T01:15:48Z"
@@ -3452,10 +3452,10 @@
     {
       "id": 1273824907,
       "fullName": "lidge-jun/opencodex",
-      "stars": 17071,
+      "stars": 17072,
       "forks": 1289,
       "openIssues": 116,
-      "pushedAt": "2026-10-08T02:14:50Z"
+      "pushedAt": "2026-10-08T02:21:07Z"
     },
     {
       "id": 708266011,
@@ -3484,10 +3484,10 @@
     {
       "id": 1080370450,
       "fullName": "superset-sh/superset",
-      "stars": 14969,
-      "forks": 1332,
-      "openIssues": 908,
-      "pushedAt": "2026-10-08T02:14:03Z"
+      "stars": 14970,
+      "forks": 1333,
+      "openIssues": 909,
+      "pushedAt": "2026-10-08T02:17:53Z"
     },
     {
       "id": 1076362809,
@@ -3542,8 +3542,8 @@
       "fullName": "omnigent-ai/omnigent",
       "stars": 10654,
       "forks": 1708,
-      "openIssues": 1848,
-      "pushedAt": "2026-10-08T02:10:42Z"
+      "openIssues": 1847,
+      "pushedAt": "2026-10-08T02:21:53Z"
     },
     {
       "id": 814882742,
@@ -3564,7 +3564,7 @@
     {
       "id": 1288325627,
       "fullName": "trailhq/Graft",
-      "stars": 9717,
+      "stars": 9719,
       "forks": 882,
       "openIssues": 232,
       "pushedAt": "2026-10-07T12:45:42Z"
@@ -3588,7 +3588,7 @@
     {
       "id": 1255237198,
       "fullName": "HarnessMD/munder-difflin",
-      "stars": 8559,
+      "stars": 8560,
       "forks": 1209,
       "openIssues": 229,
       "pushedAt": "2026-10-07T22:23:59Z"
@@ -3750,8 +3750,8 @@
       "fullName": "vitali87/code-graph-rag",
       "stars": 5237,
       "forks": 699,
-      "openIssues": 557,
-      "pushedAt": "2026-10-08T02:14:39Z"
+      "openIssues": 555,
+      "pushedAt": "2026-10-08T02:20:14Z"
     },
     {
       "id": 362500938,
@@ -3780,7 +3780,7 @@
     {
       "id": 1051789550,
       "fullName": "Gaurav-Gosain/tuios",
-      "stars": 5008,
+      "stars": 5009,
       "forks": 223,
       "openIssues": 23,
       "pushedAt": "2026-10-08T02:08:55Z"
@@ -3887,7 +3887,7 @@
       "stars": 57592,
       "forks": 5765,
       "openIssues": 763,
-      "pushedAt": "2026-10-07T20:38:08Z"
+      "pushedAt": "2026-10-08T02:16:39Z"
     },
     {
       "id": 24953448,
@@ -3900,7 +3900,7 @@
     {
       "id": 12256376,
       "fullName": "ionic-team/ionic-framework",
-      "stars": 52688,
+      "stars": 52687,
       "forks": 13299,
       "openIssues": 561,
       "pushedAt": "2026-10-07T21:24:44Z"
@@ -3908,7 +3908,7 @@
     {
       "id": 65750241,
       "fullName": "expo/expo",
-      "stars": 52597,
+      "stars": 52598,
       "forks": 14417,
       "openIssues": 845,
       "pushedAt": "2026-10-08T00:40:20Z"
@@ -4044,7 +4044,7 @@
     {
       "id": 473670467,
       "fullName": "flet-dev/flet",
-      "stars": 17264,
+      "stars": 17263,
       "forks": 720,
       "openIssues": 290,
       "pushedAt": "2026-10-08T01:04:38Z"
@@ -4102,8 +4102,8 @@
       "fullName": "web-infra-dev/rspack",
       "stars": 12934,
       "forks": 869,
-      "openIssues": 254,
-      "pushedAt": "2026-10-07T14:35:07Z"
+      "openIssues": 253,
+      "pushedAt": "2026-10-08T02:20:59Z"
     },
     {
       "id": 21244505,
@@ -4143,7 +4143,7 @@
       "stars": 10213,
       "forks": 2233,
       "openIssues": 2825,
-      "pushedAt": "2026-10-08T01:19:28Z"
+      "pushedAt": "2026-10-08T02:16:13Z"
     },
     {
       "id": 1078137951,
@@ -4196,7 +4196,7 @@
     {
       "id": 1308631234,
       "fullName": "tester-army/e2e",
-      "stars": 7524,
+      "stars": 7532,
       "forks": 345,
       "openIssues": 69,
       "pushedAt": "2026-10-07T22:22:47Z"
@@ -4567,7 +4567,7 @@
       "stars": 2453,
       "forks": 532,
       "openIssues": 187,
-      "pushedAt": "2026-10-08T01:55:34Z"
+      "pushedAt": "2026-10-08T02:20:43Z"
     },
     {
       "id": 52076467,
@@ -4628,7 +4628,7 @@
     {
       "id": 266417772,
       "fullName": "SimplifyJobs/Summer2027-Internships",
-      "stars": 47886,
+      "stars": 47887,
       "forks": 3259,
       "openIssues": 111,
       "pushedAt": "2026-10-08T02:01:56Z"
@@ -4638,7 +4638,7 @@
       "fullName": "apache/airflow",
       "stars": 47100,
       "forks": 17978,
-      "openIssues": 1820,
+      "openIssues": 1821,
       "pushedAt": "2026-10-07T23:20:20Z"
     },
     {
@@ -4911,7 +4911,7 @@
       "stars": 7863,
       "forks": 867,
       "openIssues": 18,
-      "pushedAt": "2026-10-08T02:08:11Z"
+      "pushedAt": "2026-10-08T02:17:55Z"
     },
     {
       "id": 216628419,
@@ -5284,7 +5284,7 @@
     {
       "id": 33791743,
       "fullName": "x64dbg/x64dbg",
-      "stars": 49727,
+      "stars": 49728,
       "forks": 2851,
       "openIssues": 578,
       "pushedAt": "2026-10-01T13:08:29Z"
@@ -5382,8 +5382,8 @@
       "fullName": "Infisical/infisical",
       "stars": 29654,
       "forks": 2312,
-      "openIssues": 808,
-      "pushedAt": "2026-10-08T01:45:25Z"
+      "openIssues": 807,
+      "pushedAt": "2026-10-08T02:19:20Z"
     },
     {
       "id": 75785240,
@@ -5428,7 +5428,7 @@
     {
       "id": 4869294,
       "fullName": "radareorg/radare2",
-      "stars": 24945,
+      "stars": 24946,
       "forks": 3338,
       "openIssues": 787,
       "pushedAt": "2026-10-07T23:08:32Z"
@@ -5468,7 +5468,7 @@
     {
       "id": 123631418,
       "fullName": "lissy93/personal-security-checklist",
-      "stars": 22483,
+      "stars": 22484,
       "forks": 1477,
       "openIssues": 42,
       "pushedAt": "2026-10-01T08:21:16Z"
@@ -5509,7 +5509,7 @@
       "id": 627480054,
       "fullName": "eosphoros-ai/DB-GPT",
       "stars": 20081,
-      "forks": 2951,
+      "forks": 2952,
       "openIssues": 450,
       "pushedAt": "2026-10-04T13:43:25Z"
     },
@@ -5663,7 +5663,7 @@
       "stars": 13065,
       "forks": 3681,
       "openIssues": 113,
-      "pushedAt": "2026-10-08T02:15:10Z"
+      "pushedAt": "2026-10-08T02:17:43Z"
     },
     {
       "id": 267054247,
@@ -5767,7 +5767,7 @@
       "stars": 11011,
       "forks": 852,
       "openIssues": 230,
-      "pushedAt": "2026-10-08T02:11:08Z"
+      "pushedAt": "2026-10-08T02:16:48Z"
     },
     {
       "id": 25250913,
@@ -5807,7 +5807,7 @@
       "stars": 10105,
       "forks": 1473,
       "openIssues": 2219,
-      "pushedAt": "2026-10-08T01:55:30Z"
+      "pushedAt": "2026-10-08T02:16:36Z"
     },
     {
       "id": 91277330,
@@ -5942,8 +5942,8 @@
       "fullName": "superradcompany/microsandbox",
       "stars": 8600,
       "forks": 469,
-      "openIssues": 105,
-      "pushedAt": "2026-10-08T01:32:50Z"
+      "openIssues": 101,
+      "pushedAt": "2026-10-08T02:17:42Z"
     },
     {
       "id": 716719284,
@@ -5956,7 +5956,7 @@
     {
       "id": 131129792,
       "fullName": "PyCQA/bandit",
-      "stars": 8298,
+      "stars": 8299,
       "forks": 850,
       "openIssues": 262,
       "pushedAt": "2026-10-06T01:17:09Z"
@@ -5996,7 +5996,7 @@
     {
       "id": 4930716,
       "fullName": "zeek/zeek",
-      "stars": 8081,
+      "stars": 8082,
       "forks": 1431,
       "openIssues": 259,
       "pushedAt": "2026-10-08T01:34:24Z"
@@ -6511,7 +6511,7 @@
       "stars": 893,
       "forks": 118,
       "openIssues": 14,
-      "pushedAt": "2026-10-08T02:01:57Z"
+      "pushedAt": "2026-10-08T02:18:09Z"
     },
     {
       "id": 633250537,
@@ -6519,7 +6519,7 @@
       "stars": 779,
       "forks": 44,
       "openIssues": 2,
-      "pushedAt": "2026-10-05T09:06:09Z"
+      "pushedAt": "2026-10-08T02:17:46Z"
     },
     {
       "id": 73104945,
@@ -6559,7 +6559,7 @@
       "stars": 656,
       "forks": 127,
       "openIssues": 318,
-      "pushedAt": "2026-10-08T01:54:23Z"
+      "pushedAt": "2026-10-08T02:18:25Z"
     },
     {
       "id": 6898382,
@@ -6575,7 +6575,7 @@
       "stars": 633,
       "forks": 167,
       "openIssues": 127,
-      "pushedAt": "2026-10-08T02:11:50Z"
+      "pushedAt": "2026-10-08T02:21:03Z"
     },
     {
       "id": 485650081,
