@@ -1,10 +1,12 @@
 name: StarMomentum ranking update
 
 on:
+  # Primary trigger: an external scheduler (cron-job.org) calls the workflow_dispatch API at
+  # 08:00, 16:00 and 00:00 Hong Kong time. GitHub's own schedule below ran 3-7 hours late here,
+  # so it is only a backup and skips itself when the site was updated recently.
   workflow_dispatch:
   schedule:
     # Hours are UTC: 23:47, 07:47 and 15:47 UTC = 07:47, 15:47 and 23:47 Hong Kong time (UTC+8).
-    # Off the hour on purpose: GitHub delays or skips many scheduled runs at :00.
     - cron: '47 7,15,23 * * *'
 
 permissions:
@@ -17,7 +19,35 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    outputs:
+      stale: ${{ steps.check.outputs.stale }}
+    steps:
+      - name: Read the last update time
+        uses: actions/checkout@v5
+        with:
+          sparse-checkout: public/data/current.json
+          sparse-checkout-cone-mode: false
+
+      - name: Decide whether this run is needed
+        id: check
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          # Manual and external runs always update; a late backup run skips a site updated in the last 6 hours.
+          if [ "$EVENT" != "schedule" ] || [ ! -f public/data/current.json ]; then
+            echo "stale=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          generated=$(node -p "require('./public/data/current.json').generatedAt")
+          age=$(( $(date +%s) - $(date -d "$generated" +%s) ))
+          echo "Last update $((age / 60)) minutes ago."
+          if [ "$age" -ge 21600 ]; then echo "stale=true" >> "$GITHUB_OUTPUT"; else echo "stale=false" >> "$GITHUB_OUTPUT"; fi
+
   update-and-deploy:
+    needs: freshness
+    if: needs.freshness.outputs.stale == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
