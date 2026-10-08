@@ -17,7 +17,8 @@ export function useRankingData(): RankingDataState {
   useEffect(() => {
     const controller = new AbortController()
 
-    fetch(`${import.meta.env.BASE_URL}data/current.json`, { signal: controller.signal })
+    // GitHub Pages lets browsers cache files for 10 minutes; revalidate so a fresh update shows at once.
+    fetch(`${import.meta.env.BASE_URL}data/current.json`, { signal: controller.signal, cache: 'no-cache' })
       .then((response) => {
         if (!response.ok) throw new Error(`排行榜讀取失敗 (${response.status})`)
         return response.json() as Promise<RankingDocument>
